@@ -1,19 +1,19 @@
 {
   "media": {
-    "root": "exampleSite/assets/images",
-    "public": "exampleSite/assets"
+    "root": "assets/images",
+    "public": "assets"
   },
   "content": {
-    "root": "exampleSite/content/english"
+    "root": "content/english"
   },
   "code": {
-    "root": "layouts"
+    "root": "themes/hugoplate/layouts"
   },
   "themeConfig": [
-    "exampleSite/config/_default",
-    "exampleSite/hugo.toml",
-    "exampleSite/data"
+    "hugo.toml",
+    "config/_default/params.toml",
+    "data/theme.json",
+    "data/social.json"
   ],
-  "arrangement": [],
-  "showCommitModal": true
+  "arrangement": []
 }
