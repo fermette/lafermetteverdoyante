@@ -5,7 +5,7 @@ timeZone = "Europe/Paris"
 summaryLength = 10
 disableLanguages = []
 hasCJKLanguage = false
-defaultContentLanguage = "fr"
+defaultContentLanguage = "Fr"
 defaultContentLanguageInSubdir = true
 [services.googleAnalytics]
 ID = "G-MEASUREMENT_ID"
