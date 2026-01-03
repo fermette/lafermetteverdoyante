@@ -1,10 +1,15 @@
 ---
-title: "Hey, I am John Doe!"
-meta_title: "About"
-description: "this is meta description"
-image: "/images/avatar.png"
-layout: "about"
+title: Un projet, une histoire, un sacerdoce
+meta_title: À propos de nous
+description: >-
+  La biodiversité et l'usage de technologies libres et pérennes sont au cœur du
+  projet de la Fermette Verdoyante 
+image: media/assets/images/About_Fermette_Verdoyante.webp
+layout: about
 draft: false
 ---
+La fermette verdoyante est une association loi 1901, dont l'activité est tournée vers tous les moyens permettant de préserver et d'améliorer la biodiversité du site et de ses environs.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+La transmission de ces moyens est un des objectifs que nous nosu donnons.
+
+​
