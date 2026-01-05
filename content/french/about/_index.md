@@ -1,10 +1,10 @@
 ---
-title: Un projet, une histoire, un sacerdoce
-meta_title: À propos de nous
+title: Un rêve, une histoire, un projet
+meta_title: "About"
 description: >-
   La biodiversité et l'usage de technologies libres et pérennes sont au cœur du
   projet de la Fermette Verdoyante 
-image: media/assets/images/About_Fermette_Verdoyante.webp
+image: "/images/about.webp"
 layout: about
 draft: false
 ---

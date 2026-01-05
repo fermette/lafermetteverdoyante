@@ -1,10 +1,9 @@
 ---
-title: "Hey, I am John Doe!"
+title: "A dream, a story, a project"
 meta_title: "About"
 description: "this is meta description"
-image: "/images/avatar.png"
+image: "/images/about.webp"
 layout: "about"
 draft: false
 ---
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
+La fermette verdoyante is an association, whose activity is focused on all means to preserve and improve the biodiversity of the site and its surroundings. The transmission of these means is one of the objectives that we set for ourselves.
