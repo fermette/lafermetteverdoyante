@@ -3,7 +3,7 @@
 banner:
   title: "Le théme idéal pour démarrer avec Hugo"
   content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
-  image: "images/Fermette_Verdoyante_bandeau.webp"
+  image: "images/fermette_bandeau.webp"
   button:
     enable: false
     label: "Get Started For Free"
