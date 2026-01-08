@@ -3,11 +3,11 @@
 #Other languages redirects
 [[redirects]]
 from = '/en/**'
-to = '/en/404.en.html'
+to = '/en/404.html'
 status = 404
 
 # Default languages redirects (last)
 [[redirects]]
 from = '/**'
-to = '/fr/404.fr.html'
+to = '/fr/404.html'
 status = 404
