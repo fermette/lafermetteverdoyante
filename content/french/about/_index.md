@@ -12,4 +12,8 @@ La fermette verdoyante est une association loi 1901, dont l'activité est tourn�
 
 La transmission de ces moyens est un des objectifs que nous nous donnons.
 
-​
+​<hr>
+
+### Evolution du lieu 
+
+{{< gallery dir="images/gallery" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
