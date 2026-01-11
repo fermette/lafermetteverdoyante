@@ -3,49 +3,66 @@
 
 
   <section class="section-sm">
-    <div class="container">
-      <div class="row">
-        <div class="md:col-10 lg:col-6 mx-auto">
-          <form action="{{ site.Params.contact_form_action }}" method="POST">
-            <div class="mb-6">
-              <label for="name" class="form-label">
-                Références <span class="text-red-500">*</span>
-              </label>
-              <input
-                id="name"
-                name="name"
-                class="form-input"
-                placeholder="Nom Prénom"
-                type="text" />
-            </div>
-            <div class="mb-6">
-              <label for="email" class="form-label">
-                Messagerie valide <span class="text-red-500">*</span>
-              </label>
-              <input
-                id="email"
-                name="email"
-                class="form-input"
-                placeholder="adresse@electronique.com"
-                type="email" />
-            </div>
-            <div class="mb-6">
-              <label for="message" class="form-label">
-                Vos remarques ou questions ? <span class="text-red-500">*</span>
-              </label>
-              <textarea
-                id="message"
-                name="message"
-                class="form-input"
-                placeholder="Votre message pour nous..."
-                rows="8"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="md:col-10 lg:col-6 mx-auto">
+        <!-- Honeypot for spam protection -->
+        <input type="text" name="_gotcha" style="display: none !important;" autocomplete="off" />
+        
+        <form action="https://formspree.io/f/xgoowbnj" method="POST" novalidate>
+          <div class="mb-6">
+            <label for="name" class="form-label">
+              Références <span class="text-red-500" aria-hidden="true">*</span>
+            </label>
+            <input
+              id="name"
+              name="name"
+              class="form-input"
+              placeholder="Nom Prénom"
+              type="text"
+              autocomplete="name"
+              aria-required="true"
+              required
+            />
+          </div>
+
+          <div class="mb-6">
+            <label for="email" class="form-label">
+              Messagerie valide <span class="text-red-500" aria-hidden="true">*</span>
+            </label>
+            <input
+              id="email"
+              name="email"
+              class="form-input"
+              placeholder="adresse@electronique.com"
+              type="email"
+              autocomplete="email"
+              aria-required="true"
+              required
+            />
+          </div>
+
+          <div class="mb-6">
+            <label for="message" class="form-label">
+              Vos remarques ou questions ? <span class="text-red-500" aria-hidden="true">*</span>
+            </label>
+            <textarea
+              id="message"
+              name="message"
+              class="form-input"
+              placeholder="Votre message pour nous..."
+              rows="8"
+              aria-required="true"
+              required
+            ></textarea>
+          </div>
+          <div class="cf-turnstile" data-sitekey="0x4AAAAAACL1NThXX9maSogI"></div>  
+          <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- google map -->
   {{ with site.Params.google_map }}
