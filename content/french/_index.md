@@ -1,7 +1,7 @@
 ---
 # Banner
 banner:
-  title: "Le théme idéal pour démarrer avec Hugo"
+  title: "La Fermette Verdoyante"
   content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
   image: "images/fermette_bandeau.webp"
   button:
@@ -34,7 +34,7 @@ features:
       - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
       - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
     button:
-      enable: true
+      enable: false
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/hugoplate"
 
