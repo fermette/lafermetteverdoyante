@@ -17,5 +17,5 @@ La transmission de ces moyens est un des objectifs que nous nous donnons.
 
 #### Lancement de l'aventure en 2021
 
-{{< slider dir="images/gallery_about" class="max-w-[600px] ml-0" height="600" width="600" position="center" webp="true" command="Fit" option="" zoomable="true" >}}
+{{< slider dir="images/gallery_about" class="max-w-[600px]block mx-auto" height="600" width="600" webp="true" command="Fit" option="" zoomable="true" >}}
 
