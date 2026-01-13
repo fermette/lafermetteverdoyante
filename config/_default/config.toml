@@ -1,6 +1,6 @@
 ############################# Outputs ##############################
 [outputs]
-home = ["WebAppManifest"]
+home = ["HTML", "WebAppManifest"]
 
 ############################ Media types ############################
 [mediaTypes]
