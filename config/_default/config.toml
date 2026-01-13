@@ -1,6 +1,6 @@
 [params]
-logo = "/img/logo.png"
-logo_darkmode = "/img/logo-darkmode.png"
+logo = "images/logo.png"
+logo_darkmode = "images/logo-darkmode.png"
 
 ############################# Outputs ##############################
 [outputs]
