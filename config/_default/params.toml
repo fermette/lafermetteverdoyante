@@ -68,6 +68,11 @@ author = "zeon.studio"
 twitter = "zeon_studio"
 image = "images/og-image.png"
 
+# matomo tracking: see https://matomo.org/
+[matomo]
+enable = true
+url = "https://matomo.lafermetteverdoyante.com"       # your matomo url
+id = "1"        # your matomo id
 
 # site verifications
 # verification module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/site-verifications

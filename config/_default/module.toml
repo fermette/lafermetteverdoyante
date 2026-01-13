@@ -90,7 +90,7 @@ path = "github.com/gethugothemes/hugo-modules/seo-tools/google-tag-manager"
 # path = "github.com/gethugothemes/hugo-modules/seo-tools/baidu-analytics"
 
 # [[imports]]
-# path = "github.com/gethugothemes/hugo-modules/seo-tools/matomo-analytics"
+path = "github.com/gethugothemes/hugo-modules/seo-tools/matomo-analytics"
 
 # [[imports]]
 # path = "github.com/gethugothemes/hugo-modules/seo-tools/plausible-analytics"
