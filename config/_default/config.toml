@@ -1,7 +1,3 @@
-[params]
-logo = "images/logo.png"
-logo_darkmode = "images/logo-darkmode.png"
-
 ############################# Outputs ##############################
 [outputs]
 home = ["WebAppManifest"]
