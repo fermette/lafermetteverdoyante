@@ -1,7 +1,3 @@
-[params]
-logo = "/img/logo.png"
-logo_darkmode = "/img/logo-darkmode.png"
-
 ############################# Outputs ##############################
 [outputs]
 home = ["WebAppManifest"]
@@ -15,4 +11,4 @@ suffixes = ["webmanifest"]
 [outputFormats]
 [outputFormats.WebAppManifest]
 mediaType = "application/manifest+json"
-rel = "manifest"   
+rel = "manifest"
