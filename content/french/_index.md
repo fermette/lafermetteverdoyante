@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "La Fermette Verdoyante"
-  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
+  content: "Un lieu authentique en harmonie avec son environnement et son époque"
   image: "images/fermette_bandeau.webp"
   button:
     enable: false
@@ -11,32 +11,35 @@ banner:
 
 # Features
 features:
-  - title: "What's Included in Hugoplate"
-    image: "/images/service-1.png"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+  - title: "Méthodes de culture diversifiée"
+    image: "/images/jardin_figuier.png"
+    content: "Afin de respecter l'équilibre délicat entre la culture de plantes et d'arbres dans un milieu préservé tout en cherchant à favoriser la biodiversité "
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "Cultures verticales avec ou sans support"
+      - "Serre bioclimatique et aquaponie alternative "
+      - "Multiplication des variétés"
+      - "Cycle complet des plantes et récoltes des graines"
+      - "Parcelles sans travail du sol"
+      - "Dynamisation du milieu naturel via des moyens simples"
     button:
-      enable: false
-      label: "Get Started Now"
-      link: "#"
+      enable: true
+      label: "En savoir plus"
+      link: "culture"
 
-  - title: "Discover the Key Features Of Hugo"
-    image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+  - title: "Les transformations des récoltes"
+    image: "/images/recolte_1.png"
+    content: "Disposer d'un jardin et de récoltes abondantes conduisent tôt ou tard à la question de leurs usages. Voici ce que nous mettons en oeuvre à notre humble niveau :"
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "Séchage des plantes aromatiques, médicinales et fleurs"
+      - "Compostion de tisanes et infusions"
+      - "Mise en conserves"
+      - "Déshydration des fruits et des aromates"
+      - "Elaboration d'épices en poudre maison"
+      - "Lacto-Fermentation"
     button:
-      enable: false
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
+      enable: true
+      label: "En savoir plus"
+      link: "recolte"
 
   - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
     image: "/images/service-3.png"

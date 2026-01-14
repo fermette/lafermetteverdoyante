@@ -1,9 +1,7 @@
 ---
 title: Un rêve, une histoire, un projet
-meta_title: "About"
-description: >-
-  La biodiversité et l'usage de technologies libres et pérennes sont au cœur du
-  projet de la Fermette Verdoyante 
+meta_title: "L'histoire de la fermette verdoyante"
+description: "L'évolution d'un site naturel sur plusieurs années ayant pour objectif l'augmentation de la biodiversité et l'usage de technologies libres et pérennes comme projet associatif et sociale" 
 image: "/images/about.webp"
 layout: about
 draft: false
