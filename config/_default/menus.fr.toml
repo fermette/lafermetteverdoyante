@@ -7,44 +7,43 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "À Propos"
-url = "/about"
+name = "Calendrier"
+url = "/calendar"
 weight = 2
 
 [[main]]
-name = "Elements"
-url = "/elements"
 weight = 3
+name = "Activités"
+
+[[main]]
+parent = "Activités"
+name = "Méthodes de culture"
+url = "/culture"
+
+[[main]]
+parent = "Activités"
+name = "Auteurs"
+url = "/recolte"
+
+[[main]]
+parent = "Activités"
+name = "Catégories"
+url = "/eau"
+
+[[main]]
+parent = "Activités"
+name = "Domotique"
+url = "/domotique"
 
 [[main]]
 weight = 4
-name = "Pages"
-
-[[main]]
-parent = "Pages"
 name = "Blog"
 url = "/blog"
 
 [[main]]
-parent = "Pages"
+weight = 5
 name = "Contact"
 url = "/contact"
-
-[[main]]
-parent = "Pages"
-name = "Auteurs"
-url = "/authors"
-
-[[main]]
-parent = "Pages"
-name = "Catégories"
-url = "/categories"
-
-[[main]]
-parent = "Pages"
-name = "404 Page"
-url = "/404"
-
 
 # pied de page menu
 [[footer]]
@@ -53,11 +52,16 @@ url = "/about"
 weight = 1
 
 [[footer]]
-name = "Elements"
-url = "/elements"
+name = "Vie privée"
+url = "/privacy-policy"
 weight = 2
 
 [[footer]]
-name = "Vie privée"
-url = "/privacy-policy"
+name = "Auteurs"
+url = "/authors"
 weight = 3
+
+[[footer]]
+name = "Elements"
+url = "/elements"
+weight = 4
