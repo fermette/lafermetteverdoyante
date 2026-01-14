@@ -71,7 +71,7 @@ image = "images/og-image.png"
 # matomo tracking: see https://matomo.org/
 [matomo]
 enable = true
-url = "http://localhost:8081/matomo.php"       # your matomo url
+url = "https://matomo.lafermetteverdoyante.com/matomo.php"       # your matomo url
 id = "1"        # your matomo id
 
 # site verifications
@@ -86,7 +86,7 @@ mastodon = "" # Your verification code
 # cookies
 # cookies module: https://github.com/gethugothemes/hugo-modules/tree/master/components/cookie-consent
 [cookies]
-enable = false
+enable = true
 expire_days = 60
 content = "Ce site internet utilise des cookies. En continuant à l'utiliser vous y consentez à leurs utilisations."
 button = "J'accepte"
