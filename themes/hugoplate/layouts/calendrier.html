@@ -2,59 +2,64 @@
   {{ partial "page-header" . }}
   <section class="section-sm">
     <div class="container text-center">
-      {{ $startDate := time.AsTime "2026-01-01" }}
-      {{ $endDate := time.AsTime "2026-12-31" }}
-      {{ $oneDay := time.ParseDuration "24h" }}
-      {{ $duration := $endDate.Sub $startDate }}
-      {{ $days := div $duration.Hours 24 }}
-      {{ $currentdate := $startDate }}
-      {{ $.Scratch.Set "lastmonth" 0 }}
+      <div class="row justify-center">
+        <div class="lg:col-10">
+          <div class="content">
+            {{ $startDate := time.AsTime "2026-01-01" }}
+            {{ $endDate := time.AsTime "2026-12-31" }}
+            {{ $oneDay := time.ParseDuration "24h" }}
+            {{ $duration := $endDate.Sub $startDate }}
+            {{ $days := div $duration.Hours 24 }}
+            {{ $currentdate := $startDate }}
+            {{ $.Scratch.Set "lastmonth" 0 }}
 
-      {{ range seq 0 $days }}
-        {{ $isSunday := strings.Contains $currentdate.Weekday.String "Sunday" }}
-        {{ $isSaturday := strings.Contains $currentdate.Weekday.String "Saturday" }}
-        {{ if ne $currentdate.Month ($.Scratch.Get "lastmonth") }}
-          {{ if gt ($.Scratch.Get "lastmonth") 0 }}
+            {{ range seq 0 $days }}
+              {{ $isSunday := eq $currentdate.Weekday.String "Sunday" }}
+              {{ $isSaturday := eq $currentdate.Weekday.String "Saturday" }}
+              {{ $isFirstDayOfMonth := eq $currentdate.Day 1 }}
+
+              {{ if $isFirstDayOfMonth }}
+                {{ if gt ($.Scratch.Get "lastmonth") 0 }}
+                  </table>
+                {{ end }}
+                <h1 class="text-center">{{ index $.Site.Data.mois (printf "%d" $currentdate.Month) }}</h1>
+                <table border="1" class="mx-auto" style="border-collapse: collapse; width: auto; margin: 20px auto;">
+                  <tr>
+                    <td style="width: 40px; height: 40px;">Dimanche</td>
+                    <td style="width: 40px; height: 40px;">Lundi</td>
+                    <td style="width: 40px; height: 40px;">Mardi</td>
+                    <td style="width: 40px; height: 40px;">Mercredi</td>
+                    <td style="width: 40px; height: 40px;">Jeudi</td>
+                    <td style="width: 40px; height: 40px;">Vendredi</td>
+                    <td style="width: 40px; height: 40px;">Samedi</td>
+                  </tr>
+                  <tr>
+                  {{/* Calcul du padding */}}
+                  {{ $firstOfMonthStr := printf "%d-%02d-01" $currentdate.Year (int $currentdate.Month) }}   
+                  {{ $firstOfMonth := time.AsTime $firstOfMonthStr }}
+                  {{ $weekdayIndex := int $firstOfMonth.Weekday }}
+                  {{ range seq 0 (sub $weekdayIndex 1) }}
+                    <td style="width: 40px; height: 40px;"></td>
+                  {{ end }}
+                {{ else }}
+                  {{ if $isSunday }}
+                    <tr>
+                  {{ end }}
+                {{ end }}
+
+                <td style="width: 40px; height: 40px;">{{ $currentdate.Day }}</td>
+
+                {{ if $isSaturday }}
+                  </tr>
+                {{ end }}
+
+                {{ $.Scratch.Set "lastmonth" $currentdate.Month }}
+                {{ $currentdate = $currentdate.Add $oneDay }}
+              {{ end }}
             </table>
-          {{ end }}
-          <h1>{{ $currentdate.Month }}</h1>
-          <table border="1">
-            <tr>
-              <td>Dimanche</td>
-              <td>Lundi</td>
-              <td>Mardi</td>
-              <td>Mercredi</td>
-              <td>Jeudi</td>
-              <td>Vendredi</td>
-              <td>Samedi</td>
-            </tr>
-            <tr>
-              {{/* Ajout des cellules vides pour aligner le premier jour */}}
-              {{ $paddingDate := time.AsTime "2024-12-01" }}
-              {{ $monthStartDateString := print (time.Format "2006-01" $currentdate) "-01" }}
-              {{ $monthStartDate := time.AsTime $monthStartDateString }}
-              {{ range seq 0 6 }}
-                {{ if eq $paddingDate.Weekday.String $monthStartDate.Weekday.String }}{{ break }}{{ end }}
-                <td></td>
-                {{ $paddingDate = $paddingDate.Add $oneDay }}
-              {{ end }}
-            {{ else }}
-              {{ if $isSunday }}
-                <tr>
-              {{ end }}
-            {{ end }}
-
-            <td>{{ $currentdate.Day }}</td>
-
-            {{ if $isSaturday }}
-              </tr>
-            {{ end }}
-
-            {{ $.Scratch.Set "lastmonth" $currentdate.Month }}
-            {{ $currentdate = $currentdate.Add $oneDay }}
-          {{ end }}
-        </table>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-{{ end }}
+{{ end }}   
