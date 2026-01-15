@@ -1,3 +1,4 @@
+baseURL = "https://lafermetteverdoyante.com/"
 ############################# Outputs ##############################
 [outputs]
 home = ["HTML", "WebAppManifest"]
