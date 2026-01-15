@@ -56,4 +56,19 @@ features:
       enable: true
       label: "En savoir plus"
       link: "eau"
+
+  - title: "L'outil domotique"
+    image: "/images/domotique.png"
+    content: "L'image représente ce que n'est pas la domotique dans un jardin ! Pourquoi envisager des solutions technologiques dans un environnement naturelle ? Dans quel but ? C'est ce que l'on souhaite vous expliquer ici par quelques exemples. Notre rôle sera de vous proposer des ateliers d'initiations afin de vous initier à un usage utile pour vous de cette technologie"
+    bulletpoints:
+      - "Automatisations de l'arrosage et/ou d'un sytème d'irrigation via des vannes pilotables à distance"
+      - "Contrôle et suivis des températures, humidités, luminosités, via des capteurs de nombreux fabricants" 
+      - "Allumage et extinction des appareils électriques : pompes, vannes et moteurs via programmation ou via une simple interface sur une tablette"  
+      - "Surveillance à distance des bêtes, des points d'eau, des mangeoires ..."
+      - "Suivi de la production électrique (toutes sources possibles dont photovoltaïque) ainsi que de la consommation globale ou spécifique à de gros consommateurs"
+      - "Système Homeassistant open source, libre et gratuit !En auto-hébergement à domicile (sans abonnement et fonctionnement sans internet possible)" 
+    button:
+      enable: true
+      label: "En savoir plus"
+      link: "domotique"
 ---
