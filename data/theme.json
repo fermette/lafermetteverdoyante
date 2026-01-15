@@ -34,7 +34,8 @@
       "primary": "Heebo:wght@400;600",
       "primary_type": "sans-serif",
       "secondary": "Signika:wght@500;700",
-      "secondary_type": "sans-serif"
+      "secondary_type": "sans-serif",
+      "heading": "Parisienne" 
     },
     "font_size": {
       "base": "16",
