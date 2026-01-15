@@ -1,8 +1,8 @@
 ---
 # Banner
 banner:
-  title: "La Fermette Verdoyante"
-  content: "Un lieu authentique en harmonie avec son environnement et son époque"
+  title: "Un lieu authentique en harmonie avec son environnement et son époque"
+  content: ""
   image: "images/fermette_bandeau.webp"
   button:
     enable: false
