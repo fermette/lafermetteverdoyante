@@ -70,7 +70,7 @@ image = "images/og-image.png"
 
 # matomo tracking: see https://matomo.org/
 [matomo]
-enable = false
+enable = true
 url = "https://matomo.lafermetteverdoyante.com/ "       # your matomo url
 id = "1"        # your matomo id
 
