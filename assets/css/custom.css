@@ -1,6 +1,6 @@
 /* Add your own custom styles here */
 @layer components {
   .fancy-heading {
-  @apply text-5xl lg:text-7xl font-['Parisienne'] text-center text-[#014217];
+  @apply text-5xl lg:text-7xl font-['Parisienne'] text-center text-[#105c29];
   font-family: 'Parisienne', cursive, sans-serif; /* Fallback */ }
 }
