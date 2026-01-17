@@ -8,11 +8,11 @@
       <div class="col-12 mb-8">
         {{/* image modules comes from https://github.com/gethugothemes/hugo-modules/tree/master/images */}}
         {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[1200px]" "DisplayXL" "1200x" ) }}
+        <h1 class="fancy-heading my-5">La Fermette Verdoyante</h1>
       </div>
       <!-- Text content moved below -->
       <div class="lg:col-7 md:col-9 mb-8 text-center">
-        <h1 class="fancy-heading dark:text-inherit">La Fermette Verdoyante</h1>
-          {{ .title | markdownify }}
+        {{ .title | markdownify }}
         </h1>
         <p class="mb-8">
           {{ .content | markdownify }}
