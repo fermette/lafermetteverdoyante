@@ -1,0 +1,8 @@
+/* Add your own custom styles here */
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+@layer components {
+  .fancy-heading {
+    @apply text-5xl lg:text-7xl font-['Parisienne'] text-center text-[#014217];
+  }
+}
