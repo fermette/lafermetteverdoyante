@@ -1,7 +1,7 @@
 {{ define "main" }}
   <!-- Banner -->
   {{ with .Params.banner }}
-<section class="section pt-14">
+<section class="section pt-14 bg-gradient">     
   <div class="container">
     <div class="row justify-center">
       <!-- Image moved to the top -->
@@ -33,7 +33,7 @@
 
   <!-- Features -->
   {{ range $i, $e:= .Params.features }}
-    <section class="section-sm {{ if (modBool $i 2) }}bg-gradient{{ end }}">
+    <section class="section-sm {{ if (modBool $i 2) }}bg-gradient-inversed{{ else }}bg-gradient{{ end }}">   
       <div class="container">
         <div class="row items-center justify-between">
           <div

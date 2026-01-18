@@ -1,6 +1,14 @@
 @utility bg-gradient {
-  @apply bg-linear-to-b from-[rgba(249,249,249,1)] from-[0.53%] to-white to-[83.28%] dark:from-darkmode-light dark:to-darkmode-body;
+  @apply bg-linear-to-b from-[#FFF6E0] from-[1%] to-[#ffe9b37c] to-[100%] dark:from-darkmode-light dark:to-darkmode-body;
 }
+
+@utility bg-gradient-inversed {
+  @apply bg-linear-to-t from-[#ffe9b37c] from-[100%] to-[#FFF6E0] to-[1%] dark:from-darkmode-body dark:to-darkmode-light;
+}   
+
+@utility bg-gradient-via {
+  @apply bg-linear-to-b from-[#ffe9b37c] from-[1%] via-[#FFF6E0] via-[50%] to-[#ffe9b37c] to-[10%] dark:from-darkmode-body dark:to-darkmode-light;
+} 
 
 /* form style */
 @utility form-input {
