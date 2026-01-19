@@ -19,3 +19,5 @@ tailwind.config.js
 sync-calendar.js
 credentials.json
 sync-calendar.js.webtoken
+token.json
+data/calendar.json
