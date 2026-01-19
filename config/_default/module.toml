@@ -89,11 +89,11 @@ path = "github.com/gethugothemes/hugo-modules/seo-tools/google-tag-manager"
 # [[imports]]
 # path = "github.com/gethugothemes/hugo-modules/seo-tools/baidu-analytics"
 
-[[imports]]
-path = "github.com/gethugothemes/hugo-modules/seo-tools/matomo-analytics"
-
 # [[imports]]
-# path = "github.com/gethugothemes/hugo-modules/seo-tools/plausible-analytics"
+# path = "github.com/gethugothemes/hugo-modules/seo-tools/matomo-analytics"
+
+[[imports]]
+path = "github.com/gethugothemes/hugo-modules/seo-tools/plausible-analytics"
 
 # [[imports]]
 # path = "github.com/gethugothemes/hugo-modules/seo-tools/counter-analytics"
