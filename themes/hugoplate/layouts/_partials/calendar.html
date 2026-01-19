@@ -1,0 +1,14 @@
+<div class="calendar mt-8">
+  {{ $events := index .Site.Data "calendar" }}
+  {{ range $events }}
+    <div class="event mb-4 p-4 bg-gray-100 rounded-lg">
+      <h3 class="text-xl font-bold">{{ .summary }}</h3>
+      <p>{{ .start.dateTime | default .start.date }}</p>
+      {{ with .description }}
+        <p class="mt-2">{{ . }}</p>
+      {{ end }}
+    </div>
+  {{ else }}
+    <p>No upcoming events.</p>
+  {{ end }}
+</div>   

@@ -12,8 +12,4 @@ suffixes = ["webmanifest"]
 [outputFormats]
 [outputFormats.WebAppManifest]
 mediaType = "application/manifest+json"
-rel = "manifest"   
-
-[module]
-  [[module.imports]]
-    path = "github.com/gethugothemes/hugo-modules/seo-tools/matomo-analytics"   
+rel = "manifest"

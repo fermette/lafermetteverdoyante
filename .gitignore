@@ -16,3 +16,5 @@ hugo_stats.json
 go.sum
 yarn.lock
 tailwind.config.js
+sync-calendar.js
+credentials.json
