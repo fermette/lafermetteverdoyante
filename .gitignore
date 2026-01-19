@@ -18,3 +18,4 @@ yarn.lock
 tailwind.config.js
 sync-calendar.js
 credentials.json
+sync-calendar.js.webtoken
