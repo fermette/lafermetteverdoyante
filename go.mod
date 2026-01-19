@@ -21,6 +21,7 @@ require (
 	github.com/gethugothemes/hugo-modules/seo-tools/basic-seo v0.0.0-20260106053822-13607459af90 // indirect
 	github.com/gethugothemes/hugo-modules/seo-tools/google-tag-manager v0.0.0-20260106053822-13607459af90 // indirect
 	github.com/gethugothemes/hugo-modules/seo-tools/matomo-analytics v0.0.0-20260106053822-13607459af90 // indirect
+	github.com/gethugothemes/hugo-modules/seo-tools/plausible-analytics v0.0.0-20260106053822-13607459af90 // indirect
 	github.com/gethugothemes/hugo-modules/seo-tools/site-verifications v0.0.0-20260106053822-13607459af90 // indirect
 	github.com/gethugothemes/hugo-modules/shortcodes/button v0.0.0-20260106053822-13607459af90 // indirect
 	github.com/gethugothemes/hugo-modules/shortcodes/mermaid v0.0.0-20260106053822-13607459af90 // indirect
