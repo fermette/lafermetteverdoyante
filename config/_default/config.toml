@@ -13,3 +13,4 @@ suffixes = ["webmanifest"]
 [outputFormats.WebAppManifest]
 mediaType = "application/manifest+json"
 rel = "manifest"
+baseName = "manifest"

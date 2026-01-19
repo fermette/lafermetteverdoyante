@@ -1,1 +1,1 @@
-"start_url": "{{ .Site.BaseURL }}?utm_source=web_app_manifest"
+{"start_url": "https://lafermetteverdoyante.com/?utm_source=web_app_manifest"}
