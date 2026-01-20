@@ -21,3 +21,5 @@ credentials.json
 sync-calendar.js.webtoken
 token.json
 data/calendar.json
+fetch-calendar.js
+data/calendar_processed.json
