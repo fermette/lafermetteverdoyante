@@ -1,0 +1,46 @@
+[
+  {
+    "id": "0b82erg8t7r3ioeals80eda0qg",
+    "title": "Animation hivernale test",
+    "start": "2026-01-24T14:00:00+01:00",
+    "end": "2026-01-24T15:00:00+01:00",
+    "url": "https://www.google.com/calendar/event?eid=MGI4MmVyZzh0N3IzaW9lYWxzODBlZGEwcWcgbGFmZXJtZXR0ZXZlcmRveWFudGVAZ214LmNvbQ",
+    "extendedProps": {
+      "location": "La Fermette Verdoyante, 1012 Rte de Bétous, 32110 Sion, France",
+      "description": "Activité de jardinage"
+    }
+  },
+  {
+    "id": "5asfd6fp1o4058iahgvvr3lqpt",
+    "title": "Aloa",
+    "start": "2026-01-25T09:00:00+01:00",
+    "end": "2026-01-25T10:00:00+01:00",
+    "url": "https://www.google.com/calendar/event?eid=NWFzZmQ2ZnAxbzQwNThpYWhndnZyM2xxcHQgbGFmZXJtZXR0ZXZlcmRveWFudGVAZ214LmNvbQ",
+    "extendedProps": {
+      "location": "La Fermette Verdoyante, 1012 Rte de Bétous, 32110 Sion, France",
+      "description": "super chouette<br><ul><li>chale</li><li>noeud</li><li>cailloux</li></ul>"
+    }
+  },
+  {
+    "id": "24qrsbjk52o5g2396ccm0fpcas",
+    "title": "Oucha",
+    "start": "2026-02-10T19:30:00+01:00",
+    "end": "2026-02-10T20:30:00+01:00",
+    "url": "https://www.google.com/calendar/event?eid=MjRxcnNiams1Mm81ZzIzOTZjY20wZnBjYXMgbGFmZXJtZXR0ZXZlcmRveWFudGVAZ214LmNvbQ",
+    "extendedProps": {
+      "location": "Cathédrale Saint-Luperc d'Eauze, 1-3 Pl. d'Armagnac, 32800 Eauze, France",
+      "description": "<ol><li>Animation </li><li>Groupe</li><li>Assemblée</li></ol>"
+    }
+  },
+  {
+    "id": "54ot4ejb88uhqv1j4dv4pi5kgn",
+    "title": "Voilà",
+    "start": "2026-03-16T11:30:00+01:00",
+    "end": "2026-03-16T11:45:00+01:00",
+    "url": "https://www.google.com/calendar/event?eid=NTRvdDRlamI4OHVocXYxajRkdjRwaTVrZ24gbGFmZXJtZXR0ZXZlcmRveWFudGVAZ214LmNvbQ",
+    "extendedProps": {
+      "location": "Nogaro, 32110 Nogaro, France",
+      "description": "<b>Venez nombreux</b><br><i><u>ça va être top </u></i>"
+    }
+  }
+]

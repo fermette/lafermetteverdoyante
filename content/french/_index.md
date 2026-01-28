@@ -24,7 +24,7 @@ features:
     button:
       enable: true
       label: "En savoir plus"
-      link: "culture"
+      link: "fr/culture"
 
   - title: "La transformation des récoltes"
     image: "/images/recolte_1.png"
@@ -39,7 +39,7 @@ features:
     button:
       enable: true
       label: "En savoir plus"
-      link: "recolte"
+      link: "fr/recolte"
 
   - title: "Circuit de l'eau & Filtration"
     image: "/images/mare.png"
@@ -55,7 +55,7 @@ features:
     button:
       enable: true
       label: "En savoir plus"
-      link: "eau"
+      link: "fr/eau"
 
   - title: "L'outil domotique"
     image: "/images/domotique.png"
@@ -70,5 +70,5 @@ features:
     button:
       enable: true
       label: "En savoir plus"
-      link: "domotique"
+      link: "fr/domotique"
 ---
