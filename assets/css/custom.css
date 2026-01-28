@@ -1,4 +1,6 @@
 /* Add your own custom styles here */
+@reference "tailwindcss";   
+
 @layer components {
   .fancy-heading {
     @apply text-5xl lg:text-7xl font-['Parisienne'] text-center text-[#105c29];
@@ -9,3 +11,33 @@
     @apply text-[#F0B96A];
   }
 }
+
+@layer components {
+  .fc {
+    @apply text-sm font-sans;
+  }
+  .fc-header-toolbar {
+    @apply mb-4;
+  }
+  .fc-button {
+    @apply bg-emerald-900 text-white px-4 py-2 rounded-lg hover:bg-emerald-700;
+  }
+  .fc-button-primary {
+    @apply bg-emerald-900 hover:bg-emerald-700 text-white;
+  }
+  .fc-daygrid-day-top {
+    @apply flex justify-center;
+  }
+  .fc-daygrid-day-number {
+    @apply p-2;
+  }
+  .fc-day-today {
+    @apply bg-lime-300 rounded-lg;
+  }
+  .fc-list-day-cushion {
+    @apply bg-gray-400 dark:bg-gray-900!;
+  }
+  .fc-list-event {
+    @apply text-gray-800 dark:text-gray-200;
+  }
+}   
