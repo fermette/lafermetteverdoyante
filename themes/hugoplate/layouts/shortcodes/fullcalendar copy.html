@@ -2,20 +2,19 @@
   <div id="calendar"></div>
 </div>
 
-<div id="eventModal" class="modal">
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <h2 id="eventTitle"></h2>
-    <p><strong>Heure de début:</strong> <span id="eventStart"></span></p>
-    <p><strong>Heure de fin:</strong> <span id="eventEnd"></span></p>
-    <p><strong>Lieu:</strong> <span id="eventLocation"></span></p>
-    <p><strong>Description:</strong><br><span id="eventDescription"></span></p>
-    <p><a id="eventLink" href="#" target="_blank">Visualiser en ligne</a></p>
+<div id="eventModal" class="fixed inset-0 z-50 hidden flex items-center justify-center" style="background-color: #000#FFF6E0;">
+  <div class="bg-amber-100 dark:bg-gray-800 border-2 border-stone-900 border-stone-300 rounded-xl shadow-2xl p-6 m-4 max-w-lg w-full">
+    <button type="button" class="float-right text-3xl font-bold cursor-pointer text-gray-600 dark:text-gray-300 close-modal">&times;</button>
+    <h3 id="eventTitle" class="text-2xl font-semibold text-gray-800 dark:text-white"></h3>
+    <p class="text-gray-700 dark:text-gray-300"><strong>Heure de début:</strong> <span id="eventStart"></span></p>
+    <p class="text-gray-700 dark:text-gray-300"><strong>Heure de fin:</strong> <span id="eventEnd"></span></p>
+    <p class="text-gray-700 dark:text-gray-300"><strong>Lieu:</strong> <span id="eventLocation"></span></p>
+    <p class="text-gray-700 dark:text-gray-300"><strong>Description:</strong><br><span id="eventDescription"></span></p>
   </div>
 </div>
 
-<!-- Remove or comment out this line to apply tailwind CSS -->
-<!-- <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.20/index.css" rel="stylesheet"> -->   
+<!-- Remove or comment out this line to apply Tailwind CSS -->
+<!-- <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.20/index.css" rel="stylesheet"> -->
 
 <script src="https://cdn.jsdelivr.net/npm/moment@2.29.4/min/moment.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/moment-timezone@0.5.40/builds/moment-timezone-with-data.min.js"></script>
@@ -23,23 +22,75 @@
 <script src="https://cdn.jsdelivr.net/npm/@fullcalendar/moment-timezone@6.1.20/index.global.min.js"></script>
 
 <style>
-
   .calendar-container {
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-top: 20px;
+    @apply px-5 mt-5;
   }
 
   @media (max-width: 768px) {
     .calendar-container {
-      padding-left: 15px;
-      padding-right: 15px;
-      margin-top: 10px;
+      @apply px-3 mt-3;
     }
   }
-  
+/* Styles FullCalendar avec variables (en dehors de @layer) */
+.fc {
+  --fc-border-color: #01290C;
+  --fc-button-bg-color: #01290C;
+  --fc-button-border-color: #01290C;
+  --fc-button-hover-bg-color: #479963;
+  --fc-button-active-bg-color: #007928;
+  --fc-event-bg-color: #8d4e01;
+  --fc-event-border-color: #57534e;
+  --fc-today-bg-color: #FFF6E0;
+}
+.fc-list-event {
+  --fc-list-event-bg-color: #007928;        
+  --fc-list-event-text-color: #000000;      
+  --fc-list-event-hover-bg-color: #DEDEAB;  
+}
 
-</style>   
+/* Dark Mode */
+.dark .fc {
+  --fc-border-color: #282828;
+  --fc-button-bg-color: #3c3c3c;
+  --fc-button-border-color: #323232;
+  --fc-button-hover-bg-color: #505050;
+  --fc-button-active-bg-color: #646464;
+  --fc-event-bg-color: #464646;
+  --fc-event-border-color: #464646;
+  --fc-today-bg-color: #323232;
+}
+
+.dark .fc-list-event {
+  --fc-list-event-bg-color: #000000;        
+  --fc-list-event-text-color: #ffffff;      
+  --fc-list-event-hover-bg-color: #000000;  
+}
+.dark .fc-list-day-cushion {
+  --fc-list-day-cushion-bg: #000000;
+  --fc-list-day-cushion-color: #000000; 
+}
+
+.fc-cell-shaded {
+  --fc-cell-shaded-bg: #DEDEAB; /* Light theme */
+  --fc-cell-shaded-color: #000;
+}
+
+.dark .fc-cell-shaded {
+  --fc-cell-shaded-bg: #2d2d2d; /* Dark theme */
+  --fc-cell-shaded-color: #fff;
+}
+.fc-list-day-cushion {
+  --fc-list-day-cushion-bg: #007928;
+  --fc-list-day-cushion-color: #000;
+  padding: 10px;
+  font-weight: bold; 
+}
+.fc-cell-shaded {
+  background-color: var(--fc-cell-shaded-bg) !important;
+  color: var(--fc-cell-shaded-color);
+}
+
+</style>
 
 <script>
   document.addEventListener('DOMContentLoaded', async () => {
@@ -49,7 +100,6 @@
       return;
     }
 
-    // Configuration responsive
     const isMobile = window.innerWidth < 768;
     const leftButtons = isMobile ? '' : 'dayGridMonth listMonth';
     const rightButtons = isMobile ? 'prev today next' : 'prev today next';
@@ -72,7 +122,7 @@
         headerToolbar: {
           left: leftButtons,
           center: 'title',
-          right: 'prev today next'
+          right: rightButtons
         },
         events: events,
         eventDidMount: function(info) {
@@ -107,15 +157,7 @@
             descEl.textContent = 'Pas de description';
           }
 
-          const linkEl = document.getElementById('eventLink');
-          if (info.event.url) {
-            linkEl.href = info.event.url;
-            linkEl.style.display = 'inline';
-          } else {
-            linkEl.style.display = 'none';
-          }
-
-          document.getElementById('eventModal').style.display = 'block';
+          document.getElementById('eventModal').style.display = 'flex';
         }
       });
 
@@ -124,7 +166,7 @@
       console.error('❌ Error loading calendar:', err);
     }
 
-    document.querySelector('.close')?.addEventListener('click', () => {
+    document.querySelector('.close-modal')?.addEventListener('click', () => {
       document.getElementById('eventModal').style.display = 'none';
     });
     window.addEventListener('click', (e) => {
@@ -133,4 +175,4 @@
       }
     });
   });
-</script>   
+</script> 
