@@ -5,28 +5,21 @@
   <div class="container">
     <div class="row justify-center">
       <!-- Image moved to the top -->
-      <div class="col-12 mb-8">
+      <div class="col-12">
         {{/* image modules comes from https://github.com/gethugothemes/hugo-modules/tree/master/images */}}
         {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[1200px]" "DisplayXL" "1200x" ) }}
         <h1 class="fancy-heading my-5">La Fermette Verdoyante</h1>
       </div>
-      <!-- Text content moved below -->
-      <div class="lg:col-7 md:col-9 mb-8 text-center">
-        {{ .title | markdownify }}
-        </h1>
-        <p class="mb-8">
-          {{ .content | markdownify }}
-        </p>
-      </div>
-    </div>
+      <div class="lg:col-9 md:col-9 text-center mb-0">
+        <h4 class="text-[#8A4F0F]">Un lieu authentique en harmonie avec son environnement et son époque</h4>
+     </div>
   </div>
 </section>
 {{ end }}   
   <!-- /Banner -->
-
   <!-- Features -->
   {{ range $i, $e:= .Params.features }}
-    <section class="section-sm {{ if (modBool $i 2) }}bg-gradient-inversed{{ else }}bg-gradient{{ end }}">   
+    <section class="section-sm mb-0 {{ if (modBool $i 2) }}bg-gradient-inversed{{ else }}bg-gradient{{ end }}">   
       <div class="container">
         <div class="row items-center justify-between">
           <div

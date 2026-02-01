@@ -1,13 +1,7 @@
 ---
 # Banner
 banner:
-  title: "Un lieu authentique en harmonie avec son environnement et son époque"
-  content: ""
   image: "images/fermette_bandeau.webp"
-  button:
-    enable: false
-    label: "Get Started For Free"
-    link: "#"
 
 # Features
 features:
