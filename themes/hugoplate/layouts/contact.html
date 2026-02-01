@@ -60,77 +60,8 @@
         </form>
       </div>
     </div>
-  </div>
 </section>
-
-  <!-- google map -->
-  {{ with site.Params.google_map }}
-    {{ if .enable }}
-      <div
-        id="map"
-        style="height: 400px;"
-        data-latitude="{{ .map_latitude }}"
-        data-longitude="{{ .map_longitude }}"
-        data-marker="{{ .map_marker | relURL }}"
-        data-marker-name="{{ site.Title }}"></div>
-    {{ end }}
-  {{ end }}
-
-  {{ with site.Params.subscription }}
-    {{ if .enable }}
-      <!-- subscription form -->
-      <form
-        action="{{ .mailchimp_form_action | safeURL }}"
-        method="post"
-        id="mc-embedded-subscribe-form"
-        novalidate="novalidate">
-        <div class="input-group w-75 mx-auto mb-3">
-          <input
-            type="email"
-            name="EMAIL"
-            placeholder="Email"
-            class="form-control required email mce_inline_error"
-            id="mce-EMAIL"
-            aria-required="true"
-            autocomplete="off"
-            required />
-          <button
-            class="input-group-text"
-            name="subscribe"
-            id="mc-embedded-subscribe">
-            {{ .button_label }}
-          </button>
-        </div>
-        <input
-          type="hidden"
-          name="EMAILTYPE"
-          id="mce-EMAILTYPE-0"
-          value="html" />
-        <div style="position:absolute;left:-5000px" aria-hidden="true">
-          <input type="text" name="{{ .name }}" tabindex="-1" />
-        </div>
-      </form>
-      <div id="mce-responses" class="clear">
-        <div
-          class="response text-white"
-          id="mce-error-response"
-          style="display:none"></div>
-        <div
-          class="response text-white"
-          id="mce-success-response"
-          style="display:none"></div>
-      </div>
-      <script
-        type="text/javascript"
-        src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
-      <!-- /subscription form -->
-    {{ end }}
-  {{ end }}
-
-  {{ if site.Params.google_map.enable }}
-    {{ $gmap:= resources.Get "plugins/maps/google-map.js" }}
-    <script defer src="{{ $gmap.RelPermalink }}"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key={{ site.Params.google_map.map_api_key }}&libraries=places"></script>
-  {{ end }}
-
+  <div style="display: flex; justify-content: center; padding-top: 0px; padding-bottom: 30px;">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2882.937004659793!2d0.014342399999999996!3d43.7326355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a9ff0020b16af5%3A0x70805d97b3bbac0e!2sLa%20Fermette%20Verdoyante!5e0!3m2!1sfr!2sfr!4v1769957422062!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Localisation de La Fermette Verdoyante sur Google Maps"></iframe>
+  </div>
 {{ end }}

@@ -1,4 +1,4 @@
-<div class="calendar-container">
+<div class="calendar-container w-full">
   <div id="calendar"></div>
 </div>
 
@@ -38,14 +38,18 @@
   --fc-button-border-color: #01290C;
   --fc-button-hover-bg-color: #479963;
   --fc-button-active-bg-color: #007928;
+  --fc-button-text-color: #ffffff;
+  --fc-button-active-text-color: #ffffff;
   --fc-event-bg-color: #8d4e01;
   --fc-event-border-color: #57534e;
   --fc-today-bg-color: #FFF6E0;
-}
-.fc-list-event {
-  --fc-list-event-bg-color: #007928;        
+  --fc-list-event-bg-color: #FFF6E0;        
   --fc-list-event-text-color: #000000;      
-  --fc-list-event-hover-bg-color: #DEDEAB;  
+  --fc-list-event-hover-bg-color: #DEDEAB;
+  --fc-list-day-cushion-bg: #ffffff;      /* ??? */
+  --fc-list-day-cushion-color: #000;
+  --fc-cell-shaded-bg: #105c29; 
+  --fc-cell-shaded-color: #ffffff;  
 }
 
 /* Dark Mode */
@@ -55,39 +59,40 @@
   --fc-button-border-color: #323232;
   --fc-button-hover-bg-color: #505050;
   --fc-button-active-bg-color: #646464;
+  --fc-button-text-color: #fff;
+  --fc-button-active-text-color: #F0B96A;
   --fc-event-bg-color: #464646;
   --fc-event-border-color: #464646;
   --fc-today-bg-color: #323232;
-}
-
-.dark .fc-list-event {
   --fc-list-event-bg-color: #000000;        
-  --fc-list-event-text-color: #ffffff;      
+  --fc-list-event-text-color: #F7D9B0;      
   --fc-list-event-hover-bg-color: #000000;  
-}
-.dark .fc-list-day-cushion {
   --fc-list-day-cushion-bg: #000000;
   --fc-list-day-cushion-color: #000000; 
+  --fc-cell-shaded-bg: #2d2d2d; 
+  --fc-cell-shaded-color: #F0B96A;
 }
-
-.fc-cell-shaded {
-  --fc-cell-shaded-bg: #DEDEAB; /* Light theme */
-  --fc-cell-shaded-color: #000;
+.fc-list-event {
+  background-color: var(--fc-list-event-bg-color);
+  color: var(--fc-list-event-text-color);
+  border-radius: 6px;
+  padding: 8px;
 }
-
-.dark .fc-cell-shaded {
-  --fc-cell-shaded-bg: #2d2d2d; /* Dark theme */
-  --fc-cell-shaded-color: #fff;
-}
+.fc-list-event:hover {
+  background-color: var(--fc-list-event-hover-bg-color);
+}   
 .fc-list-day-cushion {
-  --fc-list-day-cushion-bg: #007928;
-  --fc-list-day-cushion-color: #000;
   padding: 10px;
   font-weight: bold; 
 }
 .fc-cell-shaded {
   background-color: var(--fc-cell-shaded-bg) !important;
   color: var(--fc-cell-shaded-color);
+}
+.fc-button-active {
+  padding: 10px;
+  font-weight: bold;
+  color: var(--fc-button-active-text-color) !important;
 }
 
 </style>
@@ -112,6 +117,7 @@
         initialView: 'listMonth',
         timeZone: 'Europe/Paris',
         locale: 'fr',
+        noEventsText: 'Aucun évènement à afficher pour le moment',
         listDayFormat: { weekday: 'long', day: 'numeric', month: 'long' },
         listDaySideFormat: false,
         buttonText: {
