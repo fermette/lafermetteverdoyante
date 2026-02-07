@@ -17,3 +17,5 @@ La transmission de ces moyens est un des objectifs que nous nous donnons.
 
 {{< slider dir="images/gallery_about" class="max-w-[600px]block mx-auto" height="600" width="600" webp="true" command="Fit" option="" zoomable="true" >}}
 
+La structure du site est basé sur le thème Hugoplate dont le design & le développement ont été réalisés par [Zeon Studio](https://zeon.studio)
+

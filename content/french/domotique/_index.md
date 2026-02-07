@@ -4,10 +4,11 @@ title: "L'outil Domotique"
 meta_title: "Utilisation de la domotique dans la gestion d'un lieu de biodiversité"
 # meta description
 description: "Mise en place d'automatisation pour faciliter et améliorer la gestin de son jardin"
-layout: "domotique"
+layout: "single"
 # save as draft
-draft: true
+draft: false
 ---
+
 
 {{< toc >}}
 

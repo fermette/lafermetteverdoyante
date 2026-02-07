@@ -4,11 +4,10 @@ title: "Gestion de l'eau du lieu"
 meta_title: "Préservation de la ressource en eau"
 # meta description
 description: "Stockage, usage, recyclage et utilisation de l'eau dans un espace de biodiversité"
-layout: "eau"
+layout: "single"
 # save as draft
-draft: true
+draft: false
 ---
-blabla
 
 {{< toc >}}
 

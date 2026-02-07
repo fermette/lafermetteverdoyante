@@ -4,7 +4,7 @@ title: "Méthodes de culture"
 meta_title: "Méthodes de culture"
 # meta description
 description: "Présentation des différentes métodes de culture utilisées à la fermette verdoyante et des posssibilitées de formation"
-layout: "culture"
+layout: "single"
 # save as draft
 draft: false
 ---
