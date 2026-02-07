@@ -7,42 +7,56 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "Calendrier"
-url = "/calendrier"
+name = "Visites & Ateliers"
 weight = 2
 
 [[main]]
-name = "Activités"
+parent = "Visites & Ateliers"
+name = "Visites"
+url = "/visite"
+
+[[main]]
+parent = "Visites & Ateliers"
+name = "Ateliers"
+url = "/atelier"
+
+[[main]]
+parent = "Visites & Ateliers"
+name = "Calendrier"
+url = "/calendrier"
+
+[[main]]
+name = "Activités du lieu"
 weight = 3
 
 [[main]]
-parent = "Activités"
+parent = "Activités du lieu"
 name = "Méthodes de culture"
 url = "/culture"
 
 [[main]]
-parent = "Activités"
+parent = "Activités du lieu"
 name = "Gestion des récoltes"
 url = "/recolte"
 
 [[main]]
-parent = "Activités"
+parent = "Activités du lieu"
 name = "Gestion de l'eau"
 url = "/eau"
 
 [[main]]
-parent = "Activités"
+parent = "Activités du lieu"
 name = "L'outil domotique"
 url = "/domotique"
 
-[[main]]
-weight = 4
-name = "Blog"
-url = "/blog"
+#[[main]]
+#weight = 5
+#name = "Blog"
+#url = "/blog"
 
 [[main]]
-weight = 5
-name = "Contact"
+weight = 6
+name = "Nous contacter"
 url = "/contact"
 
 # pied de page menu
@@ -62,6 +76,11 @@ url = "/authors"
 weight = 3
 
 [[footer]]
-name = "Elements"
-url = "/elements"
-weight = 4
+name = "Nous contacter"
+url = "/contact"
+weight = 3
+
+#[[footer]]
+#name = "Elements"
+#url = "/elements"
+#weight = 4
