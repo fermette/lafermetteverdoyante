@@ -1,14 +1,25 @@
 ---
-title: "Gestion de l'eau du lieu"
+title: "Visites"
 # meta title
-meta_title: "Préservation de la ressource en eau"
+meta_title: "Visites du jardin de biodiversité"
 # meta description
-description: "Stockage, usage, recyclage et utilisation de l'eau dans un espace de biodiversité"
-layout: "eau"
+description: "visite de 1h30 sur el site de la fermette verdoyante"
+layout: "single"
 # save as draft
-draft: true
+draft: false
 ---
-blabla
+
+
+Au jardin de la fermette verdoyante de nombreuses techniques de culture sont expérimentées dans le but de favoriser la biodiversité, la production de légumes et de fruits sur un sol travaillé à minima, le tout sur un espace d'environ 1000m².
+
+Notamment, la permaculture, l'agroécologie, le jardin forêt, l'électroculture, le potager, les cultures surélevées, la culture verticale, les cultures associées, une serre bioclimatique auto construite, l'aquaponie "naturelle", le compostage de surface, le lombric compostage, ainsi que le recyclage des toilettes sèches avec réutilisations des urines et compostage des selles. 
+
+Tout au long de l'année on peut récolter les graines des plantes ou de leurs fruits en respectant certaines méthodes que nous utilisons ici.
+
+Nous proposons plusieurs formules pour des petits groupes de 5 personnes au maximum afin de ne pas perturber le milieu et favoriser les échanges.
+
+Découverte botanique
+Durant une heure, un intervenant vous accompagnera pour vous présenter la biodiversité du lieu, les plantes sauvages et cultivées présentes. Au tarif de 5€ par participant (maximum 6 pers.).
 
 {{< toc >}}
 

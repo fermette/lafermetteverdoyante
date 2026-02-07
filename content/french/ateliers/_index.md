@@ -1,14 +1,23 @@
 ---
-title: "Gestion de l'eau du lieu"
+title: "Ateliers"
 # meta title
-meta_title: "Préservation de la ressource en eau"
+meta_title: "atelier, pratique"
 # meta description
-description: "Stockage, usage, recyclage et utilisation de l'eau dans un espace de biodiversité"
-layout: "eau"
+description: "Organsisation d'atelier autourd des activités du lieu"
+layout: "single"
 # save as draft
-draft: true
+draft: false
 ---
-blabla
+
+Stage initiation
+ Durant une demie journée (env. 4h) un intervenant vous accompagnera pour vous présenter plus en détail la biodiversité du lieu et les techniques mises en œuvre. 
+
+Au tarif individuel de 80€ ou en groupe à 60€ par participant (minimum 2 personnes jusqu'à 6 personnes).
+
+Merci de nous contacter au 07 68 83 31 82 ou par messagerie lafermetteverdoyante@gmx.com
+
+Formation
+Sur demande des formations spécifiques peuvent être réalisées.
 
 {{< toc >}}
 
