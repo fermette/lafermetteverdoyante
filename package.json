@@ -7,7 +7,7 @@
   "type": "commonjs", 
   "scripts": {
     "dev": "concurrently \"node scripts/themeGenerator.js --watch\" \"hugo server\"",
-    "dev2": "concurrently \"node scripts/themeGenerator.js --watch\" \"hugo server --ignoreCache --port 1313 --baseURL=http://172.16.0.14\"",
+    "dev2": "concurrently \"node scripts/themeGenerator.js --watch\" \"hugo server --disableFastRender --ignoreCache --port 1313 --baseURL=http://172.16.0.14\"",
     "build": "node scripts/themeGenerator.js && hugo --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic",
     "preview": "node scripts/themeGenerator.js && hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic  --bind 0.0.0.0 --baseURL=http://172.16.0.14 -e production --minify",
     "dev:example": "concurrently \"node scripts/themeGenerator.js --watch\" \"hugo server -s exampleSite\"",

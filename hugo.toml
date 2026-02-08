@@ -41,6 +41,9 @@ dir = ":resourceDir/_gen"
 maxAge = "720h"
 [markup.goldmark.renderer]
 unsafe = true
+[markup.goldmark.parser.attribute]
+block = true
+title = true
 [markup.highlight]
 style = "monokai"
 lineNumbersInTable = false
