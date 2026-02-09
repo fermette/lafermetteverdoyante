@@ -20,16 +20,15 @@ features:
       label: "En savoir plus"
       link: "fr/culture"
 
-  - title: "La transformation des récoltes"
+  - title: "Gestion des récoltes"
     image: "/images/recolte_1.png"
     content: "Disposer d'un jardin et de récoltes abondantes conduisent tôt ou tard à la question de leurs usages. Voici ce que nous mettons en oeuvre à notre humble niveau :"
     bulletpoints:
       - "Consommation en produits frais"
-      - "Utilisation des plantes aromatiques, médicinales et fleurs"
-      - "Composition de tisanes et infusions"
-      - "Mise en conserves & lactofermentation"
-      - "Séchage & déshydratation des fruits, légumes et aromates"
-      - "Elaboration d'épices en poudre maison"
+      - "Conserves & lactofermentation"
+      - "Séchage & déshydratation"
+      - "Zone de stockage"
+      - "Transformations en épices, tisanes et infusions"
     button:
       enable: true
       label: "En savoir plus"

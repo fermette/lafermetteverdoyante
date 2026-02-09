@@ -56,4 +56,7 @@
       </p>
     </div>
   </div>
+  <!-- Include the Back to Top JavaScript -->
+  {{ $script := resources.Get "js/back-to-top.js" | js.Build }}
+  <script src="{{ $script.RelPermalink }}" defer></script>
 </footer>

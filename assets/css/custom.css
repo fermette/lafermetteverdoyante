@@ -1,4 +1,3 @@
-/* Add your own custom styles here */
 @layer components {
   .fancy-heading {
     @apply text-5xl lg:text-7xl font-['Parisienne'] text-center text-[#105c29];
@@ -8,4 +7,16 @@
   .dark .fancy-heading {
     @apply text-[#F0B96A];
   }
+
+  b,
+  strong {
+    @apply text-text-dark dark:text-darkmode-text-dark;
+  }
+
+  /* Back to Top Button */
+  #back-to-top {
+    @apply fixed bottom-5 right-5 hidden rounded-full bg-green-800 text-white p-3 text-xs font-medium uppercase leading-tight shadow-md transition duration-150 ease-in-out hover:bg-green-600 hover:shadow-lg focus:bg-green-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-800 active:shadow-lg;
+  }
 }
+
+
