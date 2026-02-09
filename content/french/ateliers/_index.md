@@ -3,262 +3,54 @@ title: "Ateliers"
 # meta title
 meta_title: "atelier, pratique"
 # meta description
-description: "Organisation d'atelier autourd des activités du lieu"
-layout: "single"
+description: "Organisation d'ateliers autourd des activités du lieu"
+layout: "single_mk"
 # save as draft
 draft: false
 ---
 
-Stage initiation
+Nous proposerons différents ateliers tout au long de l'année autour des savoir-faire que nous développons sur le lieu.
+ {.text-lg .mb-4}
+Afin de préserver la biodiversité et la quiétude de l'environnement, <b> les ateliers seront limités à un effectif maximum de 7 personnes ou moins </b> selon les moyens nécessaires à une bonne mise en oeuvre et transmission du savoir.
+ {.text-lg .mb-4}
+Une participation financière sera demandée en fonction de la nature des événements, des frais découlants de leurs organisations et en fonction des intervenants présents. La durée moyenne sera d'une demie-journée (environ 4h avec débordement possible) pour un tarif indicatif de 80€ par personne.
+En fonction des disponibilitées, plusieurs demies journées ou journée entière avec un repas partagé sur le lieu peuvent être organisé.
+ {.text-lg .mb-4}
+Pour les participants venant de loin, des adresses de gîtes, maison d'hôtes ou woofing peuvent vous être partagées. Et un planning de plusieurs demies journée de formations.
+ {.text-lg .mb-4}
 
- Durant une demie journée (env. 4h) un intervenant vous accompagnera pour vous présenter plus en détail la biodiversité du lieu et les techniques mises en œuvre. 
+Les ateliers sont une source de revenue essentielle à la vie de l'association et à son développement futur, nous exprimons notre gratitude à tous les participants présents et à venir.
+ {.text-lg .mb-4}
 
-Au tarif individuel de 80€ ou en groupe à 60€ par participant (minimum 2 personnes jusqu'à 6 personnes).
+ {{< button label="Calendrier" link="/fr/calendrier" style="solid" >}} {{< button label="Suggestion" link="/fr/contact" style="solid" >}}
+ {.text-lg .mb-4}
 
-Merci de nous contacter au 07 68 83 31 82 ou par messagerie lafermetteverdoyante@gmx.com
+<br>
 
-Formation
-Sur demande des formations spécifiques peuvent être réalisées.
+##### Voici les thématiques des atliers que nous souhaitons vous proposer :
+En lien avec le jardin :
+{.text-lg .mb-4}
+1. La gestion de l'eau au jardin
+2. L'électroculture et le biochar
+2. Mise en place de structure de culture verticale
+4. Application des principes de permaculture favorisant la biodiversité
+5. Serre auto-contruite, pour qui, pour quoi ?
 
-{{< toc >}}
+En lien avec la domotique :
+{.text-lg .mb-4}
+1. Introduction sur la domotique et mise en place d'un serveur HomeAssistant
+2. Cas pratique de l'utilisation de la domotique dans le cadre d'un jardin (arrosage, pompe et vannes)
 
-Here is an example of headings. You can use this heading by the following markdown rules. For example: use `#` for heading 1 and use `######` for heading 6.
+En fonction des saisons : 
+{.text-lg .mb-4}
+1. Séchage et déshydratation des récoltes
+2. Mise en conserve et lacto-fermentation
+3. Fabrication d'épice, tisane et infusion
 
-# Heading 1
 
-## Heading 2
+ 
 
-### Heading 3
 
-#### Heading 4
 
-##### Heading 5
 
-###### Heading 6
 
-<hr>
-
-### Emphasis
-
-The emphasis, aka italics, with _asterisks_ or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
-
-The combined emphasis with **asterisks and _underscores_**.
-
-Strike through uses two tildes. ~~Scratch this.~~
-
-<hr>
-
-### Button
-
-{{< button label="Button" link="/" style="solid" >}}
-
-<hr>
-
-### Link
-
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-URLs and URLs in angle brackets will automatically get turned into links.
-<http://www.example.com> or <http://www.example.com> and sometimes
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-<hr>
-
-### Paragraph
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur! Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non, omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis voluptatum rerum laboriosam.
-
-<hr>
-
-### Ordered List
-
-1. List item
-2. List item
-3. List item
-4. List item
-5. List item
-
-<hr>
-
-### Unordered List
-
-- List item
-- List item
-- List item
-- List item
-- List item
-
-<hr>
-
-### Notice
-
-{{< notice "note" >}}
-This is a simple note.
-{{< /notice >}}
-
-{{< notice "quote" >}}
-This is a simple quote.
-{{< /notice >}}
-
-{{< notice "tip" >}}
-This is a simple tip.
-{{< /notice >}}
-
-{{< notice "info" >}}
-This is a simple info.
-{{< /notice >}}
-
-{{< notice "warning" >}}
-This is a simple warning.
-{{< /notice >}}
-
-<hr>
-
-### Tab
-
-{{< tabs >}}
-{{< tab "Tab 1" >}}
-
-#### Hey There, I am a tab
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-{{< /tab >}}
-
-{{< tab "Tab 2" >}}
-
-#### I wanna talk about the assassination attempt
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-{{< /tab >}}
-
-{{< tab "Tab 3" >}}
-
-#### We know you’re dealing in stolen ore
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-
-{{< /tab >}}
-{{< /tabs >}}
-
-<hr>
-
-### Accordions
-
-{{< accordion "Why should you need to do this?" >}}
-
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur
-
-{{< /accordion >}}
-
-{{< accordion "How can I adjust Horizontal centering" >}}
-
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur
-
-{{< /accordion >}}
-
-{{< accordion "Should you use Negative margin?" >}}
-
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur
-
-{{< /accordion >}}
-
-<hr>
-
-### Code and Syntax Highlighting
-
-This is an `Inline code` sample.
-
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
-
-```python
-s = "Python syntax highlighting"
-print s
-```
-
-```c  { linenos=true }
-#include <stdio.h>
-
-int main(void)
-{
-    printf("hello, world\n");
-    return 0;
-}
-```
-
-```mermaid
-flowchart TD
-    A[Start] --> B{Is it?}
-    B -- Yes --> C[OK]
-    C --> D[Rethink]
-    D --> B
-    B -- No ----> E[End]
-```
-
-<hr>
-
-### Blockquote
-
-> Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once.
-
-<hr>
-
-### Tables
-
-| Tables        |      Are      |  Cool |
-| ------------- | :-----------: | ----: |
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      |   centered    |   $12 |
-| zebra stripes |   are neat    |    $1 |
-
-<hr>
-
-### Image
-
-{{< image src="images/image-placeholder.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
-
-<hr>
-
-### Gallery
-
-{{< gallery dir="images/gallery" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
-
-<hr>
-
-### Slider
-
-{{< slider dir="images/gallery" class="max-w-[600px] ml-0" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
-
-<hr>
-
-### Youtube video
-
-{{< youtube ResipmZmpDU >}}
-
-<hr>
-
-### Custom video
-
-{{< video src="https://www.w3schools.com/html/mov_bbb.mp4" width="100%" height="auto" autoplay="false" loop="false" muted="false" controls="true" class="rounded-lg" >}}

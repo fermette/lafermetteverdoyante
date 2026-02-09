@@ -7,6 +7,11 @@
         <div class="lg:col-10">
           <div class="content text-text dark:text-darkmode-text">
             {{ .Content }}
+            <style>
+              .content strong {
+                @apply text-text-dark dark:text-darkmode-text-dark;
+              }
+            </style>
             <a href="#" id="back-to-top" class="back-to-top">
             <i class="fa-slab-press fa-regular fa-arrow-up"></i>
             </a>

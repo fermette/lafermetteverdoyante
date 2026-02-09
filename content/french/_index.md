@@ -5,7 +5,7 @@ banner:
 
 # Features
 features:
-  - title: "Méthodes de culture diversifiée"
+  - title: "Méthodes de culture diversifiées"
     image: "/images/jardin_figuier.png"
     content: "Afin de respecter l'équilibre délicat entre la culture de plantes et d'arbres dans un milieu préservé tout en cherchant à favoriser la biodiversité "
     bulletpoints:

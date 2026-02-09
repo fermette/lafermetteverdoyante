@@ -10,20 +10,29 @@ draft: false
 ---
 
 {{< toc >}}
-
+<br>
 ## Consommation en produits frais
 
 {{< image src="/images/assiette_légumes.webp" caption="Exemple d'assiette de légumes frais du jardin de la fermette verdoyante" alt="assiette_crudité" height="" width="" position="center" command="fill" option="q100" style="height: 400px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="Assiettes de crudités maison" webp="false" >}}
 
+<br>
+
 Le portail d'un jardin c'est l'accès à une <b>alimentation saine, équilibrée, et appétente pour tous</b>.
-{.text-lg .mb-4 }   
+ {.text-lg .mb-4}
+   
 
-Varier les <b>formes</b>, les <b>couleurs</b> et les <b>goûts</b> sont la bases de nombreuses cuisine du monde, et l'essence de la cuisine française.
+Varier les <b>formes</b>, les <b>couleurs</b> et les <b>goûts</b> sont la bases de nombreuses cuisine du monde, et faut il le rappeler l'essence de la cuisine française.
+ {.text-lg .mb-4}
+
 Au fond, nous savons tous qu'il n'y a rien de mieux que l'<b>accord entre des produits frais de saisons</b> pour remplir nos besoins alimentaires et bien au-delà puisque cela implique souvent l'interraction entre les personnes pour obtenir un résultat probant.
-{.text-lg .mb-4} 
+ {.text-lg .mb-4}
+ 
+Recettes et techniques de préparation sont aussi un merveilleux moyens d'échange pour tous les gastronomes en herbe 
 
-Recettes et techniques de préparation sont aussi un merveilleux moyens d'échange pour tous les gastronomes en herbe
-{.text-lg .mb-4} 
+
+ 
+
+<br>
 
 <div class="flex flex-col md:flex-row md:items-center gap-4 md:gap-0">
   <div class="w-full md:w-auto max-w-[400px]">

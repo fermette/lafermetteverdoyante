@@ -8,7 +8,7 @@ layout: "single"
 # save as draft
 draft: false
 ---
-
+ecriture par defaut
 
 La **culture diversifiée** repose sur plusieurs méthodes agronomiques et écologiques pour renforcer la résilience, la productivité et la durabilité des systèmes agricoles. Ces pratiques s’inscrivent dans une transition vers une agriculture régénérative et agroécologique.
 
