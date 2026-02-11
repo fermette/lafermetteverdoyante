@@ -4,10 +4,10 @@
   "version": "3.3.1",
   "license": "MIT",
   "author": "zeon.studio",
-  "type": "commonjs", 
+  "type": "commonjs",
   "scripts": {
     "dev": "concurrently \"node scripts/themeGenerator.js --watch\" \"hugo server\"",
-    "dev2": "concurrently \"node scripts/themeGenerator.js --watch\" \"hugo server --disableFastRender --ignoreCache --port 1313 --baseURL=http://172.16.0.14\"",
+    "dev2": "concurrently \"node scripts/themeGenerator.js --watch\" \"hugo server --ignoreCache --bind=0.0.0.0 --port 1313 --baseURL=http://172.16.0.14\"",
     "build": "node scripts/themeGenerator.js && hugo --gc --minify --templateMetrics --templateMetricsHints --forceSyncStatic",
     "preview": "node scripts/themeGenerator.js && hugo server --disableFastRender --navigateToChanged --templateMetrics --templateMetricsHints --watch --forceSyncStatic  --bind 0.0.0.0 --baseURL=http://172.16.0.14 -e production --minify",
     "dev:example": "concurrently \"node scripts/themeGenerator.js --watch\" \"hugo server -s exampleSite\"",
@@ -19,8 +19,7 @@
     "project-setup": "node ./scripts/projectSetup.js",
     "theme-setup": "node ./scripts/themeSetup.js",
     "update-theme": "node ./scripts/themeUpdate.js",
-    "format": "prettier -w .",
-    "dev2": "concurrently \"node scripts/themeGenerator.js --watch\" \"hugo server --ignoreCache --bind=0.0.0.0 --port 1313 --baseURL=http://172.16.0.14\""
+    "format": "prettier -w ."
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.17",
