@@ -8,10 +8,10 @@
       <div class="col-12">
         {{/* image modules comes from https://github.com/gethugothemes/hugo-modules/tree/master/images */}}
         {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[1200px]" "DisplayXL" "1200x" ) }}
-        <h1 class="fancy-heading my-5">La Fermette Verdoyante</h1>
+        <h1 class="fancy-heading my-5">{{ i18n "site_title" }}</h1>
       </div>
       <div class="lg:col-9 md:col-9 text-center mb-0">
-        <h4 class="text-[#8A4F0F]">Un lieu authentique en harmonie avec son environnement et son époque</h4>
+        <h4 class="text-[#8A4F0F]">{{ i18n "site_subtitle" }}</h4>
      </div>
   </div>
 </section>

@@ -7,44 +7,57 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "About"
-url = "/about"
+name = "Visits & Workshops"
 weight = 2
 
 [[main]]
-name = "Elements"
-url = "/elements"
+parent = "Visits & Workshops"
+name = "Visits"
+url = "/visits"
+
+[[main]]
+parent = "Visits & Workshops"
+name = "Workshops"
+url = "/workshops"
+
+[[main]]
+parent = "Visits & Workshops"
+name = "Calendar"
+url = "/calendar"
+
+[[main]]
+name = "Site Activities"
 weight = 3
 
 [[main]]
-weight = 4
-name = "Pages"
+parent = "Site Activities"
+name = "Cultivation Methods"
+url = "/culture"
 
 [[main]]
-parent = "Pages"
-name = "Blog"
-url = "/blog"
+parent = "Site Activities"
+name = "Harvest Management"
+url = "/recolte"
 
 [[main]]
-parent = "Pages"
-name = "Contact"
+parent = "Site Activities"
+name = "Water Management"
+url = "/eau"
+
+[[main]]
+parent = "Site Activities"
+name = "Home Automation Tool"
+url = "/domotique"
+
+#[[main]]
+#weight = 5
+#name = "Blog"
+#url = "/blog"
+
+[[main]]
+weight = 6
+name = "Contact Us"
 url = "/contact"
-
-[[main]]
-parent = "Pages"
-name = "Authors"
-url = "/authors"
-
-[[main]]
-parent = "Pages"
-name = "Categories"
-url = "/categories"
-
-[[main]]
-parent = "Pages"
-name = "404 Page"
-url = "/404"
-
 
 # footer menu
 [[footer]]
@@ -53,11 +66,21 @@ url = "/about"
 weight = 1
 
 [[footer]]
-name = "Elements"
-url = "/elements"
+name = "Privacy"
+url = "/privacy-policy"
 weight = 2
 
 [[footer]]
-name = "Privacy Policy"
-url = "/privacy-policy"
+name = "Authors"
+url = "/authors"
 weight = 3
+
+[[footer]]
+name = "Contact Us"
+url = "/contact"
+weight = 3
+
+#[[footer]]
+#name = "Elements"
+#url = "/elements"
+#weight = 4

@@ -1,53 +1,67 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Hugo Project"
-  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
-  image: "/images/banner.png"
-  button:
-    enable: true
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/hugoplate"
+  image: "images/fermette_bandeau.webp"
 
 # Features
 features:
-  - title: "What's Included in Hugoplate"
-    image: "/images/service-1.png"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+  - title: "Diverse Cultivation Methods"
+    image: "/images/jardin_figuier.png"
+    content: "To respect the delicate balance between plant and tree cultivation in a preserved environment while promoting biodiversity."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
-    button:
-      enable: false
-      label: "Get Started Now"
-      link: "#"
-
-  - title: "Discover the Key Features Of Hugo"
-    image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
-    bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "Vertical farming with or without support"
+      - "Bioclimatic greenhouse and alternative aquaponics"
+      - "Variety multiplication"
+      - "Complete plant cycle and seed harvesting"
+      - "No-till plots"
+      - "Natural environment enhancement through simple means"
     button:
       enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
+      label: "Learn more"
+      link: "en/culture"
 
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
-    image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
+  - title: "Harvest Management"
+    image: "/images/recolte_1.png"
+    content: "Having a garden with abundant harvests inevitably leads to questions about their usage. Here's what we implement at our level:"
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "Fresh produce consumption"
+      - "Preserves & lacto-fermentation"
+      - "Drying & dehydration"
+      - "Storage area"
+      - "Transformations into spices, herbal teas and infusions"
     button:
-      enable: false
-      label: ""
-      link: ""
----
+      enable: true
+      label: "Learn more"
+      link: "en/recolte"
+
+  - title: "Water Circuit & Filtration"
+    image: "/images/mare.png"
+    content: "Water is a precious resource that must be used and preserved as much as possible. We share our solutions:"
+    bulletpoints:
+      - "Rainwater harvesting"
+      - "Gravity-based greywater filtration"
+      - "Phytoremediation"
+      - "Biodiversity pond"
+      - "Water circuit concept"
+      - "Overflow and natural irrigation management"
+      - "Intelligent redistribution (see home automation)"
+    button:
+      enable: true
+      label: "Learn more"
+      link: "en/eau"
+
+  - title: "The Home Automation Tool"
+    image: "/images/domotique.png"
+    content: "The image represents what home automation is NOT in a garden! Why consider technological solutions in a natural environment? For what purpose? This is what we want to explain here through a few examples. Our role will be to offer initiation workshops to help you get started with useful applications of this technology."
+    bulletpoints:
+      - "Automated watering and/or irrigation systems via remotely controlled valves"
+      - "Monitoring of temperature, humidity, and light levels via sensors from various manufacturers"
+      - "Remote on/off control of electrical devices: pumps, valves, and motors via programming or a simple tablet interface"
+      - "Remote monitoring of animals, water points, and feeders"
+      - "Tracking of electricity production (all possible sources including photovoltaic) as well as overall or specific consumption of major consumers"
+      - "Open-source, free, and libre Home Assistant software! Self-hosted at home without subscription and off-network"
+    button:
+      enable: true
+      label: "Learn more"
+      link: "en/domotique"
+---   

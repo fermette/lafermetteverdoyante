@@ -5,19 +5,18 @@
   <div class="container">
     <div class="row">
       <div class="md:col-10 lg:col-6 mx-auto">
-        <!-- Honeypot for spam protection -->
         <input type="text" name="_gotcha" style="display: none !important;" autocomplete="off" />
         
         <form action="https://formspree.io/f/xgoowbnj" method="POST" novalidate>
           <div class="mb-6">
             <label for="name" class="form-label">
-              Références <span class="text-red-500" aria-hidden="true">*</span>
+              {{ i18n "form_name" }} <span class="text-red-500" aria-hidden="true">*</span>
             </label>
             <input
               id="name"
               name="name"
               class="form-input"
-              placeholder="Nom Prénom"
+              placeholder="{{ if eq .Site.Language.Lang "fr" }}Nom Prénom{{ else }}First Name Last Name{{ end }}"
               type="text"
               autocomplete="name"
               aria-required="true"
@@ -27,13 +26,13 @@
 
           <div class="mb-6">
             <label for="email" class="form-label">
-              Messagerie valide <span class="text-red-500" aria-hidden="true">*</span>
+              {{ i18n "form_email" }} <span class="text-red-500" aria-hidden="true">*</span>
             </label>
             <input
               id="email"
               name="email"
               class="form-input"
-              placeholder="adresse@electronique.com"
+              placeholder="{{ if eq .Site.Language.Lang "fr" }}adresse@electronique.com{{ else }}email@address.com{{ end }}"
               type="email"
               autocomplete="email"
               aria-required="true"
@@ -43,28 +42,28 @@
 
           <div class="mb-6">
             <label for="message" class="form-label">
-              Vos remarques ou questions ? <span class="text-red-500" aria-hidden="true">*</span>
+              {{ i18n "form_message" }} <span class="text-red-500" aria-hidden="true">*</span>
             </label>
             <textarea
               id="message"
               name="message"
               class="form-input"
-              placeholder="Votre message pour nous..."
+              placeholder="{{ if eq .Site.Language.Lang "fr" }}Votre message pour nous...{{ else }}Your message to us...{{ end }}"
               rows="8"
               aria-required="true"
               required
             ></textarea>
           </div>
           <div class="cf-turnstile" data-sitekey="0x4AAAAAACL1NThXX9maSogI"></div>  
-          <button type="submit" class="btn btn-primary">Envoyer</button>
+          <button type="submit" class="btn btn-primary">{{ i18n "form_send" }}</button>
         </form>
       </div>
     </div>
 </section>
   <div style="display: flex; justify-content: center; padding-top: 0px; padding-bottom: 30px;">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2882.937004659793!2d0.014342399999999996!3d43.7326355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a9ff0020b16af5%3A0x70805d97b3bbac0e!2sLa%20Fermette%20Verdoyante!5e0!3m2!1sfr!2sfr!4v1769957422062!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Localisation de La Fermette Verdoyante sur Google Maps"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2882.937004659793!2d0.014342399999999996!3d43.7326355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a9ff0020b16af5%3A0x70805d97b3bbac0e!2sLa%20Fermette%20Verdoyante!5e0!3m2!1s{{ .Site.Language.Lang }}!2s{{ .Site.Language.Lang }}!4v1769957422062!5m2!1s{{ .Site.Language.Lang }}!2s{{ .Site.Language.Lang }}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="{{ if eq .Site.Language.Lang "fr" }}Localisation de La Fermette Verdoyante sur Google Maps{{ else }}Location of La Fermette Verdoyante on Google Maps{{ end }}"></iframe>
   <a href="#" id="back-to-top" class="back-to-top">
   <i class="fa-slab-press fa-regular fa-arrow-up"></i>
   </a>
   </div>
-{{ end }}
+{{ end }}   
