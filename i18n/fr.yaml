@@ -18,3 +18,12 @@ form_name: Références
 form_email: Messagerie valide
 form_message: Vos remarques ou questions ?
 form_send: Envoyer
+calendar_no_events: Aucun évènement à afficher pour le moment
+calendar_today: Aujourd'hui
+calendar_list: Liste
+calendar_month: Calendrier
+event_modal_title: Heure de début
+event_modal_end: Heure de fin
+event_modal_location: Lieu
+event_modal_description: Description
+event_modal_close: ×

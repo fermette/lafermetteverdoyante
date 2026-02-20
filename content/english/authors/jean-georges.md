@@ -10,4 +10,4 @@ social:
 
 ---
 
-Votre humble serviteur
+Your humble servant

@@ -18,3 +18,12 @@ form_name: References
 form_email: Valid email
 form_message: Your comments or questions?
 form_send: Send
+calendar_no_events: No events to display at the moment
+calendar_today: Today
+calendar_list: List
+calendar_month: Calendar
+event_modal_title: Start time
+event_modal_end: End time
+event_modal_location: Location
+event_modal_description: Description
+event_modal_close: ×

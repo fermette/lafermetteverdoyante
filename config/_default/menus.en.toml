@@ -37,17 +37,17 @@ url = "/culture"
 [[main]]
 parent = "Site Activities"
 name = "Harvest Management"
-url = "/recolte"
+url = "/harvest"
 
 [[main]]
 parent = "Site Activities"
 name = "Water Management"
-url = "/eau"
+url = "/water"
 
 [[main]]
 parent = "Site Activities"
-name = "Home Automation Tool"
-url = "/domotique"
+name = "Home Automation"
+url = "/automation"
 
 #[[main]]
 #weight = 5
@@ -71,8 +71,8 @@ url = "/privacy-policy"
 weight = 2
 
 [[footer]]
-name = "Authors"
-url = "/authors"
+name = "Legal Notices"
+url = "/mentions"
 weight = 3
 
 [[footer]]

@@ -1,7 +1,7 @@
 ---
-meta_title: ""
-description: ""
-draft: false
+title: ""
 ---
 
+<div style="margin: 30px;">
 {{< fullcalendar >}}
+</div>

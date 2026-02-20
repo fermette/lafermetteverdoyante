@@ -71,8 +71,8 @@ url = "/privacy-policy"
 weight = 2
 
 [[footer]]
-name = "Auteurs"
-url = "/authors"
+name = "Mentions légales"
+url = "/mentions"
 weight = 3
 
 [[footer]]
