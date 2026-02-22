@@ -22,7 +22,13 @@ Pour les participants venant de loin, des adresses de gîtes, maison d'hôtes ou
 Les ateliers sont une source de revenue essentielle à la vie de l'association et à son développement futur, nous exprimons notre gratitude à tous les participants présents et à venir :heart:.
  {.text-lg .mb-4}
 
- {{< button label="Calendrier" link="/fr/calendrier" style="solid" >}} {{< button label="Suggestion" link="/fr/contact" style="solid" >}}
+
+  Nous vous invitons à retrouver nos futurs dates d'ateliers par ici :
+ {{< button label="Calendrier" link="/fr/calendrier" style="solid" >}}
+  {.text-lg .mb-4}{{ .Params.spiral_calendar | emojify }} 
+
+ Par ailleurs, si vous désirer nous faire part de vos souhaites concernant l'organistion d'un ou plusieurs ateliers spécifiques merci de cliquer ici :
+ {{< button label="Suggestion" link="/fr/contact" style="solid" >}}
  {.text-lg .mb-4}{{ .Params.spiral_calendar | emojify }}
 
 <br>
@@ -34,7 +40,7 @@ Les ateliers sont une source de revenue essentielle à la vie de l'association e
     <br>
     <p class="text-lg mb-4"><b>Côté jardin :</b></p>
         <ol class="text-lg mb-4 pl-6">
-          <li>La de culture verticale</li>
+          <li>La méthode de culture verticale</li>
           <li>L'électroculture et le biochar</li>
           <li>Application des principes de permaculture favorisant la biodiversité</li>
           <li>Serre bioclimatique</li>

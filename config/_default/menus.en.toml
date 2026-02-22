@@ -21,11 +21,6 @@ name = "Workshops"
 url = "/workshops"
 
 [[main]]
-parent = "Visits & Workshops"
-name = "Calendar"
-url = "/calendar"
-
-[[main]]
 name = "Site Activities"
 weight = 3
 

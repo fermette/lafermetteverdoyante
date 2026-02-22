@@ -12,18 +12,13 @@ weight = 2
 
 [[main]]
 parent = "Visites & Ateliers"
-name = "Visites"
-url = "/visites"
-
-[[main]]
-parent = "Visites & Ateliers"
 name = "Ateliers"
 url = "/ateliers"
 
 [[main]]
 parent = "Visites & Ateliers"
-name = "Calendrier"
-url = "/calendrier"
+name = "Visites"
+url = "/visites"
 
 [[main]]
 name = "Activités du lieu"

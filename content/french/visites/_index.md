@@ -10,9 +10,9 @@ draft: false
 ---
 
 
-Au jardin de la fermette verdoyante de nombreuses techniques de culture sont expérimentées dans le but de favoriser la biodiversité, la production de légumes et de fruits sur un sol travaillé à minima, le tout sur un espace d'environ 1000m².
+Au jardin de la fermette verdoyante de nombreuses techniques de culture sont expérimentées dans le but de favoriser la biodiversité, la production de légumes et de fruits sur un sol non travaillé sauf nécessité, le tout sur un espace d'environ 1000m².
 
-Notamment, la permaculture, l'agroécologie, le jardin forêt, l'électroculture, le potager, les cultures surélevées, la culture verticale, les cultures associées, une serre bioclimatique auto construite, l'aquaponie "naturelle", le compostage de surface, le lombric compostage, ainsi que le recyclage des toilettes sèches avec réutilisations des urines et compostage des selles. 
+Notamment, la permaculture, l'agroécologie, le jardin forêt, l'électroculture, le potager, les cultures surélevées, la culture verticale, les cultures associées, une serre bioclimatique auto construite alimentée via un système aquaponique expérimental respectueux des poissons et sans compléments, le compostage de surface, le lombric compostage, ainsi que le recyclage des toilettes sèches avec réutilisations des urines et compostage des selles. 
 
 Tout au long de l'année on peut récolter les graines des plantes ou de leurs fruits en respectant certaines méthodes que nous utilisons ici.
 
