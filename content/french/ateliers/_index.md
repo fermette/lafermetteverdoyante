@@ -58,6 +58,6 @@ Les ateliers sont une source de revenue essentielle à la vie de l'association e
         </ol>
  </div>
  <div class="w-1/2">
-  {{< image src="/images/lola-echelle.jpg" caption="Préparation du chantier" alt="Lola" height="" width="" position="center" command="fill" option="q100" style="height: 400px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="Assiettes de crudités maison" webp="false" >}}
+  {{< image src="/images/atelier_lola.jpg" caption="Préparation du chantier" alt="Lola" height="" width="" position="center" command="fill" option="q100" style="height: 400px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="Assiettes de crudités maison" webp="false" >}}
  </div>
 </div>

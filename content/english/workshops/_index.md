@@ -37,7 +37,7 @@ Furthermore, if you would like to share your wishes regarding the organization o
 ##### Here are the workshop themes we offer:
 
 <div class="flex flex-col md:flex-row md:items-start space-y-4 md:space-y-0 md:space-x-6">
- <div class="md:w-1/2">
+ <div class="w-full md:w-1/2">
     <br>
     <p class="text-lg mb-4"><b>By the Garden :</b></p>
         <ol class="text-lg mb-4 pl-6">
@@ -58,7 +58,7 @@ Furthermore, if you would like to share your wishes regarding the organization o
           <li>Bioclimatic Greenhouse</li>           
         </ol>
  </div>
- <div class="md:w-1/2 flex justify-end">
-    <img src="/images/lola-echelle.jpg" class="w-full max-w-xs md:max-w-full" alt="Lola">
+ <div class="w-1/2">
+  {{< image src="/images/atelier_lola.jpg" caption="Site preparation" alt="Lola" height="" width="" position="center" command="fill" option="q100" style="height: 400px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="Assiettes de crudités maison" webp="false" >}}
  </div>
 </div>
