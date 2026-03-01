@@ -1,12 +1,12 @@
 ---
 # Banner
 banner:
-  image: "images/fermette_bandeau.webp"
+  image: "images/home_fermette_bandeau.webp"
 
 # Features
 features:
   - title: "Diverse Cultivation Methods"
-    image: "/images/jardin_figuier.png"
+    image: "/images/home_jardin_figuier.png"
     content: "To respect the delicate balance between plant and tree cultivation in a preserved environment while promoting biodiversity."
     bulletpoints:
       - "Vertical farming with or without support"
@@ -21,7 +21,7 @@ features:
       link: "en/culture"
 
   - title: "Harvest Management"
-    image: "/images/recolte_1.png"
+    image: "/images/home_recolte.png"
     content: "Having a garden with abundant harvests inevitably leads to questions about their usage. Here's what we implement at our level:"
     bulletpoints:
       - "Fresh produce consumption"
@@ -35,7 +35,7 @@ features:
       link: "en/recolte"
 
   - title: "Water Circuit & Filtration"
-    image: "/images/mare.png"
+    image: "/images/home_mare.png"
     content: "Water is a precious resource that must be used and preserved as much as possible. We share our solutions:"
     bulletpoints:
       - "Rainwater harvesting"
@@ -51,7 +51,7 @@ features:
       link: "en/eau"
 
   - title: "The Home Automation Tool"
-    image: "/images/domotique.png"
+    image: "/images/home_domotique.png"
     content: "The image represents what home automation is NOT in a garden! Why consider technological solutions in a natural environment? For what purpose? This is what we want to explain here through a few examples. Our role will be to offer initiation workshops to help you get started with useful applications of this technology."
     bulletpoints:
       - "Automated watering and/or irrigation systems via remotely controlled valves"

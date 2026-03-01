@@ -1,12 +1,12 @@
 ---
 # Banner
 banner:
-  image: "images/fermette_bandeau.webp"
+  image: "images/home_fermette_bandeau.webp"
 
 # Features
 features:
   - title: "Méthodes de culture diversifiées"
-    image: "/images/jardin_figuier.png"
+    image: "/images/home_jardin_figuier.png"
     content: "Afin de respecter l'équilibre délicat entre la culture de plantes et d'arbres dans un milieu préservé tout en cherchant à favoriser la biodiversité "
     bulletpoints:
       - "Cultures verticales avec ou sans support"
@@ -21,7 +21,7 @@ features:
       link: "fr/culture"
 
   - title: "Gestion des récoltes"
-    image: "/images/recolte_1.png"
+    image: "/images/home_recolte.png"
     content: "Disposer d'un jardin et de récoltes abondantes conduisent tôt ou tard à la question de leurs usages. Voici ce que nous mettons en oeuvre à notre humble niveau :"
     bulletpoints:
       - "Consommation en produits frais"
@@ -35,7 +35,7 @@ features:
       link: "fr/recolte"
 
   - title: "Circuit de l'eau & Filtration"
-    image: "/images/mare.png"
+    image: "/images/home_mare.png"
     content: "L'eau, une ressource précieuse qu'il faut utiliser, préserver du mieux possible. Nos partageons nos solutions :"
     bulletpoints:
       - "Récupération de l'eau de pluie"
@@ -51,7 +51,7 @@ features:
       link: "fr/eau"
 
   - title: "L'outil domotique"
-    image: "/images/domotique.png"
+    image: "/images/home_domotique.png"
     content: "L'image représente ce que n'est pas la domotique dans un jardin ! Pourquoi envisager des solutions technologiques dans un environnement naturelle ? Dans quel but ? C'est ce que l'on souhaite vous expliquer ici par quelques exemples. Notre rôle sera de vous proposer des ateliers d'initiations afin de vous initier à un usage utile pour vous de cette technologie"
     bulletpoints:
       - "Automatisations de l'arrosage et/ou d'un système d'irrigation via des vannes pilotables à distance"
