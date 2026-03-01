@@ -39,3 +39,5 @@ The overall structure, as well as the texts, animated or still images, sounds, g
 </ol>
 
 The trademarks mentioned on this website are registered trademarks of their respective owners.
+
+The structure of the site is based on the Hugoplate theme, the design & development of which was carried out by [Zeon Studio](https://zeon.studio)

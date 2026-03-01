@@ -3,7 +3,7 @@ title: "Ateliers"
 # meta title
 meta_title: "atelier, pratique"
 # meta description
-description: "Organisation d'ateliers autourd des activités du lieu"
+description: "Organisation d'ateliers autour des activités du lieu"
 layout: "single_mk"
 # save as draft
 draft: false
@@ -23,7 +23,7 @@ Les ateliers sont une source de revenue essentielle à la vie de l'association e
  {.text-lg .mb-4}
 
 
-  Nous vous invitons à retrouver nos futurs dates d'ateliers par ici :
+  Nous vous invitons à retrouver nos prochaines dates d'ateliers sur notre 
  {{< button label="Calendrier" link="/fr/calendrier" style="solid" >}}
   {.text-lg .mb-4}{{ .Params.spiral_calendar | emojify }} 
 
@@ -36,7 +36,7 @@ Les ateliers sont une source de revenue essentielle à la vie de l'association e
 ##### Voici les thématiques des ateliers que nous vous proposons :
 
 <div class="flex flex-col md:flex-row md:items-start space-y-4 md:space-y-0 md:space-x-6">
- <div class="md:w-1/2">
+ <div class="w-full md:w-1/2">
     <br>
     <p class="text-lg mb-4"><b>Côté jardin :</b></p>
         <ol class="text-lg mb-4 pl-6">
@@ -53,12 +53,11 @@ Les ateliers sont une source de revenue essentielle à la vie de l'association e
         <ol class="text-lg mb-4 pl-6">
           <li>Initiation à HomeAssistant, installation et configuration</li>
           <li>Utilisation de HomeAssisant dans l'automatisation de l'arrosage</li>
-          <li>HomeAssisant et SolarAssistant, le combo de la gestino photovoltaïque </li>
+          <li>HomeAssisant et SolarAssistant, le combo de la gestion photovoltaïque </li>
           <li>Serre bioclimatique</li>           
         </ol>
  </div>
- <div class="md:w-1/2 flex justify-end">
-    <img src="/images/lola-echelle.jpg" class="w-full max-w-xs md:max-w-full" alt="Lola">
+ <div class="w-1/2">
+  {{< image src="/images/lola-echelle.jpg" caption="Préparation du chantier" alt="Lola" height="" width="" position="center" command="fill" option="q100" style="height: 400px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="Assiettes de crudités maison" webp="false" >}}
  </div>
 </div>
-

@@ -43,3 +43,5 @@ limités". Dans le cas d'un site Internet, l'adresse du site lafermetteverdoyant
 </ol>
 
 Les marques citées sur ce site Internet sont déposées par les sociétés qui en sont propriétaires.
+
+La structure du site est basé sur le thème Hugoplate dont le design & le développement ont été réalisés par [Zeon Studio](https://zeon.studio)

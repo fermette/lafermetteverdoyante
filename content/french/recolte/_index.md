@@ -13,15 +13,18 @@ draft: false
 <br>
 ## Consommation en produits frais
 
-{{< image src="/images/assiette_légumes.webp" caption="Exemple d'assiette de légumes frais du jardin de la fermette verdoyante" alt="assiette_crudité" height="" width="" position="center" command="fill" option="q100" style="height: 400px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="Assiettes de crudités maison" webp="false" >}}
+{{< image src="/images/recolte_assiettedecrudites.webp" caption="Exemple d'assiette de légumes frais du jardin de la fermette verdoyante" alt="assiette_crudité" height="" width="" position="center" command="fill" option="q100" style="height: 400px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="Assiettes de crudités maison" webp="false" >}}
 
 <br>
 
 Le portail d'un jardin c'est l'accès à une <b>alimentation saine, équilibrée, et appétente pour tous</b>.
 {.text-lg .mb-4}
-   
 
+<br>
 
+{{< image src="/images/recolte_assortiment2.jpg" caption="Exemple d'assiette de légumes frais du jardin de la fermette verdoyante" alt="assiette_crudité" height="" width="" position="center" command="fill" option="q100" style="height: 400px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="Assiettes de crudités maison" webp="false" >}}
+
+<br>
 
 Au fond, nous savons tous qu'il n'y a rien de mieux que l'<b>accord entre des produits frais de saisons</b> pour remplir nos besoins alimentaires. Le facteur humain est aussi essentiel dans le partage autour de ces propres productions générateur de lien social et de bien-être. 
 {.text-lg .mb-4}
@@ -30,7 +33,7 @@ Au fond, nous savons tous qu'il n'y a rien de mieux que l'<b>accord entre des pr
 
 <div class="flex flex-col md:flex-row md:items-center gap-4 md:gap-0">
   <div class="w-full md:w-auto max-w-[400px]">
-    {{< slider dir="images/gallery_recoltes" class="w-full" height="533" width="400" webp="false" command="Fit" option="" zoomable="true" >}}
+    {{< slider dir="images/gallery_recolte1" class="w-full" height="533" width="400" webp="false" command="Fit" option="" zoomable="true" >}}
   </div>
   <div class="prose max-w-none mt-4 md:mt-0 md:ml-6 text-lg text-text dark:text-darkmode-text-dark">
     <b>Les clés d'une alimentation saine :</b>
@@ -64,9 +67,9 @@ Que ce soit pour les produits frais dans une cave ou pour les conserves et les p
 
  ## Conserves & lactofermentation
 
-{{< image src="/images/conserves_.jpg" caption="Confitures made by la fermette verdoyante" alt="assiette_crudité" height="" width="" position="center" command="fill" option="q100" style="height: 300px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="Confitures maison" webp="true" >}}
+{{< image src="/images/recolte_conserves.jpg" caption="Confitures made by la fermette verdoyante" alt="confitures" height="" width="" position="center" command="fill" option="q100" style="height: 300px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="Confitures maison" webp="true" >}}
  
-Parmis les techniques de conservation les plus connues que nosu pratiquons :
+Parmis les techniques de conservation les plus connues que nous pratiquons :
 {.text-lg .mb-4}
 <ul class="text-lg mb-4 pl-6">
 <li><b>La pasteurisation</b> pour les confitures et les légumes de garde</li>
@@ -87,7 +90,7 @@ Parmis les techniques de conservation les plus connues que nosu pratiquons :
     </ol>
  </div>
  <div class="md:w-1/2 flex justify-end">
-    <img src="/images/fleurs_sureau_sechage.webp" class="w-full max-w-xs md:max-w-full" alt="Lola">
+    <img src="/images/recolte_sureau_sechage.webp" class="w-full max-w-xs md:max-w-full" alt="Lola">
  </div>
 </div>
 

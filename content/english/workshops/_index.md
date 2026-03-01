@@ -22,13 +22,13 @@ The workshops are an essential source of income for the association's operation 
 
 We invite you to find our upcoming workshop dates here:
 
-{{< button label="Calendar" link="/fr/calendar" style="solid" >}}
+{{< button label="Calendar" link="/en/calendrier" style="solid" >}}
 
 {.text-lg .mb-4}{{ .Params.spiral_calendar | emojify }}
 
 Furthermore, if you would like to share your wishes regarding the organization of one or more specific workshops, please click here:
 
-{{< button label="Suggestion" link="/fr/contact" style="solid" >}}
+{{< button label="Suggestion" link="/en/contact" style="solid" >}}
 
 {.text-lg .mb-4}{{ .Params.spiral_calendar | emojify }}
 
