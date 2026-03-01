@@ -19,6 +19,18 @@ draft: false
 Durant une heure, nous vous accueillerons pour une visite interactive du jardin et de ses particularités, notamment par la découvertes des plantes sauvages et cultivées présentes ici. **Au tarif de 5€ par participant (groupe maximum de 6 pers.)**
 {.text-lg .mb-4}
 
+<p class="text-lg mb-4"><b>Vous pouvez réserver via :</b></p>
+    <ol class="text-lg mb-4 pl-6">
+        <li> <a href="page.html">Notre fomulaire de contact</a></li>
+        <li><a href="tel:+33768833182">[En appuyant ici]</a> pour nous joindre directement par téléphone</li>
+        <li>
+  <a href="tel:+33768833182">
+    <i class="fas fa-phone"></i>
+  </a> pour nous joindre directement par téléphone
+</li>
+
+{{< button label="fas fa-phone" link="tel:+33768833182" style="solid" icon="fas fa-phone" >}}   
+
 <br>
 
 {{< image src="/images/visites_siam1.jpg" caption="Courge de Siam suspendue" alt="Courge de Siam" height="" width="" position="center" command="fill" option="q100" style="height: 400px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="Assiettes de crudités maison" webp="false" >}}
