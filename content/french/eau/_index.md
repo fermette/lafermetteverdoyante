@@ -73,7 +73,7 @@ Afin de réutiliser partielement les eaux grises de son domicile, on peut simple
 {.text-lg .mb-4}
 Dans le cas où la maison fontionne uniquement avec des toilettes sèches, il est tout à fait possible de récuperer l'ensemble de toutes les eaux grises, qui ne contiennent pas de selles ou d'urines vers des filtres puis des bassins de phyto-épurations pour ensuite s'en servir au jardin. Ici c'est bien 100% de l'eau consommée qui va êre réutilisée !
 {.text-lg .mb-4}
-{{< notice "warning" >}}
+{{< notice "Réflexions préliminaires" >}}
 Pour recycler les eaux grises au jardin, une réflexion doit être faite sur les usages en produits d'entretien, cosmétiques et chimiques au sein de la maison pour les remplacer par des produits naturels (oui c'est possible) bon pour nous et pour l'environnement. De cette façon réutiliser l'eau de la maison devient une évidence 
 {{< /notice >}}
 {.text-lg .mb-4}
