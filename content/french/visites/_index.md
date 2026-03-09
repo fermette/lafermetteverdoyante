@@ -16,7 +16,7 @@ draft: false
 
 <br>
 
-Durant une heure, nous vous accueillerons pour une visite interactive du jardin et de ses particularités, notamment par la découvertes des plantes sauvages et cultivées présentes ici. **Au tarif de 5€ par participant (groupe maximum de 6 pers.)**
+Durant une heure, nous vous accueillerons pour une visite interactive du jardin et de ses particularités, notamment par la découvertes des plantes sauvages et cultivées présentes ici. **Au tarif de 5€ par participant (groupe maximum de 7 pers.)**
 {.text-lg .mb-4}
 
 <br>
@@ -41,7 +41,7 @@ Tout au long de l'année nous laissons une partie de nos plantes réaliser leurs
 <br>
 
 {{< notice "Note " >}}
-Afin de protéger la biodiversité et le calme du lieu nous limitons volontairement le nombre de visiteurs à **6 personnes** tout au plus. Cela favorise grandement les échanges lors des visites.
+Afin de protéger la biodiversité et le calme du lieu nous limitons volontairement le nombre de visiteurs simultanés à **7 personnes** au maximum. Cela favorise égament les échanges lors de la visite.
 {.text-lg .mb-4}
 {{< /notice >}}
 

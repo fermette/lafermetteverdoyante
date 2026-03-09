@@ -9,27 +9,30 @@ layout: "single_mk"
 draft: false
 ---
 
-Nous proposerons différents ateliers tout au long de l'année autour des savoir-faire que nous développons sur le lieu.
- {.text-lg .mb-4}
-Afin de préserver la biodiversité et la quiétude de l'environnement, <b> les ateliers seront limités à un effectif maximum de 7 personnes ou moins </b> selon les moyens nécessaires à une bonne mise en oeuvre et transmission du savoir.
- {.text-lg .mb-4}
-Une participation financière sera demandée en fonction de la nature des événements, des frais découlants de leurs organisations et en fonction des intervenants présents. La durée moyenne sera d'une demie-journée (environ 3h avec débordement possible) pour un tarif indicatif de 40€ par personne.
-En fonction des disponibilitées, plusieurs demies journées ou journée entière avec un repas partagé sur le lieu peuvent être organisé.
- {.text-lg .mb-4}
-Pour les participants venant de loin, des adresses de gîtes, maison d'hôtes ou woofing peuvent vous être partagées. Et un planning de plusieurs demies journée de formations peut être proposé pour regrouper différents ateliers.
- {.text-lg .mb-4}
+Nous proposons différents ateliers en lien direct avec les savoir-faire que nous mettons en oeuvre sur le lieu.
+{.text-lg .mb-4}
 
-Les ateliers sont une source de revenue essentielle à la vie de l'association et à son développement futur, nous exprimons notre gratitude à tous les participants présents et à venir :heart:.
- {.text-lg .mb-4}
+La durée sera d'une demie-journée, soit 3h pour un tarif de 40€ par participant.
+{.text-lg .mb-4}
+Sur demande, nous pouvons rassembler sous forme de forfait plusieurs demies journées ou journée entière avec un repas partagé sur le lieu 
+{.text-lg .mb-4}
+Pour les participants venant de loin, des adresses de gîtes, maison d'hôtes ou woofing peuvent vous être communiquées.
+{.text-lg .mb-4}
 
-
-  Nous vous invitons à retrouver nos prochaines dates d'ateliers sur notre 
+Nous vous invitons à retrouver nos prochaines dates d'ateliers sur notre 
  {{< button label="Calendrier" link="/fr/calendrier" style="solid" >}}
   {.text-lg .mb-4}{{ .Params.spiral_calendar | emojify }} 
 
- Par ailleurs, si vous désirer nous faire part de vos souhaites concernant l'organistion d'un ou plusieurs ateliers spécifiques merci de cliquer ici :
+Par ailleurs, si vous désirer nous faire part de vos souhaits concernant l'organisation d'un ou plusieurs ateliers spécifiques merci de cliquer ici :
  {{< button label="Suggestion" link="/fr/contact" style="solid" >}}
  {.text-lg .mb-4}{{ .Params.spiral_calendar | emojify }}
+
+<br>
+
+{{< notice "info" >}}
+Afin de préserver la biodiversité et la quiétude de l'environnement, <b> les ateliers seront limités à un effectif maximum de 7 personnes </b> selon les moyens nécessaires à une bonne mise en oeuvre et transmission du savoir.
+{.text-lg .mb-4}
+{{< /notice >}}
 
 <br>
 
@@ -43,7 +46,7 @@ Les ateliers sont une source de revenue essentielle à la vie de l'association e
           <li>La méthode de culture verticale</li>
           <li>L'électroculture et le biochar</li>
           <li>Application des principes de permaculture favorisant la biodiversité</li>
-          <li>Serre bioclimatique</li>
+          <li>Serre bioclimatique, pour quoi faire</li>
           <li>Aquaponie alternative</li>
           <li>Séchage et déshydratation</li>
           <li>La gestion de l'eau au jardin</li>          
@@ -54,10 +57,10 @@ Les ateliers sont une source de revenue essentielle à la vie de l'association e
           <li>Initiation à HomeAssistant, installation et configuration</li>
           <li>Utilisation de HomeAssisant dans l'automatisation de l'arrosage</li>
           <li>HomeAssisant et SolarAssistant, le combo de la gestion photovoltaïque </li>
-          <li>Serre bioclimatique</li>           
+          <li>Automatisation d'une Serre bioclimatique</li>           
         </ol>
  </div>
  <div class="w-1/2">
-  {{< image src="/images/atelier_lola.jpg" caption="Préparation du chantier" alt="Lola" height="" width="" position="center" command="fill" option="q100" style="height: 400px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="Assiettes de crudités maison" webp="false" >}}
+  {{< image src="/images/atelier_lola.jpg" caption="Préparation du chantier" alt="Lola" height="" width="" position="center" command="fill" option="q100" style="height: 400px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="Lola" webp="false" >}}
  </div>
 </div>

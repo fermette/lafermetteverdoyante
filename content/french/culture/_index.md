@@ -8,268 +8,45 @@ layout: "single"
 # save as draft
 draft: false
 ---
-ecriture par defaut
 
-La **culture diversifiée** repose sur plusieurs méthodes agronomiques et écologiques pour renforcer la résilience, la productivité et la durabilité des systèmes agricoles. Ces pratiques s’inscrivent dans une transition vers une agriculture régénérative et agroécologique.
+La fermette verdoyante est un lieu d'adaptation et d'expérimentations
+{.text-lg .mb-4}
 
-La **Rotations des cultures** est une alternance planifiée de différentes cultures sur une même parcelle sur plusieurs années (ex. : blé, légumineuses, colza, tournesol), permettant de réduire les maladies, les ravageurs et l’érosion du sol, tout en améliorant la fertilité.
+Les objectifs sont avant tout de sélectionner des variétés de plantes qui seront en mesures de se reproduire de manière autonome et de survivre aux particularités saisonnière locale, très humide en hiver avec des étés qui varient entre pluie et sécherresse.
+{.text-lg .mb-4}
 
-Les **cultures associées**, aussi nommées guildes de plantes permettent l’optimisation des ressources (lumière, eau, nutriments), un renforcement des variétés entre elles et une meilleure utilisation de l’espace.
+{{< image src="/images/culture_poire&riz.jpg" caption="Culture de riz au premier plan, et de poires de terre au deuxième" alt="Cultures expérimentation" height="" width="" position="center" command="fill" option="q100" style="height: 300px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="Cultures expérimentation" webp="true" >}}
 
-Les **mélanges variétaux** consitant à cultiver plusieurs variétés d’une même espèce afin de renforcer la résistance aux maladies et améliorer la stabilité de la production.
+La récupération des graines, qui nécessite de laisser les végétaux réaliser leurs cycles complets permets une adaptabilité et une résistance accrure de génération en génération.
+{.text-lg .mb-4}
 
-Les **cultures de couverture** aussi appelés **engrais verts** permettent de protéger le sol entre deux récoltes, éviter l'érosion de la terre arrable, réduire les adventices et enrichir le sol en matière organique.
+Culture d'accompagnement entre plantes sauvages et plantes domestiques pour favoriser leurs intéractions et préserver les espèces locales. Intervention limitée à des désherbages de surface en fonction des cultures mais sans travail du sol.
+{.text-lg .mb-4}
 
-L'**agroforesterie** qui consiste à intégrer arbres et arbustes dans les systèmes de culture (ex. : allées d’arbres, haies, parc agroforestier), améliorant la biodiversité, la régulation climatique et le stockage de carbone.
+Une amélioration progressive de la terre par couverture végétale vivante ou à défaut par de nombreux paillages naturels produits sur place riche en carbone et en azote.
+{.text-lg .mb-4}
 
-**Pratiques innovantes en serre** :  
-- **Hügelkultur** : Plates-bandes surélevées remplies de bois en décomposition, améliorant la rétention d’eau et la fertilité.  
-- **Hydroponie** : Culture hors sol dans une solution nutritive, économe en eau et idéale pour les légumes feuilles.  
-- **Aquaponie** : Système symbiotique entre pisciculture et culture végétale, où les déchets des poissons fertilisent les plantes.  
-- **Jardinage vertical** : Maximisation de l’espace avec des plantes grimpantes sur treillis ou étagères.  
-- **Plantation successive** : Semis réguliers pour assurer une récolte continue tout au long de l’année.
+Les pratiques agricoles et culturelles ont évolué depuis la nuit des temps mais le choix de leurs mises en oeuvre à l'aide d'outils rudimentaires nous permettent de prendre conscience des fondamentaux qui sont présent dans la permaculture, l'électroculture, le maraichage sur sol vivant, etc ... 
+{.text-lg .mb-4}
 
-Ces méthodes permettent aux plantes de mieux résister aux aléas climatiques et de régénrer les sols.
+L'approche du jardin de biodiversité qui se veut avant tout orienté vers le vivant n'en oublie pas l'esthétique et une productivité rendue possible par l'équilibre entre tous les êtres présent dans ce mini éco-système soutenu par pratiquement rien d'autre que lui-même.   
+{.text-lg .mb-4}
 
-{{< toc >}}
+Cela inclus l' "équipe au sol" de la basse cours qui bénéficie d'accès à des parcelles déterminées tournantes pour un grattage de surface et surtout un apport continue de matières fertilisants le jardin. Là aussi, la présence d'une multitude d'espèces d'oiseaux et d'insectes sauvages montrent qu'un équilibre peut-être atteind et que tout le monde peut avoir sa place. 
+{.text-lg .mb-4}
 
-Here is an example of headings. You can use this heading by the following markdown rules. For example: use `#` for heading 1 and use `######` for heading 6.
+Nous avons fait le choix de ne réaliser aucun traitement et surtout de n'utiliser aucun produit issue de l'industrie chimique non par engagement idéologique mais pour montrer que c'est possible et à la portée de tous ! 
+{.text-lg .mb-4}
 
-# Heading 1
+{{< image src="/images/culture_structure2.jpg" caption="Cultures sur filet avec structure bois" alt="Culture sur structure" height="" width="" position="center" command="fill" option="q100" style="height: 300px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="Culture sur structure" webp="true" >}}
 
-## Heading 2
+Nous utilisons des structures en fer à béton amovibles pour toutes nos variétés de plantes liannes ou grimpantes qui en ont besoin. Ce choix s'est fait après avoir tenté les sructures en bois qui pourrissent et s'éffondre rapidement à cause de l'humidité ambiante très forte et d'autre essai avec du bambous qui malheureusement se désagrégent plus vite qu'ils ne se renouvellent.
+{.text-lg .mb-4}
 
-### Heading 3
+Ce type de structure a de très nombreux avantages dont celui de permettre des cultures à différent niveaux tout en créant des zones d'ombres pour les racines et les plantes sensibles à la chaleur.
+{.text-lg .mb-4}
 
-#### Heading 4
+{{< image src="/images/culture_structure1.jpg" caption="Cultures en strates sur structure amovible en fer à béton" alt="Culture sur structure" height="" width="" position="center" command="fill" option="q100" style="height: 300px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="Culture sur structure" webp="true" >}}
 
-##### Heading 5
-
-###### Heading 6
-
-<hr>
-
-### Emphasis
-
-The emphasis, aka italics, with _asterisks_ or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
-
-The combined emphasis with **asterisks and _underscores_**.
-
-Strike through uses two tildes. ~~Scratch this.~~
-
-<hr>
-
-### Button
-
-{{< button label="Button" link="/" style="solid" >}}
-
-<hr>
-
-### Link
-
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-URLs and URLs in angle brackets will automatically get turned into links.
-<http://www.example.com> or <http://www.example.com> and sometimes
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-<hr>
-
-### Paragraph
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur! Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non, omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis voluptatum rerum laboriosam.
-
-<hr>
-
-### Ordered List
-
-1. List item
-2. List item
-3. List item
-4. List item
-5. List item
-
-<hr>
-
-### Unordered List
-
-- List item
-- List item
-- List item
-- List item
-- List item
-
-<hr>
-
-### Notice
-
-{{< notice "note" >}}
-This is a simple note.
-{{< /notice >}}
-
-{{< notice "quote" >}}
-This is a simple quote.
-{{< /notice >}}
-
-{{< notice "tip" >}}
-This is a simple tip.
-{{< /notice >}}
-
-{{< notice "info" >}}
-This is a simple info.
-{{< /notice >}}
-
-{{< notice "warning" >}}
-This is a simple warning.
-{{< /notice >}}
-
-<hr>
-
-### Tab
-
-{{< tabs >}}
-{{< tab "Tab 1" >}}
-
-#### Hey There, I am a tab
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-{{< /tab >}}
-
-{{< tab "Tab 2" >}}
-
-#### I wanna talk about the assassination attempt
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-{{< /tab >}}
-
-{{< tab "Tab 3" >}}
-
-#### We know you’re dealing in stolen ore
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-
-{{< /tab >}}
-{{< /tabs >}}
-
-<hr>
-
-### Accordions
-
-{{< accordion "Why should you need to do this?" >}}
-
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur
-
-{{< /accordion >}}
-
-{{< accordion "How can I adjust Horizontal centering" >}}
-
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur
-
-{{< /accordion >}}
-
-{{< accordion "Should you use Negative margin?" >}}
-
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur
-
-{{< /accordion >}}
-
-<hr>
-
-### Code and Syntax Highlighting
-
-This is an `Inline code` sample.
-
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
-
-```python
-s = "Python syntax highlighting"
-print s
-```
-
-```c  { linenos=true }
-#include <stdio.h>
-
-int main(void)
-{
-    printf("hello, world\n");
-    return 0;
-}
-```
-
-```mermaid
-flowchart TD
-    A[Start] --> B{Is it?}
-    B -- Yes --> C[OK]
-    C --> D[Rethink]
-    D --> B
-    B -- No ----> E[End]
-```
-
-<hr>
-
-### Blockquote
-
-> Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once.
-
-<hr>
-
-### Tables
-
-| Tables        |      Are      |  Cool |
-| ------------- | :-----------: | ----: |
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      |   centered    |   $12 |
-| zebra stripes |   are neat    |    $1 |
-
-<hr>
-
-### Image
-
-{{< image src="images/image-placeholder.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
-
-<hr>
-
-### Gallery
-
-{{< gallery dir="images/gallery" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
-
-<hr>
-
-### Slider
-
-{{< slider dir="images/gallery" class="max-w-[600px] ml-0" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
-
-<hr>
-
-### Youtube video
-
-{{< youtube ResipmZmpDU >}}
-
-<hr>
-
-### Custom video
-
-{{< video src="https://www.w3schools.com/html/mov_bbb.mp4" width="100%" height="auto" autoplay="false" loop="false" muted="false" controls="true" class="rounded-lg" >}}
+Les jeunes arbres que nous avons planté au jardin pourront servir de support complémentaire dans un proche avenir.
+{.text-lg .mb-4}

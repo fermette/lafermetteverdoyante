@@ -1,7 +1,7 @@
 baseURL = "https://lafermetteverdoyante.com/"
 ############################# Outputs ##############################
 [outputs]
-home = ["HTML", "WebAppManifest"]
+home = ["HTML", "WebAppManifest", "JSON"]
 
 ############################ Media types ############################
 [mediaTypes]
@@ -10,7 +10,11 @@ suffixes = ["webmanifest"]
 
 ############################ Output Format ###########################
 [outputFormats]
-[outputFormats.WebAppManifest]
-mediaType = "application/manifest+json"
-rel = "manifest"
-baseName = "manifest"
+  [outputFormats.WebAppManifest]
+    mediaType = "application/manifest+json"
+    rel = "manifest"
+    baseName = "manifest"
+  [outputFormats.JSON]
+    mediaType = "application/json"
+    baseName = "SearchIndex"
+    isPlainText = true
