@@ -60,7 +60,7 @@ Afin de préserver la biodiversité et la quiétude de l'environnement, <b> les 
           <li>Automatisation d'une Serre bioclimatique</li>           
         </ol>
  </div>
- <div class="w-1/2">
-  {{< image src="/images/atelier_lola.jpg" caption="Préparation du chantier" alt="Lola" height="" width="" position="center" command="fill" option="q100" style="height: 400px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="Lola" webp="false" >}}
+ <div class="w-full md:w-1/2">   
+  {{< image src="/images/atelier_lola.jpg" caption="Préparation du chantier" alt="Lola" height="" width="" position="center" command="fill" option="q100" style="height: 400px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="Lola" webp="true" >}}
  </div>
 </div>

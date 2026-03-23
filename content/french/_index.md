@@ -7,12 +7,12 @@ banner:
 features:
   - title: "Méthodes de culture diversifiées"
     image: "/images/home_culture.jpg"
-    content: "Afin de respecter l'équilibre délicat entre la culture de plantes et d'arbres dans un milieu préservé tout en cherchant à favoriser la biodiversité "
+    content: "Afin de respecter l'équilibre délicat entre la culture de plantes et d'arbres et la préservation du milieu tout en cherchant à favoriser la biodiversité "
     bulletpoints:
       - "Cultures verticales avec ou sans support"
       - "Serre bioclimatique et aquaponie alternative "
       - "Multiplication des variétés"
-      - "Cycle complet des plantes et récoltes des graines"
+      - "Cycle complet des plantes et récolte des graines"
       - "Parcelles sans travail du sol"
       - "Dynamisation du milieu naturel via des moyens simples"
     button:
@@ -28,7 +28,7 @@ features:
       - "Zones de stockage"
       - "Conserves & lactofermentations"
       - "Séchage & déshydratation"
-      - "Transformations en épices, tisanes et infusions"
+      - "Transformations en épices & mélanges pour tisanes"
     button:
       enable: true
       label: "En savoir plus"
@@ -36,7 +36,7 @@ features:
 
   - title: "Circuit de l'eau & Filtration"
     image: "/images/home_mare.png"
-    content: "L'eau, une ressource précieuse qu'il faut utiliser, préserver du mieux possible. Nos partageons nos solutions :"
+    content: "L'eau, une ressource précieuse qu'il faut utiliser et préserver du mieux possible. Nos partageons nos solutions :"
     bulletpoints:
       - "Récupération de l'eau de pluie"
       - "Filtration des eaux grises par gravité"
@@ -52,14 +52,14 @@ features:
 
   - title: "L'outil domotique"
     image: "/images/home_domotique.png"
-    content: "Pourquoi envisager des solutions technologiques dans un environnement naturelle ? Dans quel but ? C'est ce que l'on souhaite vous expliquer ici par quelques exemples."
+    content: "Pourquoi envisager des solutions technologiques dans un environnement naturelle ? Dans quel but ? C'est ce que nous souhaitons vous expliquer ici par quelques exemples."
     bulletpoints:
       - "Automatisations de l'arrosage et/ou d'un système d'irrigation via des vannes pilotables à distance"
       - "Contrôle et suivis des températures, humidités, luminosités, via des capteurs de nombreux fabricants" 
       - "Allumage et extinction des appareils électriques : pompes, vannes et moteurs via programmation ou via une simple interface sur une tablette"  
-      - "Surveillance à distance des bêtes, des points d'eau, des mangeoires ..."
-      - "Suivi de la production électrique (toutes sources possibles dont photovoltaïque) ainsi que de la consommation globale ou spécifique à de gros consommateurs"
-      - "Système logiciel Homeassistant open source, libre et gratuit !En auto-hébergement à domicile sans abonnement et hors réseau"
+      - "Surveillance à distance des animaux, des points d'eau, des mangeoires ..."
+      - "Suivi de la production et consommation électrique (toutes sources possibles dont photovoltaïque)."
+      - "Système logiciel Homeassistant libre et gratuit. En auto-hébergement à domicile sans abonnement"
     button:
       enable: true
       label: "En savoir plus"
