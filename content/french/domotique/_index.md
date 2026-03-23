@@ -9,36 +9,41 @@ layout: "single"
 draft: false
 ---
 
-
 {{< toc >}}
 
-Here is an example of headings. You can use this heading by the following markdown rules. For example: use `#` for heading 1 and use `######` for heading 6.
+<br>
 
-# Heading 1
+### Domotique mais Késako ?
 
-## Heading 2
+{{< notice "quote" >}}
+La **domotique**, c’est l’ensemble des technologies qui permettent d’automatiser et de contrôler à distance les équipements de votre maison, comme le chauffage, l’éclairage, les volets roulants, les systèmes de sécurité notamment les alarmes.  
 
-### Heading 3
+Elle vise à **rendre votre quotidien plus simple, plus confortable, plus sûr et plus économe en énergie**. Par exemple, vous pouvez programmer vos volets pour qu’ils s’ouvrent le matin, faire allumer les lumières quand vous rentrez, ou faire baisser le chauffage quand vous êtes absent.  
 
-#### Heading 4
+Le mot vient du latin *domus* (maison) et du suffixe *-tique* (relatif à une technique), donc **la science de la maison**. Aujourd’hui, tout cela se fait souvent via un smartphone, une tablette ou par le biais d'assistant comme Alexa ou Google Home.  
+{{< /notice >}}
 
-##### Heading 5
+Voici le type de définition commune que l'on va trouver en cherchant sur internet et en se renseignant dans les boutiques spécialisés où l'on va faire l'éloge de la "maison intelligente"
 
-###### Heading 6
+Pour ma part, ce n'est pas sous cet angle que je souhaite aborder ce qu'est la domotique. 
 
+En tant qu'être humain, on cherche depuis toujours le moyen d'intéragir avec notre environnement, pour cela nous développons des capacités, des techniques, nos sens pour comprendre ce qui nous entoure afin d'agir au mieux de nos intérêts ou de celui du milieu dans lequel on vit.
+La domotique n'est finalement que la somme des données des différents types de capteurs mis en interrelation pour réaliser des automatisations censés élargir notre champ d'action dans notre quotidien
+
+sont la résultantes des  déployés et    
+On entendSur le papier on va nous nous  rendre notre habitat "intelligent" mais en réalité ce n'est pas la meilleure façon d'aborder 
 <hr>
 
-### Emphasis
+La domotique, vue sous un angle profondément humain, peut être comprise comme **une extension de nos sens et de notre volonté** — une matérialisation moderne de notre besoin ancestral d’interagir avec l’environnement pour mieux y vivre. 
 
-The emphasis, aka italics, with _asterisks_ or _underscores_.
+Plutôt que de la réduire à une simple « maison intelligente », on peut y voir **un système vivant d’interactions**, où capteurs, automates et réseaux forment un **nouvel organe perceptif collectif**.  Ces capteurs — thermiques, de mouvement, d’humidité, sonores — agissent comme des prolongements de nos yeux, oreilles ou peau, percevant des changements que nous ne remarquerions pas.
 
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
+En reliant ces données et en les traduisant en actions (allumer une lumière, fermer un volet, ajuster le chauffage), la domotique devient **un langage entre l’humain et son habitat**.  Elle ne remplace pas l’action humaine, mais **l’amplifie**, en permettant de réagir à distance, en anticipant nos besoins ou en adaptant l’espace à nos rythmes. 
 
-The combined emphasis with **asterisks and _underscores_**.
+C’est donc moins une technologie de confort qu’un **outil d’emprise sur le réel**, au service de notre autonomie, de notre sécurité, ou de notre harmonie avec l’environnement.  Dans cette perspective, la domotique n’est pas une rupture, mais **la suite logique de l’instinct humain qui cherche, depuis toujours, à domestiquer le monde — pas seulement la maison, mais la relation entre soi et le monde.**
 
-Strike through uses two tildes. ~~Scratch this.~~
 
-<hr>
+
 
 ### Button
 
