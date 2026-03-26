@@ -12,20 +12,18 @@ draft: false
 Nous proposons différents ateliers en lien direct avec les savoir-faire que nous mettons en oeuvre sur le lieu.
 {.text-lg .mb-4}
 
-La durée sera d'une demie-journée, soit 3h pour un tarif de 40€ par participant.
+**La durée sera d'une demie-journée, soit 3h pour un tarif de 40€ par participant**.
 {.text-lg .mb-4}
 Sur demande, nous pouvons rassembler sous forme de forfait plusieurs demies journées ou journée entière avec un repas partagé sur le lieu 
 {.text-lg .mb-4}
 Pour les participants venant de loin, des adresses de gîtes, maison d'hôtes ou woofing peuvent vous être communiquées.
 {.text-lg .mb-4}
 
-Nous vous invitons à retrouver nos prochaines dates d'ateliers sur notre 
- {{< button label="Calendrier" link="/fr/calendrier" style="solid" >}}
-  {.text-lg .mb-4}{{ .Params.spiral_calendar | emojify }} 
+Nous vous invitons à retrouver nos prochaines dates [**dans notre calendrier**](https://lafermetteverdoyante.com/fr/calendrier "Calendrier des événements")
+{.text-lg .mb-4}
 
-Par ailleurs, si vous désirer nous faire part de vos souhaits concernant l'organisation d'un ou plusieurs ateliers spécifiques merci de cliquer ici :
- {{< button label="Suggestion" link="/fr/contact" style="solid" >}}
- {.text-lg .mb-4}{{ .Params.spiral_calendar | emojify }}
+Par ailleurs, si vous désirez nous faire part de vos souhaits concernant l'organisation d'un atelier spécifique nous vous invitons à [**utiliser notre formulaire de contact**](https://lafermetteverdoyante.com/fr/contact "Formulaire de contact")
+ {.text-lg .mb-4}
 
 <br>
 

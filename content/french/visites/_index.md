@@ -9,7 +9,7 @@ layout: "single"
 draft: false
 ---
 
-{{< image src="/images/visites_tournesol1.jpg" caption="" alt="tournesol" height="" width="" position="center" command="fill" option="q100" style="height: 400px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="Assiettes de crudités maison" webp="false" >}}
+{{< image src="/images/visites_tournesol1.jpg" caption="" alt="tournesol" height="" width="" position="center" command="fill" option="q100" style="height: 400px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="" webp="true" >}}
 <br>
 
 ### Découverte du jardin de biodiversité
@@ -35,7 +35,7 @@ Au jardin de la fermette verdoyante de nombreuses techniques de culture sont exp
 Notamment, la permaculture, l'agroécologie, le jardin forêt, l'électroculture, le potager, les cultures surélevées, la culture verticale, les cultures associées, une serre bioclimatique intégrant du lombric compostage ainsi qu'un système aquaponique autonome. Un système de toilettes sèches permets d'une part la réutilisations des urines comme fertilisants du jardin et la filtration des eaux grises pour alimenter une mare de biodiversité.
 {.text-lg .mb-4}
 
-Tout au long de l'année nous laissons une partie de nos plantes réaliser leurs cycles complet afin de récolter leurs précieuses graines tout en laissant une partie se resemer naturellement. Ce process
+Tout au long de l'année nous laissons une partie de nos plantes réaliser un cycle complet afin de récolter leurs précieuses graines tout en laissant une partie se resemer naturellement.
 {.text-lg .mb-4}
 
 <br>
@@ -47,7 +47,7 @@ Afin de protéger la biodiversité et le calme du lieu nous limitons volontairem
 
 <br>
 
-{{< image src="/images/visites_Dji1.jpg" caption="Vue du ciel" alt="vue du ciel" height="" width="" position="center" command="fill" option="q100" style="height: 400px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="Assiettes de crudités maison" webp="false" >}}
+{{< image src="/images/visites_Dji1.jpg" caption="Vue du ciel" alt="vue du ciel" height="" width="" position="center" command="fill" option="q100" style="height: 400px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="" webp="true" >}}
 
 
 

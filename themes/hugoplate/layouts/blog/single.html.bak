@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row justify-center">
         <article class="lg:col-10">
-          {{ $image := .Params.image }}
+          {{ $image:= .Params.image }}
           {{ if $image }}
             <div class="mb-10">
               {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "w-full rounded") }}
@@ -14,17 +14,23 @@
           </h1>
           <ul class="mb-4">
             <li class="mr-4 inline-block">
-              <a href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/">
-                <i class="fa-regular fa-circle-user mr-2"></i>{{ .Params.author }}
+              <a
+                href="{{ `authors/` | relLangURL }}{{ .Params.Author | urlize }}/">
+                <i class="fa-regular fa-circle-user mr-2"></i
+                >{{ .Params.author }}
               </a>
             </li>
-            {{ $categories := .Params.categories }}
+            {{ $categories:= .Params.categories }}
             {{ if $categories }}
               <li class="mr-4 inline-block">
                 <i class="fa-regular fa-folder mr-2"></i>
-                {{ range $i, $p := $categories }}
-                  <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/" class="">
-                    {{ . | humanize }}{{ if ne $i (sub (len $categories) 1) }},{{ end }}
+                {{ range $i,$p:= $categories }}
+                  <a
+                    href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/"
+                    class=""
+                    >{{ . | humanize }}{{ if ne $i (sub (len $categories) 1) }}
+                      {{ "," }}
+                    {{ end }}
                   </a>
                 {{ end }}
               </li>
@@ -39,14 +45,16 @@
             {{ .Content }}
           </div>
           <div class="row items-start justify-between">
-            {{ $tags := .Params.tags }}
+            {{ $tags:= .Params.tags }}
             {{ if $tags }}
               <div class="lg:col-6 mb-10 flex items-center lg:mb-0">
                 <h5 class="mr-3">{{ T "tags" | default "Tags" }} :</h5>
                 <ul>
-                  {{ range $i, $p := $tags }}
+                  {{ range $i,$p:= $tags }}
                     <li class="inline-block">
-                      <a class="bg-light hover:bg-primary dark:bg-darkmode-light dark:hover:bg-darkmode-primary dark:hover:text-text-dark m-1 block rounded px-3 py-1 hover:text-white" href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/">
+                      <a
+                        class="bg-light hover:bg-primary dark:bg-darkmode-light dark:hover:bg-darkmode-primary dark:hover:text-text-dark m-1 block rounded px-3 py-1 hover:text-white"
+                        href="{{ `tags/` | relLangURL }}{{ . | urlize | lower }}/">
                         {{ . | humanize }}
                       </a>
                     </li>
@@ -79,11 +87,7 @@
           <div class="row">
             {{ range . }}
               <div class="lg:col-4 md:col-6 mb-14">
-                {{ if .Params.recipe }}
-                  {{ partial "components/blog-card-recepie" . }}
-                {{ else }}
-                  {{ partial "components/blog-card" . }}
-                {{ end }}
+                {{ partial "components/blog-card" . }}
               </div>
             {{ end }}
           </div>
@@ -91,4 +95,4 @@
       {{ end }}
     </div>
   </section>
-{{ end }} 
+{{ end }}

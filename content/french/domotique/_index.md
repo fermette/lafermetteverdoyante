@@ -13,247 +13,139 @@ draft: false
 
 <br>
 
-### Domotique mais Késako ?
+### Domotique
 
-{{< notice "quote" >}}
-La **domotique**, c’est l’ensemble des technologies qui permettent d’automatiser et de contrôler à distance les équipements de votre maison, comme le chauffage, l’éclairage, les volets roulants, les systèmes de sécurité notamment les alarmes.  
+<br>
 
-Elle vise à **rendre votre quotidien plus simple, plus confortable, plus sûr et plus économe en énergie**. Par exemple, vous pouvez programmer vos volets pour qu’ils s’ouvrent le matin, faire allumer les lumières quand vous rentrez, ou faire baisser le chauffage quand vous êtes absent.  
-
-Le mot vient du latin *domus* (maison) et du suffixe *-tique* (relatif à une technique), donc **la science de la maison**. Aujourd’hui, tout cela se fait souvent via un smartphone, une tablette ou par le biais d'assistant comme Alexa ou Google Home.  
+{{< notice "Définition " >}}
+C’est l’ensemble des technologies qui permettent d’automatiser et de contrôler à distance les équipements de votre maison, comme le chauffage, l’éclairage, les volets roulants, les systèmes de sécurité notamment les alarmes.  
+Elle vise à rendre votre quotidien plus simple, plus confortable, plus sûr et plus économe en énergie. Par exemple, vous pouvez programmer vos volets pour qu’ils s’ouvrent le matin, faire allumer les lumières quand vous rentrez, ou faire baisser le chauffage quand vous êtes absent.  
+Le mot vient du latin *domus* (maison) et du suffixe *-tique* (relatif à une technique), donc la science de la maison.
+Aujourd’hui, tout cela se fait souvent via un smartphone, une tablette ou par le biais d'assistant comme Alexa ou Google Home.
+{.text-lg .mb-4}  
 {{< /notice >}}
+
+<br>
 
 Voici le type de définition commune que l'on va trouver en cherchant sur internet et en se renseignant dans les boutiques spécialisés où l'on va faire l'éloge de la "maison intelligente"
+{.text-lg .mb-4}
 
-Pour ma part, ce n'est pas sous cet angle que je souhaite aborder ce qu'est la domotique. 
+Nous allons directement rentrer dans le vif du sujet.
+{.text-lg .mb-4}
 
-En tant qu'être humain, on cherche depuis toujours le moyen d'intéragir avec notre environnement, pour cela nous développons des capacités, des techniques, nos sens pour comprendre ce qui nous entoure afin d'agir au mieux de nos intérêts ou de celui du milieu dans lequel on vit.
-La domotique n'est finalement que la somme des données des différents types de capteurs mis en interrelation pour réaliser des automatisations censés élargir notre champ d'action dans notre quotidien
+<br>
 
-sont la résultantes des  déployés et    
-On entendSur le papier on va nous nous  rendre notre habitat "intelligent" mais en réalité ce n'est pas la meilleure façon d'aborder 
-<hr>
+### Les outils, des capteurs et des relais
 
-La domotique, vue sous un angle profondément humain, peut être comprise comme **une extension de nos sens et de notre volonté** — une matérialisation moderne de notre besoin ancestral d’interagir avec l’environnement pour mieux y vivre. 
+<br>
 
-Plutôt que de la réduire à une simple « maison intelligente », on peut y voir **un système vivant d’interactions**, où capteurs, automates et réseaux forment un **nouvel organe perceptif collectif**.  Ces capteurs — thermiques, de mouvement, d’humidité, sonores — agissent comme des prolongements de nos yeux, oreilles ou peau, percevant des changements que nous ne remarquerions pas.
+En effet, la domotique consiste avant tout en des capteurs et des relais de tailles réduites et très peu énergivore pouvant recueillir des données et contrôler certains paramétres, de manière autonome avec des piles bien souvent et surtout avec une connection sans fil à basse consommation (particuliérement la norme Zigbee) :
+{.text-lg .mb-4}
 
-En reliant ces données et en les traduisant en actions (allumer une lumière, fermer un volet, ajuster le chauffage), la domotique devient **un langage entre l’humain et son habitat**.  Elle ne remplace pas l’action humaine, mais **l’amplifie**, en permettant de réagir à distance, en anticipant nos besoins ou en adaptant l’espace à nos rythmes. 
+Voici quelques exemples de sondes :
+{.text-lg .mb-4}
+- sonde de température 
+- sonde d'humidité
+- capteur de pression
+- sonde de mesure de voltage - ampérage - consommation électrique en Watts
+- sonde de détection de gaz 
+- sonde infrarouge
+- sonde de mesure d'intensité lumineuse (lux)
+- etc.
+{.text-lg .mb-4}
 
-C’est donc moins une technologie de confort qu’un **outil d’emprise sur le réel**, au service de notre autonomie, de notre sécurité, ou de notre harmonie avec l’environnement.  Dans cette perspective, la domotique n’est pas une rupture, mais **la suite logique de l’instinct humain qui cherche, depuis toujours, à domestiquer le monde — pas seulement la maison, mais la relation entre soi et le monde.**
+Et de relais :
+{.text-lg .mb-4}
 
+- relais type interrupteur électrique
+- relais controleur de vanne
+- relais de type modulateur variateur d'intensité
+- relais de contrôle mécanique
+- etc.
+{.text-lg .mb-4}
 
+Ces appareils pour fonctionner ont besoin d'une infrastructure informatique et de points d'accès (sous forme d'antennes pouvant être déportées pour couvrir les zones équipées)
+{.text-lg .mb-4}
 
+Le chef d'orchestre est le logiciel Home Assistant qui centralise les données et permets de les mettres en relation dans des scénarios d'automatisation
+{.text-lg .mb-4}
 
-### Button
+<br>
 
-{{< button label="Button" link="/" style="solid" >}}
-
-<hr>
-
-### Link
-
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-URLs and URLs in angle brackets will automatically get turned into links.
-<http://www.example.com> or <http://www.example.com> and sometimes
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-<hr>
-
-### Paragraph
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nihil enim maxime corporis cumque totam aliquid nam sint inventore optio modi neque laborum officiis necessitatibus, facilis placeat pariatur! Voluptatem, sed harum pariatur adipisci voluptates voluptatum cumque, porro sint minima similique magni perferendis fuga! Optio vel ipsum excepturi tempore reiciendis id quidem? Vel in, doloribus debitis nesciunt fugit sequi magnam accusantium modi neque quis, vitae velit, pariatur harum autem a! Velit impedit atque maiores animi possimus asperiores natus repellendus excepturi sint architecto eligendi non, omnis nihil. Facilis, doloremque illum. Fugit optio laborum minus debitis natus illo perspiciatis corporis voluptatum rerum laboriosam.
-
-<hr>
-
-### Ordered List
-
-1. List item
-2. List item
-3. List item
-4. List item
-5. List item
-
-<hr>
-
-### Unordered List
-
-- List item
-- List item
-- List item
-- List item
-- List item
-
-<hr>
-
-### Notice
-
-{{< notice "note" >}}
-This is a simple note.
-{{< /notice >}}
-
-{{< notice "quote" >}}
-This is a simple quote.
-{{< /notice >}}
-
-{{< notice "tip" >}}
-This is a simple tip.
-{{< /notice >}}
-
-{{< notice "info" >}}
-This is a simple info.
-{{< /notice >}}
-
-{{< notice "warning" >}}
-This is a simple warning.
-{{< /notice >}}
-
-<hr>
-
-### Tab
-
-{{< tabs >}}
-{{< tab "Tab 1" >}}
-
-#### Hey There, I am a tab
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-{{< /tab >}}
-
-{{< tab "Tab 2" >}}
-
-#### I wanna talk about the assassination attempt
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-{{< /tab >}}
-
-{{< tab "Tab 3" >}}
-
-#### We know you’re dealing in stolen ore
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
-
-{{< /tab >}}
-{{< /tabs >}}
-
-<hr>
-
-### Accordions
-
-{{< accordion "Why should you need to do this?" >}}
-
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur
-
-{{< /accordion >}}
-
-{{< accordion "How can I adjust Horizontal centering" >}}
-
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur
-
-{{< /accordion >}}
-
-{{< accordion "Should you use Negative margin?" >}}
-
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-- Lorem ipsum dolor sit amet consectetur
-
-{{< /accordion >}}
-
-<hr>
-
-### Code and Syntax Highlighting
-
-This is an `Inline code` sample.
-
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
-
-```python
-s = "Python syntax highlighting"
-print s
-```
-
-```c  { linenos=true }
-#include <stdio.h>
-
-int main(void)
-{
-    printf("hello, world\n");
-    return 0;
-}
-```
+Voici un schéma simple d'un arrosage automatique basé sur le taux d'humidité du sol :
+{.text-lg .mb-4}
 
 ```mermaid
-flowchart TD
-    A[Start] --> B{Is it?}
-    B -- Yes --> C[OK]
-    C --> D[Rethink]
-    D --> B
-    B -- No ----> E[End]
+flowchart LR
+    A(sonde humidité du sol) 
+    A --> HA["Home Assistant"]
+    subgraph HA["Home Assistant"]
+        subgraph "Automatisation définie"
+            subgraph "Est-ce que l'humidité du sol est inférieur à 30% ?"          
+            end          
+        end
+    end
+    HA --> |oui| E(Ouverture vanne d'arrosage ou démarrage de la pompe)
+    HA --> |non| D(Ne fait rien)
 ```
 
-<hr>
+Partant de cette base on peut imaginer des scénarios pour affiner l'automatisation, par exemple en rajoutant une fonction minuteur pour que l'arrosage dure 20min.
+{.text-lg .mb-4}
 
-### Blockquote
+À cela on peut ajouter des conditions à partir d'autres capteurs physiques ou de prévisions météos d'internet pour par exemple éviter d'arroser si dans les prochaines douze heures une grosse averse est prévue.  
+{.text-lg .mb-4}
 
-> Did you come here for something in particular or just general Riker-bashing? And blowing into maximum warp speed, you appeared for an instant to be in two places at once.
+### Pourquoi le choix de Home Assistant
 
-<hr>
+Le développement de la domotique n'est pas récent. De nombreuses marques proposent des solutions intégrées dès lors que l'on choisit d'investir dans leurs produits.
+{.text-lg .mb-4}
+Par exemple, les solutions de surveillance proposées par les assurances ou encore les systèmes de volets automatiques télécommandé sont emblématiques.
+{.text-lg .mb-4}
+Il est nécessaire d'acquérir une passerelle spécifique à chaque constructeur et l'utilisation des capteurs, relais  et caméras est exclusive à leur système.
+{.text-lg .mb-4}
+Home Assistant est une plateforme libre ayant pour objectifs d'intégrer un maximum de dispositifs sans devoir obligatoirement utiliser les passerelles propriétaire. Ainsi il est possible d'utiliser une grande variétés de dispositif directement depuis une seule interface qui en plus d'être gratuit est à code ouvert.
+{.text-lg .mb-4} 
+Une fois la base logiciel de Home Assistant installé sur une machine compatible (PC, Raspberry ou serveur) avec quelques capteurs et relais il est possible de transformer des objets simples comme une ampoule en système plus complexe comme un allumage automatique par la détection de présence. Ce même capteur de présence peut-être utilisé à son tour dans d'autres scénarios. 
+{.text-lg .mb-4}
+Les possibilitées sont très nombreuses et elles ne cessent de s'agrandir au fur et à mesure  du développement de ce logiciel.
+{.text-lg .mb-4}
 
-### Tables
+<br>
 
-| Tables        |      Are      |  Cool |
-| ------------- | :-----------: | ----: |
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      |   centered    |   $12 |
-| zebra stripes |   are neat    |    $1 |
+### Usage avancé : la base de données
 
-<hr>
+<br>
 
-### Image
+Il y a des données qui sont très intérressantes à suivre dans le temps pour permettre une analyse plus fine ensuite. En particulier les données météorologiques quand on dispose d'une station météo sur son lieu.
+{.text-lg .mb-4}
+Ici nous procédons depuis peu par ce biais à la collecte systèmatique des données climatiques du lieu, notamment :
+{.text-lg .mb-4}
+- les précipations en mm et leurs intensitées,
+- la vitesse et sens du vent en km/h ainsi que la vitesse en rafale rafales
+- les témpératures extérieur et dans la serre bioclimatique
+- le taux d'humidité et le point de rosée
+- la production photovoltaïque 
+- les variations de pressions atmosphériques
+- etc .
+{.text-lg .mb-4}
+Présentement nous testons la possibilité d'exporter certaines données depuis Home Assistant vers une base de donnée, en l'occurence victoriametrics, qui se charge de les collecter et les conserver sur le (très) long terme pour réaliser un suivi de la situation. 
+{.text-lg .mb-4}
+De plus, d'autres outils comme Graphana permettent ensuite une mise en forme graphique pour une approche plus visuel.
+{.text-lg .mb-4}
 
-{{< image src="images/image-placeholder.png" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
+{{< image src="/images/domotique_serre_graph.png" caption="Graphique de suivie de températures et d'humidités dans la serre, ici sur une durée de 6 heures" alt="Graphique données serre" height="" width="" position="center" command="fill" option="q100" style="height: 400px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="" webp="true" >}}
 
-<hr>
+### À qui est destiné cet outil ?
 
-### Gallery
+Si vous utilisez déjà des plateformes "propriétaires" et que leur remplacement est sur votre fiche de route, l'option Home Assistant est à sérieusement envisagée.
+{.text-lg .mb-4} 
+Vous souhaitez démarrer en domotique et augmenter vos possibilitées au niveau des équipements et rester libre de vos choix.
+{.text-lg .mb-4} 
+Vous avez envie de miser sur l'avenir et sur un logiciel évolutif ayant la plus grande base d'utilisateurs actuellement.
+{.text-lg .mb-4} 
 
-{{< gallery dir="images/gallery" class="" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
+### Que proposons nous à ce sujet ?
 
-<hr>
+Nous proposons dans le cadre de notre associations [des ateliers](https://lafermetteverdoyante.com/fr/ateliers/ "Nos ateliers") permettant de découvrir localement ce système.
+{.text-lg .mb-4} 
 
-### Slider
-
-{{< slider dir="images/gallery" class="max-w-[600px] ml-0" height="400" width="400" webp="true" command="Fit" option="" zoomable="true" >}}
-
-<hr>
-
-### Youtube video
-
-{{< youtube ResipmZmpDU >}}
-
-<hr>
-
-### Custom video
-
-{{< video src="https://www.w3schools.com/html/mov_bbb.mp4" width="100%" height="auto" autoplay="false" loop="false" muted="false" controls="true" class="rounded-lg" >}}

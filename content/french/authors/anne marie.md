@@ -1,5 +1,5 @@
 ---
-title: Jean-Georges
+title: Anne Marie
 email: 
 image: "/images/avatar.png"
 description: this is meta description
@@ -10,4 +10,4 @@ social:
 
 ---
 
-Votre humble serviteur
+La très talentueuse

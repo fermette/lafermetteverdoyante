@@ -37,6 +37,8 @@ draft: false
 
 ### L'eau, un trésor à préserver
 
+<br>
+
 Afin de complémenter les quantités d'eau nécessaire à son jardin en période de manque plusieurs stratégies sont cumulables :
 {.text-lg .mb-4}
 - disposer de réserves captées en période de forte pluviométrie,
@@ -49,6 +51,8 @@ Afin de complémenter les quantités d'eau nécessaire à son jardin en période
 
 ### Le captage et le stockage
 
+<br>
+
 Idéalement, l'eau va compléter différents cycles, je vous recommande à ce sujet la [vidéo d'Hervé Covès](https://www.youtube.com/watch?v=ZhtQ89NzOjs&t=1637s "Les 7 cycles de l'eau") 
 Du coup, même si l'on peut envisager différentes forme de captage et de stockage pour prévénir le manque d'eau, cela ne vaudra jamais la présence de forêts qui jouent un rôle essentielles dans le captage et la redistribution de la ressource.
 {.text-lg .mb-4}
@@ -60,6 +64,8 @@ Des mares ou des bassins peuvent aussi être aménagées à cet effet. Toutefois
 
 ### Recycler les eaux grises
 
+<br>
+
 {{< notice "infos" >}}
 La consommation moyenne d'eau par habitant en France est de 145 litres par jour soit 53m3 par an et répartie de la manière suivante :
 - Hygiène (douches, bains) : environ 39 % de la consommation
@@ -70,6 +76,8 @@ La consommation moyenne d'eau par habitant en France est de 145 litres par jour 
 source : gouv.fr
 {{< /notice >}}
 
+<br>
+
 Les toilettes représentants 25% de la consommation d'eau, on peut directement économiser 36 litres d'eau (13 métres cubes à l'année) rien qu'en utilisant des toilettes sèches.
 {.text-lg .mb-4}
 Afin de réutiliser partielement les eaux grises de son domicile, on peut simplement rediriger les évacutions de l'évier de sa cuisine, des lavabos, du bain et les filtrer avant de les utiliser dans son jardin.
@@ -78,15 +86,21 @@ Dans le cas où la maison est équipée uniquement de toilettes sèches, il est 
 {.text-lg .mb-4}
 Ici c'est bien 100% de l'eau consommée que nous réutilisons.
 {.text-lg .mb-4}
+
+<br>
+
 {{< notice "Réflexions préliminaires" >}}
 Pour recycler les eaux grises au jardin, une réflexion doit être faite sur les produits d'entretien, cosmétiques et chimiques utilisés au sein du foyer pour les remplacer au maximum par des produits qui posent pas de risque pour l'environnement surtout si vous consommez votre production. À cet égard, on peut garder une évacution séparée pour les produits posant problème afin de les collecter et de les recycler de manière optimale. 
-{{< /notice >}}
 {.text-lg .mb-4}
+{{< /notice >}}
+
 
 <br>
 
 
 ### Economiser de l'eau en arrosant ?
+
+<br>
 
 La question peut paraître absurde, cependant elle est loin d'être anodine.
 {.text-lg .mb-4}
@@ -102,6 +116,8 @@ Pour aller plus loin, l'utilisation raisonné de capteurs permettant de mesurer 
 <br>
 
 ### Optimisation dans les usages
+
+<br>
 
 Voici quelques exemples de pratiques évitant la surconsommation de l'eau :
 {.text-lg .mb-4}

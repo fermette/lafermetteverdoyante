@@ -44,10 +44,10 @@ parent = "Activités du lieu"
 name = "Utilisation de la domotique"
 url = "/domotique"
 
-#[[main]]
-#weight = 5
-#name = "Blog"
-#url = "/blog"
+[[main]]
+weight = 5
+name = "Blog"
+url = "/blog"
 
 [[main]]
 weight = 6

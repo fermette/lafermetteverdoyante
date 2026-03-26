@@ -1,0 +1,51 @@
+<div class="bg-body dark:bg-darkmode-body p-6 rounded-lg shadow-sm">
+  {{ $image := .Params.image }}
+  {{ if $image }}
+    {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 w-full rounded-lg") }}
+  {{ end }}
+
+  <h4 class="mb-3">
+    <a href="{{ .RelPermalink }}" class="hover:text-primary">
+      {{ .Title }}
+    </a>
+  </h4>
+
+  {{ $categories := .Params.categories }}
+  {{ if $categories }}
+    <ul class="mb-4 text-sm text-gray-600 dark:text-gray-400 flex flex-wrap gap-2">
+      <li class="flex items-center">
+        <i class="fa-regular fa-folder text-xs mr-1"></i>
+        {{ range $i, $p := $categories }}
+          <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}/" class="ml-1 hover:underline">
+            {{ . | humanize }}{{ if ne $i (sub (len $categories) 1) }},{{ end }}
+          </a>
+        {{ end }}
+      </li>
+    </ul>
+  {{ end }}
+
+  {{ if .Params.recipe }}
+    <div class="mb-4 text-sm text-orange-600 dark:text-orange-400 grid grid-cols-2 gap-2">
+      {{ with .Params.prepTime }}<div><i class="fas fa-clock mr-1"></i> Prép: {{ . }}</div>{{ end }}
+      {{ with .Params.cookTime }}<div><i class="fas fa-fire mr-1"></i> Cuisson: {{ . }}</div>{{ end }}
+      {{ with .Params.recipeYield }}<div><i class="fas fa-utensils mr-1"></i> {{ . }}</div>{{ end }}
+    </div>
+
+    {{ with .Params.equipment }}
+      <div class="mb-4 text-sm">
+        <strong class="text-gray-700 dark:text-gray-300"><i class="fas fa-tools mr-1"></i> Matériel :</strong>
+        <span class="text-gray-600 dark:text-gray-400">
+          {{ delimit . ", " }}
+        </span>
+      </div>
+    {{ end }}
+  {{ end }}
+
+  <p class="mb-6 text-gray-700 dark:text-gray-300">
+    {{ .Summary | plainify | truncate 120 }}
+  </p>
+
+  <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
+    {{ T "read_more" | default "Lire la suite" }}
+  </a>
+</div>   

@@ -44,10 +44,10 @@ parent = "Site Activities"
 name = "Home Automation"
 url = "/automation"
 
-#[[main]]
-#weight = 5
-#name = "Blog"
-#url = "/blog"
+[[main]]
+weight = 5
+name = "Blog"
+url = "/blog"
 
 [[main]]
 weight = 6
