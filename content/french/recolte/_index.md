@@ -17,12 +17,12 @@ draft: false
 
 <br>
 
-L'entrée dans un jardin, ouvre la porte à une alimentation <b>saine, équilibrée, variée et attrayante</b> pour tous.
+Cultiver un jardin naturel ouvre la porte à une alimentation <b>saine, équilibrée, variée et attrayante</b> pour tous.
 {.text-lg .mb-4}
 
 <br>
 
-{{< image src="/images/recolte_assortiment2.jpg" caption="Assortiment de récoltes" alt="récolte" height="" width="" position="center" command="fill" option="q100" style="height: 400px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="Assiettes de crudités maison" webp="false" >}}
+{{< image src="/images/recolte_assortiment2.jpg" caption="Assortiment de récoltes" alt="récolte" height="" width="" position="center" command="fill" option="q100" style="height: 400px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="Assiettes de crudités maison" webp="true" >}}
 
 <br>
 
@@ -36,7 +36,7 @@ Au fond, nous savons tous qu'il n'y a rien de mieux que de <b>bénéficier de pr
     {{< slider dir="images/gallery_recolte1" class="w-full" height="533" width="400" webp="false" command="Fit" option="" zoomable="true" >}}
   </div>
   <div class="prose max-w-none mt-4 md:mt-0 md:ml-6 text-lg text-text dark:text-darkmode-text-dark">
-    <b>Les clés d'une alimentation saine :</b>
+    <b>Quelques clés d'une alimentation saine :</b>
     <p></p>  
     L'incroyable diversité de variétés proposées aujourd'hui peuvent permettre une évolution vers <b>un mode de consommation en adéquation avec l'environnement</b>, d'autant plus si celui-ci intégre les plantes endémiques, dites <b>sauvages</b> ou <b>envahissantes</b> qui sont de véritables joyaux d'un point de vue nutritionnel pour notre organisme.
     <p></p> 
@@ -62,7 +62,7 @@ Avant d'aborder les questions de transformation à proprement parler, il est ess
         <ol class="text-lg mb-4 pl-6">
           <li>le volume de l'espace de stockage de ces pièces qui doit correspondre à celui des récoltes,</li>
           <li>une organisation pratique grâce à des étagères et meubles de rangements adaptées au poids,</li>
-          <li>du taux d'humidité et de la température du local, spécifiques aux produits qui y seront stockés, </li>
+          <li>le taux d'humidité et la température du local, spécifiques aux produits qui y seront stockés, </li>
           <li>un accès facile pour vérifier l'état des denrées et des bocaux,</li>
           <li>une aération adéquate pour les produits frais en particulier,</li>
           <li>vérification réguliére de l'absence de rongeurs et d'insectes.</li> 
@@ -128,10 +128,10 @@ Parmis les techniques de conservation les plus connues que nous pratiquons :
  Après l'étape de séchage/déshydratation et en fonction des cultures, nous disposons de nombreuses variétés d'herbes aromatiques,épices, et condiments.
  {.text-lg .mb-4}
 
- Concernant les racines, comme le curcuma et le gingembre qui sont assez facile à cultiver dans des jardinières, on peut procéder à leurs séchages via le déshydrateur ou près d'une source de chaleur et les moudre pour faire des épices extraordinaires.
- On peut faire de même avec certaines variétés de poivrons et de piments qui serons séchées et moulues pour obtenir des condiments succulents tel le paprika. 
+ Concernant les racines, comme le curcuma et le gingembre qui sont assez facile à cultiver dans des jardinières, nous réalisons leurs séchages avec le déshydrateur ou près d'une source de chaleur et les moudre pour faire des épices extraordinaires.
+ Nous faisons de même avec certaines variétés de poivrons et de piments qui serons séchées et moulues pour obtenir des condiments succulents tel le paprika. 
  {.text-lg .mb-4}
   
-Enfin, on peut réaliser des tisanes maison en gardant les feuilles séchées pour bénéficier tout l'hiver de leurs bienfaits.
-Cerise sur le gâteau, si on a fait sécher par exemple des fleurs de violettes ou de mauves, des pétales de roses, etc. on peut réaliser des mélanges avec de la verveine ou de la citronelle de son jardin. Les possibilités sont infinies.
+Enfin, nous réalisons des tisanes maison en gardant les feuilles séchées pour bénéficier tout l'hiver de leurs bienfaits.
+Cerise sur le gâteau, si nous faisons sécher par exemple des fleurs de violettes ou de mauves, des pétales de roses, etc. nous pouvons réaliser des mélanges avec de la verveine ou de la citronelle de son jardin. Les possibilités sont infinies.
 {.text-lg .mb-4} 

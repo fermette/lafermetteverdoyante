@@ -5,12 +5,12 @@ timeZone = "Europe/Paris"
 summaryLength = 10
 disableLanguages = []
 hasCJKLanguage = false
-defaultContentLanguage = "Fr"
+defaultContentLanguage = "fr"
 defaultContentLanguageInSubdir = true
 googleAnalytics = "G-MEASUREMENT_ID"
 enableEmoji = true
 [services.disqus]
-shortname = "themefisher-template"
+# shortname = "themefisher-template"
 [permalinks.page]
 pages = "/:slugorcontentbasename/"
 [pagination]
@@ -30,7 +30,7 @@ disableWatch = true
 source = "hugo_stats.json"
 target = "assets/notwatching/hugo_stats.json"
 [outputs]
-home = ["HTML","RSS","WebAppManifest","SearchIndex"]
+home = ["HTML","RSS","webappmanifest","SearchIndex"]
 [imaging]
 quality = 80
 resampleFilter = "Lanczos"
@@ -57,6 +57,9 @@ suffixes = ["webmanifest"]
 [outputFormats.WebAppManifest]
 mediaType = "application/manifest+json"
 rel = "manifest"
+baseName = "manifest"
+notAlternative = true
+path = ""
 [outputFormats.SearchIndex]
 mediaType = "application/json"
 baseName = "searchindex"

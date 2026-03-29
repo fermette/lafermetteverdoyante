@@ -17,7 +17,7 @@ draft: false
 
 <br>
 
-{{< notice "Définition " >}}
+{{< notice "Définition de domotique " >}}
 C’est l’ensemble des technologies qui permettent d’automatiser et de contrôler à distance les équipements de votre maison, comme le chauffage, l’éclairage, les volets roulants, les systèmes de sécurité notamment les alarmes.  
 Elle vise à rendre votre quotidien plus simple, plus confortable, plus sûr et plus économe en énergie. Par exemple, vous pouvez programmer vos volets pour qu’ils s’ouvrent le matin, faire allumer les lumières quand vous rentrez, ou faire baisser le chauffage quand vous êtes absent.  
 Le mot vient du latin *domus* (maison) et du suffixe *-tique* (relatif à une technique), donc la science de la maison.
@@ -99,11 +99,11 @@ Partant de cette base on peut imaginer des scénarios pour affiner l'automatisat
 
 Le développement de la domotique n'est pas récent. De nombreuses marques proposent des solutions intégrées dès lors que l'on choisit d'investir dans leurs produits.
 {.text-lg .mb-4}
-Par exemple, les solutions de surveillance proposées par les assurances ou encore les systèmes de volets automatiques télécommandé sont emblématiques.
+Par exemple, les solutions de surveillance proposées par les assurances ou encore les systèmes de volets automatiques télécommandés sont emblématiques.
 {.text-lg .mb-4}
 Il est nécessaire d'acquérir une passerelle spécifique à chaque constructeur et l'utilisation des capteurs, relais  et caméras est exclusive à leur système.
 {.text-lg .mb-4}
-Home Assistant est une plateforme libre ayant pour objectifs d'intégrer un maximum de dispositifs sans devoir obligatoirement utiliser les passerelles propriétaire. Ainsi il est possible d'utiliser une grande variétés de dispositif directement depuis une seule interface qui en plus d'être gratuit est à code ouvert.
+Home Assistant est une plateforme libre ayant pour objectifs d'intégrer un maximum de dispositifs sans devoir obligatoirement utiliser les passerelles "propriétaire". Ainsi il est possible d'utiliser une grande variétés de dispositifs directement depuis une seule interface qui en plus d'être gratuit est à code ouvert.
 {.text-lg .mb-4} 
 Une fois la base logiciel de Home Assistant installé sur une machine compatible (PC, Raspberry ou serveur) avec quelques capteurs et relais il est possible de transformer des objets simples comme une ampoule en système plus complexe comme un allumage automatique par la détection de présence. Ce même capteur de présence peut-être utilisé à son tour dans d'autres scénarios. 
 {.text-lg .mb-4}
@@ -137,7 +137,7 @@ De plus, d'autres outils comme Graphana permettent ensuite une mise en forme gra
 
 ### À qui est destiné cet outil ?
 
-Si vous utilisez déjà des plateformes "propriétaires" et que leur remplacement est sur votre fiche de route, l'option Home Assistant est à sérieusement envisagée.
+Si vous utilisez déjà des plateformes "propriétaire" et que leur remplacement est sur votre feuille de route, l'option Home Assistant est un choix judicieux.
 {.text-lg .mb-4} 
 Vous souhaitez démarrer en domotique et augmenter vos possibilitées au niveau des équipements et rester libre de vos choix.
 {.text-lg .mb-4} 
@@ -146,6 +146,6 @@ Vous avez envie de miser sur l'avenir et sur un logiciel évolutif ayant la plus
 
 ### Que proposons nous à ce sujet ?
 
-Nous proposons dans le cadre de notre associations [des ateliers](https://lafermetteverdoyante.com/fr/ateliers/ "Nos ateliers") permettant de découvrir localement ce système.
+Nous proposons dans le cadre de notre association [des ateliers](https://lafermetteverdoyante.com/fr/ateliers/ "Nos ateliers") permettant de découvrir ce système.
 {.text-lg .mb-4} 
 

@@ -16,7 +16,7 @@ draft: false
 
 ## La charte
 
-**Date de dernière mise à jour : février 2026**
+**Date de dernière mise à jour : mars 2026**
 
 La présente charte sur le respect de la vie privée (la « Charte ») a pour objectif de formaliser notre engagement quant au respect de la vie privée des utilisateurs du site internet « lafermetteverdoyante.com » (le « Site ») exploité par l’association la fermette verdoyante. 
 La Charte et les Conditions Générales du Site forment un ensemble contractuel.

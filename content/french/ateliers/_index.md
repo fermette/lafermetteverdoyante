@@ -28,7 +28,7 @@ Par ailleurs, si vous désirez nous faire part de vos souhaits concernant l'orga
 <br>
 
 {{< notice "info" >}}
-Afin de préserver la biodiversité et la quiétude de l'environnement, <b> les ateliers seront limités à un effectif maximum de 7 personnes </b> selon les moyens nécessaires à une bonne mise en oeuvre et transmission du savoir.
+Afin de préserver la biodiversité et la quiétude de l'environnement, <b> les ateliers à la fermette verdoyante seront limités à un effectif maximum de 5 personnes </b>. Pour des présenttions plus visuelles et théoriques en dehors de la fermette u site aucunes limites ne cette limite  selon les moyens nécessaires à une bonne mise en oeuvre et transmission du savoir.
 {.text-lg .mb-4}
 {{< /notice >}}
 
@@ -41,21 +41,15 @@ Afin de préserver la biodiversité et la quiétude de l'environnement, <b> les 
     <br>
     <p class="text-lg mb-4"><b>Côté jardin :</b></p>
         <ol class="text-lg mb-4 pl-6">
-          <li>La méthode de culture verticale</li>
-          <li>L'électroculture et le biochar</li>
-          <li>Application des principes de permaculture favorisant la biodiversité</li>
-          <li>Serre bioclimatique, pour quoi faire</li>
-          <li>Aquaponie alternative</li>
-          <li>Séchage et déshydratation</li>
-          <li>La gestion de l'eau au jardin</li>          
+          <li>Présentation détaillée in situ des techniques mise en oeuvre à la fermette</li>
+          <li>Serre aquaponique bioclimatique, pour quoi faire ?</li>
+          <li>La gestion de l'eau sur un lieu, analyse et présentation de ce que nous faisons ici </li>          
         </ol>
     <br>    
     <p class="text-lg mb-4"><b>Domotique</b></p>
         <ol class="text-lg mb-4 pl-6">
-          <li>Initiation à HomeAssistant, installation et configuration</li>
-          <li>Utilisation de HomeAssisant dans l'automatisation de l'arrosage</li>
-          <li>HomeAssisant et SolarAssistant, le combo de la gestion photovoltaïque </li>
-          <li>Automatisation d'une Serre bioclimatique</li>           
+          <li>Initiation à HomeAssistant, matériel pour débuter, et présentation du système en action</li>
+          <li>Mise en pratique de l'automatisation d'une Serre bioclimatique aquaponique avec et sans homeassistant</li>           
         </ol>
  </div>
  <div class="w-full md:w-1/2">   

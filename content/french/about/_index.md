@@ -10,10 +10,11 @@ La fermette verdoyante est une association loi 1901, dont l'activité est tourn�
 
 La transmission de ces moyens est un des objectifs que nous nous donnons.
 
-​<hr>
-
+​<br>
 
 #### Lancement de l'aventure en 2021
+
+<br>
 
 {{< slider dir="images/gallery_about" class="max-w-[600px]block mx-auto" height="600" width="600" webp="true" command="Fit" option="" zoomable="true" >}}
 

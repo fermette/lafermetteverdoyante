@@ -6,15 +6,15 @@ banner:
 # Features
 features:
   - title: "Diverse Cultivation Methods"
-    image: "/images/home_jardin_figuier.png"
-    content: "To respect the delicate balance between plant and tree cultivation in a preserved environment while promoting biodiversity."
+    image: "/images/home_culture.jpg"
+    content: "In order to respect the delicate balance between plant and tree cultivation and environmental preservation, while also seeking to promote biodiversity"
     bulletpoints:
       - "Vertical farming with or without support"
       - "Bioclimatic greenhouse and alternative aquaponics"
-      - "Variety multiplication"
+      - "Variety propagation"
       - "Complete plant cycle and seed harvesting"
       - "No-till plots"
-      - "Natural environment enhancement through simple means"
+      - "Revitalizing the natural environment through simple means"
     button:
       enable: true
       label: "Learn more"
@@ -22,46 +22,46 @@ features:
 
   - title: "Harvest Management"
     image: "/images/home_assortiment1.png"
-    content: "Having a garden with abundant harvests inevitably leads to questions about their usage. Here's what we implement at our level:"
+    content: "Having a garden with abundant harvests inevitably leads to the question of how to use them. Here's what we implement at our level:"
     bulletpoints:
-      - "Fresh produce consumption"
-      - "Preserves & lacto-fermentation"
-      - "Drying & dehydration"
-      - "Storage area"
-      - "Transformations into spices, herbal teas and infusions"
+      - "Consuming Fresh Produce"
+      - "Storage Areas"
+      - "Preserves & Lacto-Fermentation"
+      - "Drying & Dehydration"
+      - "Processing into Spices & Herbal Tea Blends"
     button:
       enable: true
       label: "Learn more"
-      link: "en/recolte"
+      link: "en/harvest"
 
   - title: "Water Circuit & Filtration"
     image: "/images/home_mare.png"
     content: "Water is a precious resource that must be used and preserved as much as possible. We share our solutions:"
     bulletpoints:
       - "Rainwater harvesting"
-      - "Gravity-based greywater filtration"
+      - "Greywater Filtration by Gravity"
       - "Phytoremediation"
       - "Biodiversity pond"
       - "Water circuit concept"
-      - "Overflow and natural irrigation management"
+      - "Overflow Management and Natural Irrigation"
       - "Intelligent redistribution (see home automation)"
     button:
       enable: true
       label: "Learn more"
-      link: "en/eau"
+      link: "en/water"
 
-  - title: "The Home Automation Tool"
+  - title: "Home Automation Tools"
     image: "/images/home_domotique.png"
-    content: "The image represents what home automation is NOT in a garden! Why consider technological solutions in a natural environment? For what purpose? This is what we want to explain here through a few examples. Our role will be to offer initiation workshops to help you get started with useful applications of this technology."
+    content: "Why consider technological solutions in a natural environment? What is the purpose? This is what we aim to explain here with a few examples."
     bulletpoints:
-      - "Automated watering and/or irrigation systems via remotely controlled valves"
-      - "Monitoring of temperature, humidity, and light levels via sensors from various manufacturers"
-      - "Remote on/off control of electrical devices: pumps, valves, and motors via programming or a simple tablet interface"
-      - "Remote monitoring of animals, water points, and feeders"
-      - "Tracking of electricity production (all possible sources including photovoltaic) as well as overall or specific consumption of major consumers"
-      - "Open-source, free, and libre Home Assistant software! Self-hosted at home without subscription and off-network"
+      - "Automating watering and/or irrigation systems via remotely controlled valves"
+      - "Monitoring and controlling temperature, humidity, and light levels using sensors from numerous manufacturers"
+      - "Turning electrical devices on and off: pumps, valves, and motors via programming or a simple tablet interface"
+      - "Remotely monitoring animals, watering points, feeders, etc."
+      - "Monitoring electricity production and consumption (from all possible sources, including photovoltaic)."
+      - "Free and open-source HomeAssistant software system. Self-hosted at home without a subscription"
     button:
       enable: true
       label: "Learn more"
-      link: "en/domotique"
+      link: "en/automation"
 ---   
