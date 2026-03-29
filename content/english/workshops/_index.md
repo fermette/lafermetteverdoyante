@@ -21,10 +21,7 @@ Upon request, we can combine several half-days or full days into a package, incl
 For participants traveling from afar, we can provide addresses of guesthouses, bed and breakfasts, or WWOOFing opportunities.
 {.text-lg .mb-4}
 
-We invite you to find our upcoming dates [**in our calendar**](https://lafermetteverdoyante.com/en/calendrier "Events Calendar")
-{.text-lg .mb-4}
-
-Furthermore, if you would like to share your ideas regarding the organization of a specific workshop, please [**use our contact form**](https://lafermetteverdoyante.com/en/contact "Contact Form")
+To let us know your wishes regarding the organization of a specific workshop, we invite you to [**use our contact form**](https://lafermetteverdoyante.com/en/contact "Contact Form")
 {.text-lg .mb-4}
 
 <br>
@@ -43,9 +40,8 @@ In order to preserve biodiversity and the tranquility of the environment, <b>wor
     <br>
     <p class="text-lg mb-4"><b>By the Garden :</b></p>
         <ol class="text-lg mb-4 pl-6">
-          <li>Detailed on-site presentation of the techniques implemented at the farm</li>
-          <li>Bioclimatic aquaponic greenhouse: what for?</li>
-          <li>Alternative aquaponics</li>
+          <li>Our cultivation techniques: a detailed on-site presentation of our methods</li>
+          <li>Building a bioclimatic aquaponic greenhouse</li>
           <li>Water management on a site: analysis and presentation of what we do here</li>          
         </ol>
     <br>    

@@ -19,11 +19,8 @@ Sur demande, nous pouvons rassembler sous forme de forfait plusieurs demies jour
 Pour les participants venant de loin, des adresses de gîtes, maison d'hôtes ou woofing peuvent vous être communiquées.
 {.text-lg .mb-4}
 
-Nous vous invitons à retrouver nos prochaines dates [**dans notre calendrier**](https://lafermetteverdoyante.com/fr/calendrier "Calendrier des événements")
+Pour nous faire part de vos souhaits concernant l'organisation d'un atelier spécifique nous vous invitons à [**utiliser notre formulaire de contact**](https://lafermetteverdoyante.com/fr/contact "Formulaire de contact")
 {.text-lg .mb-4}
-
-Par ailleurs, si vous désirez nous faire part de vos souhaits concernant l'organisation d'un atelier spécifique nous vous invitons à [**utiliser notre formulaire de contact**](https://lafermetteverdoyante.com/fr/contact "Formulaire de contact")
- {.text-lg .mb-4}
 
 <br>
 
@@ -41,8 +38,8 @@ Afin de préserver la biodiversité et la quiétude de l'environnement, <b> les 
     <br>
     <p class="text-lg mb-4"><b>Côté jardin :</b></p>
         <ol class="text-lg mb-4 pl-6">
-          <li>Présentation détaillée in situ des techniques mise en oeuvre à la fermette</li>
-          <li>Serre aquaponique bioclimatique, pour quoi faire ?</li>
+          <li>Nos techniques de cultures :présentation détaillée in situ de nos méthodes</li>
+          <li>Réaliser une serre aquaponique bioclimatique</li>
           <li>La gestion de l'eau sur un lieu, analyse et présentation de ce que nous faisons ici </li>          
         </ol>
     <br>    
