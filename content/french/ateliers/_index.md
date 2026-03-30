@@ -12,20 +12,20 @@ draft: false
 Nous proposons différents ateliers en lien direct avec les savoir-faire que nous mettons en oeuvre sur le lieu.
 {.text-lg .mb-4}
 
-**La durée sera d'une demie-journée, soit 3h pour un tarif de 40€ par participant**.
+**La durée sera d'une demi-journée, soit 3h pour un tarif de 40€ par participant**.
 {.text-lg .mb-4}
-Sur demande, nous pouvons rassembler sous forme de forfait plusieurs demies journées ou journée entière avec un repas partagé sur le lieu 
+Sur demande, nous pouvons rassembler sous forme de forfait plusieurs demies journées ou journée entière avec un repas partagé sur le lieu. 
 {.text-lg .mb-4}
-Pour les participants venant de loin, des adresses de gîtes, maison d'hôtes ou woofing peuvent vous être communiquées.
+Pour les participants venant de loin, des adresses de gîtes et de maisons d'hôtes peuvent vous être communiquées.
 {.text-lg .mb-4}
 
-Pour nous faire part de vos souhaits concernant l'organisation d'un atelier spécifique nous vous invitons à [**utiliser notre formulaire de contact**](https://lafermetteverdoyante.com/fr/contact "Formulaire de contact")
+Pour nous faire part de vos souhaits concernant l'organisation d'un atelier spécifique, nous vous invitons à [**utiliser notre formulaire de contact**](https://lafermetteverdoyante.com/fr/contact "Formulaire de contact")
 {.text-lg .mb-4}
 
 <br>
 
 {{< notice "info" >}}
-Afin de préserver la biodiversité et la quiétude de l'environnement, <b> les ateliers à la fermette verdoyante seront limités à un effectif maximum de 5 personnes </b>. Pour des présenttions plus visuelles et théoriques en dehors de la fermette u site aucunes limites ne cette limite  selon les moyens nécessaires à une bonne mise en oeuvre et transmission du savoir.
+Afin de préserver la biodiversité, la quiétude du lieu et garantir une transmission de qualité, les ateliers à la Fermette Verdoyante sont limités à 5 personnes maximum.</b>.
 {.text-lg .mb-4}
 {{< /notice >}}
 

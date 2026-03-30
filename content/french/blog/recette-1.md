@@ -1,5 +1,5 @@
 ---
-title: "Recette de"
+title: "Velouté de feuilles de radis "
 meta_title: ""
 description: "this is meta description"
 date: 2026-03-24
@@ -15,17 +15,20 @@ equipment: ["Moule à tarte", "Épluche-légumes", "Couteau bien aiguisé"]
 
 ## Ingrédients
 
-- 250 g de farine
-- 125 g de beurre froid
-- 4 pommes Granny Smith
-- 100 g de sucre roux
-- 1 cuillère à café de cannelle
+- 1 oignon 
+- 20 feuilles de radis lavées et essorées dans un panier à salade                  (feuilles de gros radis noir ou blanc « daikon »)
+- 1 petite pomme de terre épluchée et coupée en petits cubes
+- 1 litre d'eau
+- une pincée de gros sel
+- Une noisette de beurre beurre ou une cuillère à soupe d'huile
+- 10 cl de crème fraîche (option)
 
 ## Préparation
 
-1. **Préparez la pâte** : Mélangez farine, beurre et sel. Ajoutez l’œuf et l’eau. Laissez reposer.
-2. **Émincez les pommes**, mélangez avec sucre, cannelle et citron.
-3. **Étalez la pâte**, ajoutez les pommes, enfournez 45 min.
+Ciseler finement l'oignon (en petits morceaux fins), puis les faire revenir dans une casserole jusqu'à coloration dans de l’huile ou du beurre. Une fois cuit rajouter les feuilles et les laisser fondre en remuant afin qu’elles ne s’accrochent pas. Quand elles sont fondues rajouter de l’eau, 1 grosse pincée de gros sel et les morceaux de pommes de terre. 
+Faire cuire avec une cocotte minute environ 10mne, dans une casserole plus de temps.
+Mixer. 
+Vous pouvez rajouter de la crème fraîche au moment du service pour ajouter un peu d'onctuosité.
 
 ## Astuce
 

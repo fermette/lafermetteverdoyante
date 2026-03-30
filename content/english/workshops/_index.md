@@ -12,22 +12,22 @@ draft: false
 We offer various workshops directly related to the skills we use on-site.
 {.text-lg .mb-4}
 
-**The duration will be half a day, or 3 hours, for a fee of €40 per participant.**
+**The workshop will last half a day, or 3 hours, and costs €40 per participant.**
 {.text-lg .mb-4}
 
 Upon request, we can combine several half-days or full days into a package, including a shared meal on-site.
 {.text-lg .mb-4}
 
-For participants traveling from afar, we can provide addresses of guesthouses, bed and breakfasts, or WWOOFing opportunities.
+For participants traveling from afar, we can provide addresses of guesthouses and bed and breakfasts.
 {.text-lg .mb-4}
 
-To let us know your wishes regarding the organization of a specific workshop, we invite you to [**use our contact form**](https://lafermetteverdoyante.com/en/contact "Contact Form")
+To let us know your wishes regarding the organization of a specific workshop, please [**use our contact form**](https://lafermetteverdoyante.com/en/contact "Contact Form")
 {.text-lg .mb-4}
 
 <br>
 
 {{< notice "info" >}}
-In order to preserve biodiversity and the tranquility of the environment, <b>workshops will be limited to a maximum of 7 people</b>, depending on the resources needed for effective implementation and knowledge transfer.
+To preserve biodiversity, the tranquility of the site, and ensure high-quality knowledge transfer, workshops at La Fermette Verdoyante are limited to a maximum of 5 people.
 {.text-lg .mb-4}
 {{< /notice >}}
 
@@ -45,10 +45,10 @@ In order to preserve biodiversity and the tranquility of the environment, <b>wor
           <li>Water management on a site: analysis and presentation of what we do here</li>          
         </ol>
     <br>    
-    <p class="text-lg mb-4"><b>Home automation</b></p>
+    <p class="text-lg mb-4"><b>Home Automation</b></p>
         <ol class="text-lg mb-4 pl-6">
-          <li>Introduction to HomeAssistant: equipment to get started, and presentation of the system in action</li>
-          <li>Practical implementation of automating a bioclimatic aquaponic greenhouse with and without HomeAssistant</li>           
+          <li>Introduction to Home Assistant: equipment to get started, and presentation of the system in action</li>
+          <li>Practical implementation of automating a bioclimatic aquaponic greenhouse with and without Home Assistant</li>           
         </ol>
  </div>
  <div class="w-1/2">

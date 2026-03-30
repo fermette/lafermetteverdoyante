@@ -27,7 +27,7 @@ Aujourd’hui, tout cela se fait souvent via un smartphone, une tablette ou par 
 
 <br>
 
-Voici le type de définition commune que l'on va trouver en cherchant sur internet et en se renseignant dans les boutiques spécialisés où l'on va faire l'éloge de la "maison intelligente"
+Voici le type de définition commune que l'on va trouver en cherchant sur internet et en se renseignant dans les boutiques spécialisées où l'on va faire l'éloge de la "maison intelligente"
 {.text-lg .mb-4}
 
 Nous allons directement rentrer dans le vif du sujet.
@@ -39,7 +39,7 @@ Nous allons directement rentrer dans le vif du sujet.
 
 <br>
 
-En effet, la domotique consiste avant tout en des capteurs et des relais de tailles réduites et très peu énergivore pouvant recueillir des données et contrôler certains paramétres, de manière autonome avec des piles bien souvent et surtout avec une connection sans fil à basse consommation (particuliérement la norme Zigbee) :
+La domotique consiste avant tout en des capteurs et des relais. Leurs rôles varient de la transmission de données environnementales à l'action d'ouvrir ou de fermer un relais. Les communications entre le coordinateur, ici on parle d'un serveur Home Assistant, et les appareils se font en grande partie avec une connexion sans fil qui peut se faire selon plusieurs normes. Ceux que nous utilisons spécifiquement sont à la norme "Zigbee", qui présente l'avantage d'être composée d'appareils de petite taille et très peu énergivores.
 {.text-lg .mb-4}
 
 Voici quelques exemples de sondes :
@@ -47,7 +47,7 @@ Voici quelques exemples de sondes :
 - sonde de température 
 - sonde d'humidité
 - capteur de pression
-- sonde de mesure de voltage - ampérage - consommation électrique en Watts
+- sonde de mesure de Voltage - Ampérage - et Watts
 - sonde de détection de gaz 
 - sonde infrarouge
 - sonde de mesure d'intensité lumineuse (lux)
@@ -56,7 +56,6 @@ Voici quelques exemples de sondes :
 
 Et de relais :
 {.text-lg .mb-4}
-
 - relais type interrupteur électrique
 - relais controleur de vanne
 - relais de type modulateur variateur d'intensité
@@ -64,15 +63,15 @@ Et de relais :
 - etc.
 {.text-lg .mb-4}
 
-Ces appareils pour fonctionner ont besoin d'une infrastructure informatique et de points d'accès (sous forme d'antennes pouvant être déportées pour couvrir les zones équipées)
+Pour fonctionner, ces appareils ont besoin ont besoin d'une infrastructure informatique et de points d'accès, ici via des antennes qui sont déportées pour couvrir les zones équipées.
 {.text-lg .mb-4}
 
-Le chef d'orchestre est le logiciel Home Assistant qui centralise les données et permets de les mettres en relation dans des scénarios d'automatisation
+Le chef d'orchestre est le logiciel Home Assistant installé sur un mini-PC qui centralise les données et permet de mettre en place des scénarios d'automatisation
 {.text-lg .mb-4}
 
 <br>
 
-Voici un schéma simple d'un arrosage automatique basé sur le taux d'humidité du sol :
+Voici le schéma d'un arrosage automatique basé sur le taux d'humidité du sol :
 {.text-lg .mb-4}
 
 ```mermaid
@@ -89,63 +88,43 @@ flowchart LR
     HA --> |non| D(Ne fait rien)
 ```
 
-Partant de cette base on peut imaginer des scénarios pour affiner l'automatisation, par exemple en rajoutant une fonction minuteur pour que l'arrosage dure 20min.
+Partant de cette base, on peut imaginer des scénarios pour affiner l'automatisation, par exemple en ajoutant une fonction minuteur pour que l'arrosage dure 20min.
 {.text-lg .mb-4}
 
-À cela on peut ajouter des conditions à partir d'autres capteurs physiques ou de prévisions météos d'internet pour par exemple éviter d'arroser si dans les prochaines douze heures une grosse averse est prévue.  
+D'autres critères peuvent être intégrés dans l'automatisation pour la personnaliser au mieux des contraintes et souhaits de l'utilisateur.
 {.text-lg .mb-4}
 
 ### Pourquoi le choix de Home Assistant
 
-Le développement de la domotique n'est pas récent. De nombreuses marques proposent des solutions intégrées dès lors que l'on choisit d'investir dans leurs produits.
+Le développement de la domotique n'est pas récent et aujourd'hui les offres sont bien souvent intégrées et on se retrouve dès lors piégé dans un écosystème fermé et limité. Ce qui amène dans le temps à une multiplication de plateformes et d'équipements incompatibles entre eux.
 {.text-lg .mb-4}
 Par exemple, les solutions de surveillance proposées par les assurances ou encore les systèmes de volets automatiques télécommandés sont emblématiques.
 {.text-lg .mb-4}
 Il est nécessaire d'acquérir une passerelle spécifique à chaque constructeur et l'utilisation des capteurs, relais  et caméras est exclusive à leur système.
 {.text-lg .mb-4}
-Home Assistant est une plateforme libre ayant pour objectifs d'intégrer un maximum de dispositifs sans devoir obligatoirement utiliser les passerelles "propriétaire". Ainsi il est possible d'utiliser une grande variétés de dispositifs directement depuis une seule interface qui en plus d'être gratuit est à code ouvert.
+C'est là où se démarque "Home Assistant", qui est un logiciel libre ayant pour objectifs d'intégrer un maximum de dispositifs d'équipementiers différents sans la contrainte de passer par des passerelles "propriétaires". Ainsi il est possible d'utiliser une grande variété de dispositifs directement depuis une seule interface logiciel qui fonctionne sur la machine compatible de son choix. Le logiciel est de plus gratuit et à code ouvert (accessible à tous).
 {.text-lg .mb-4} 
-Une fois la base logiciel de Home Assistant installé sur une machine compatible (PC, Raspberry ou serveur) avec quelques capteurs et relais il est possible de transformer des objets simples comme une ampoule en système plus complexe comme un allumage automatique par la détection de présence. Ce même capteur de présence peut-être utilisé à son tour dans d'autres scénarios. 
+Une fois Home Assistant installé sur une machine adéquate (PC-compatible) avec quelques capteurs et relais il est possible de transformer des objets simples comme une ampoule en système plus complexe comme par exemple un dispositif d'allumage automatique par la détection de présence, s'activant pour un couloir ou lors de la détection d'une personne à l'extérieur de la maison.  
 {.text-lg .mb-4}
-Les possibilitées sont très nombreuses et elles ne cessent de s'agrandir au fur et à mesure  du développement de ce logiciel.
+Les possibilités sont très nombreuses et de nouvelles intégrations sont constamment proposées via des mises à jour afin de prendre en charge de nouvelles marques et appareils. Voici le lien vers le site officiel où se trouve [les intégrations compatibles](https://www.home-assistant.io/integrations/ "Intégrations Officielement prise en charge") 
+{.text-lg .mb-4}
+Avec plusieurs centaines de milliers d’utilisateurs actifs dans le monde, et une croissance rapide, Home Assistant s’impose comme l’une des plateformes open source les plus populaires en domotique.
 {.text-lg .mb-4}
 
 <br>
-
-### Usage avancé : la base de données
-
-<br>
-
-Il y a des données qui sont très intérressantes à suivre dans le temps pour permettre une analyse plus fine ensuite. En particulier les données météorologiques quand on dispose d'une station météo sur son lieu.
-{.text-lg .mb-4}
-Ici nous procédons depuis peu par ce biais à la collecte systèmatique des données climatiques du lieu, notamment :
-{.text-lg .mb-4}
-- les précipations en mm et leurs intensitées,
-- la vitesse et sens du vent en km/h ainsi que la vitesse en rafale rafales
-- les témpératures extérieur et dans la serre bioclimatique
-- le taux d'humidité et le point de rosée
-- la production photovoltaïque 
-- les variations de pressions atmosphériques
-- etc .
-{.text-lg .mb-4}
-Présentement nous testons la possibilité d'exporter certaines données depuis Home Assistant vers une base de donnée, en l'occurence victoriametrics, qui se charge de les collecter et les conserver sur le (très) long terme pour réaliser un suivi de la situation. 
-{.text-lg .mb-4}
-De plus, d'autres outils comme Graphana permettent ensuite une mise en forme graphique pour une approche plus visuel.
-{.text-lg .mb-4}
-
-{{< image src="/images/domotique_serre_graph.png" caption="Graphique de suivie de températures et d'humidités dans la serre, ici sur une durée de 6 heures" alt="Graphique données serre" height="" width="" position="center" command="fill" option="q100" style="height: 400px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="" webp="true" >}}
 
 ### À qui est destiné cet outil ?
 
 Si vous utilisez déjà des plateformes "propriétaire" et que leur remplacement est sur votre feuille de route, l'option Home Assistant est un choix judicieux.
 {.text-lg .mb-4} 
-Vous souhaitez démarrer en domotique et augmenter vos possibilitées au niveau des équipements et rester libre de vos choix.
+Vous souhaitez démarrer en domotique avec une solution dont vous maîtrisez l'usage, qui fonctionne de base localement, ne dépend d'aucun cloud et est résiliente face aux pannes internet.
 {.text-lg .mb-4} 
-Vous avez envie de miser sur l'avenir et sur un logiciel évolutif ayant la plus grande base d'utilisateurs actuellement.
+Vous avez envie de miser sur l'avenir. Sur un logiciel participatif et évolutif ayant une des plus grande base utilisateurs dans ce secteur.
+{.text-lg .mb-4} 
+Vous souhaitez ne plus dépendre des plateformes propriétaires des GAFAM comme Apple HomeKit, Google Home et Amazon Alexa qui exportent et exploitent vos données sur leurs serveurs en lignes.
 {.text-lg .mb-4} 
 
 ### Que proposons nous à ce sujet ?
 
-Nous proposons dans le cadre de notre association [des ateliers](https://lafermetteverdoyante.com/fr/ateliers/ "Nos ateliers") permettant de découvrir ce système.
+Nous proposons dans le cadre de notre association [des ateliers](https://lafermetteverdoyante.com/fr/ateliers/ "Nos ateliers") permettant de découvrir ce système et de présenter une approche pratique de son utilisation au quotidien.
 {.text-lg .mb-4} 
-
