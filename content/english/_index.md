@@ -11,7 +11,7 @@ features:
     bulletpoints:
       - "Vertical farming with or without support"
       - "Bioclimatic greenhouse and alternative aquaponics"
-      - "Variety propagation"
+      - "Diversification of plant varieties"
       - "Complete plant cycle and seed harvesting"
       - "No-till plots"
       - "Revitalizing the natural environment through simple means"

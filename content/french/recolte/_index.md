@@ -64,11 +64,11 @@ Avant d'aborder les questions de transformation à proprement parler, il est ess
           <li>une organisation pratique grâce à des étagères et meubles de rangements adaptées au poids,</li>
           <li>le taux d'humidité et la température du local, spécifiques aux produits qui y seront stockés, </li>
           <li>un accès facile pour vérifier l'état des denrées et des bocaux,</li>
-          <li>une aération adéquate pour les produits frais en particulier,</li>
-          <li>vérification réguliére de l'absence de rongeurs et d'insectes.</li> 
+          <li>une aération adéquate pour les produits frais notamment,</li>
+          <li>vérification régulière de l’absence de rongeurs et d’insectes.</li> 
         </ol>
     <br>    
-    <p class="text-lg mb-4">Il est utile de construire des étagères de rangement sur mesure pour gagner de la place en se basant sur les formats standards du commerce pour les cartons et cagettes que l'on pourra recupérer facilement et remplacer gratuitement.</p>
+    <p class="text-lg mb-4">Il est utile de construire des étagères sur mesure en utilisant des cagettes du commerce, faciles à récupérer et à remplacer.</p>
     <br>    
  </div>
  <div class="w-full md:w-1/2">
@@ -82,11 +82,11 @@ Avant d'aborder les questions de transformation à proprement parler, il est ess
 
 {{< image src="/images/recolte_conserves_.jpg" caption="Confitures made by la fermette verdoyante" alt="confitures" height="" width="" position="center" command="fill" option="q100" style="height: 300px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="Confitures maison" webp="true" >}}
  
-Parmis les techniques de conservation les plus connues que nous pratiquons :
+Parmi les techniques de conservation les plus connues que nous pratiquons :
 {.text-lg .mb-4}
 <ul class="text-lg mb-4 pl-6">
-<li><b>La pasteurisation</b> pour les confitures et les légumes de garde</li>
-<li><b>La lactofermentation</b> avec une base saline permet le développement des probiotiques favorable à l'équilibrage de la flore intestinale</li>
+<li><b>La pasteurisation</b> pour les confitures et les légumes de garde.</li>
+<li><b>La lactofermentation</b> avec une base saline , permet le développement des probiotiques favorables à l’équilibre de la flore intestinale.</li>
 </ul> 
 
 <br>
@@ -96,18 +96,18 @@ Parmis les techniques de conservation les plus connues que nous pratiquons :
 <div class="flex flex-col md:flex-row md:items-start space-y-4 md:space-y-0 md:space-x-6">
  <div class="w-full md:w-1/2">
     <br>
-    <p class="text-lg mb-4"><b>Séchage et déshydratation naturel</b></p>
+    <p class="text-lg mb-4"><b>Séchage et déshydratation naturels</b></p>
         <ol class="text-lg mb-4 pl-6">
-          <p class="text-lg mb-4">La photo illustre une méthode de séchage naturelle sur clayette que nous avons fabriqué nous même.</p>
+          <p class="text-lg mb-4">La photo illustre une méthode de séchage naturelle sur clayette que nous avons fabriqué nous-mêmes.</p>
           <p class="text-lg mb-4">Cette méthode fonctionne très bien aussi avec les fruits, à condition d'avoir plusieurs jours de soleil pour cela.</p> 
-          <p class="text-lg mb-4">En automne et en hiver, des systèmes de séchages à suspendre peuvent être utilisé en intérieur dans une pièce chauffée ou à proximité d'un poêle pour le séchage des plantes aromatiques et des champignons.</p>
+          <p class="text-lg mb-4">En automne et en hiver, des systèmes de séchage à suspendre peuvent être utilisés en intérieur dans une pièce chauffée ou à proximité d'un poêle pour le séchage des plantes aromatiques et des champignons.</p>
         </ol>
         <br>
     <p class="text-lg mb-4"><b>Séchage et déshydratation électrique</b></p>
         <ol class="text-lg mb-4 pl-6">
-          <p class="text-lg mb-4">La météo devenant de plus en plus capricieuse, il est compliqué de compter uniquement sur le soleil pour faire le travail. C'est pourquoi, afin de terminer le processus ou de le faire quand il n'y a plus de soleil nous vous recommandons d'avoir un déshydrateur électrique.</p>
-          <p class="text-lg mb-4">Idéalement celui-ci doit pouvoir se régler au niveau des températures, disposer d'une minuterie allant au moins à une durée de 24h, et d'un ventilateur de bonne taille pour faire circuler l'air au niveau de toutes les grilles.</p> 
-          <p class="text-lg mb-4">Un tel outil est vraiment indispensable si vous souhaitez vous lancer dans l'aventure car c'est très long de faire sécher des aliments. Nous vous recommandons de les découper en tranches pour un séchage plus rapide.</p>           
+          <p class="text-lg mb-4">La météo devenant de plus en plus capricieuse, il est compliqué de compter uniquement sur le soleil pour faire le travail. C'est pourquoi, afin de terminer le processus ou de le faire quand il n'y a plus de soleil nous vous recommandons d’utiliser un déshydrateur électrique.</p>
+          <p class="text-lg mb-4">Idéalement celui-ci doit pouvoir se régler en matière de température sur une plage allant de 30 à 60°c, disposer d'une minuterie allant au moins à une durée de 24h, et d'un ventilateur de taille adaptée pour faire circuler l'air au niveau de toutes les grilles.</p> 
+          <p class="text-lg mb-4">Un tel outil est vraiment indispensable si vous souhaitez vous lancer dans l'aventure car le séchage des aliments est un processus long. Nous vous recommandons de les découper en tranches pour un séchage plus rapide.</p>           
         </ol>
  </div>
  <div class="w-full md:w-1/2">   
@@ -125,13 +125,13 @@ Parmis les techniques de conservation les plus connues que nous pratiquons :
 
  <br>
 
- Après l'étape de séchage/déshydratation et en fonction des cultures, nous disposons de nombreuses variétés d'herbes aromatiques,épices, et condiments.
+ Après l'étape de séchage/déshydratation et en fonction des cultures, nous disposons de nombreuses variétés d'herbes aromatiques, épices, et condiments.
  {.text-lg .mb-4}
 
  Concernant les racines, comme le curcuma et le gingembre qui sont assez facile à cultiver dans des jardinières, nous réalisons leurs séchages avec le déshydrateur ou près d'une source de chaleur et les moudre pour faire des épices extraordinaires.
- Nous faisons de même avec certaines variétés de poivrons et de piments qui serons séchées et moulues pour obtenir des condiments succulents tel le paprika. 
+ Nous faisons de même avec certaines variétés de poivrons et de piments qui seront séchées et moulues pour obtenir des condiments tel le paprika. 
  {.text-lg .mb-4}
   
 Enfin, nous réalisons des tisanes maison en gardant les feuilles séchées pour bénéficier tout l'hiver de leurs bienfaits.
-Cerise sur le gâteau, si nous faisons sécher par exemple des fleurs de violettes ou de mauves, des pétales de roses, etc. nous pouvons réaliser des mélanges avec de la verveine ou de la citronelle de son jardin. Les possibilités sont infinies.
+Cerise sur le gâteau, si nous faisons sécher par exemple des fleurs de violettes ou de mauves, des pétales de roses etc. nous pouvons réaliser des mélanges avec de la verveine ou de la citronelle de notre jardin. Les possibilités sont infinies.
 {.text-lg .mb-4} 

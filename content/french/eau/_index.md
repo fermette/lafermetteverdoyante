@@ -19,12 +19,12 @@ draft: false
  <div class="w-full md:w-1/2">
     <br>
     <br>
-    <p class="text-lg mb-4">La question de l'eau et de son utilisation est au coeur des préoccupations de notre époque.</p>
+    <p class="text-lg mb-4">La question de l'eau et de son utilisation est au cœur des préoccupations de notre époque.</p>
     <p class="text-lg mb-4">Entre sécheresses et épisodes pluvieux intenses, on ne peut plus espérer laisser notre jardin bénéficier des cycles saisonniers que nos aïeux ont pu connaître.</p>
-    <p class="text-lg mb-4">Afin de mesurer concrétement les besoins en eau du jardin, il y a des outils indispensables comme le thermométre, le pluviométre, un cahier et un crayon pour un suivi journalier empirique.</p> 
+    <p class="text-lg mb-4">Afin de mesurer concrétement les besoins en eau du jardin, il y a des outils indispensables comme le thermomètre, le pluviomètre, un cahier et un crayon pour un suivi journalier empirique.</p> 
     <p class="text-lg mb-4">Ainsi on sait que plus la température augmente, plus l'évaporation des plantes nécessite de l'eau ce qui conduit à une consommation plus importante. La nature du sol, sa couverture et la zone géographique sont aussi à prendre en compte.</p>
-    <p class="text-lg mb-4">En moyenne, les plantes ont besoin de 100 à 120 mm d'eau par mois. Ce qui représente 100 à 120 litres par mètre carré. Lors de fortes chaleurs on atteind vite les 150 litres par métre carré alors que les restrictions sont d'usages et que l'on ne peut plus compter sur une averse providentielle.</p>
-    <p class="text-lg mb-4">Dès lors un calcul simple des besoins en eau peut être effectué en tenant compte des métres carrés de jardin, des températures et de la pluviométrie constatée pour estimer l'arrosage à effectuer.</p> 
+    <p class="text-lg mb-4">En moyenne, les plantes ont besoin de 100 à 120 mm d’eau par mois, soit 100 à 120 litres par mètre carré. En période de forte chaleur, on atteint vite les 150 litres par mètre carré, alors que les restrictions sont d’usage et que l’on ne peut plus compter sur une averse providentielle.</p>
+    <p class="text-lg mb-4">Dès lors un calcul simple des besoins en eau peut être effectué en tenant compte des mètres carrés de jardin, des températures et de la pluviométrie constatée pour estimer l'arrosage à effectuer.</p> 
     <p class="text-lg mb-4">En version plus technologique, il y a des stations météos qui peuvent réaliser un suivi quotidien et l'intégrer dans un système d'analyse de données permettant d'automatiser l'arrosage.</p>
     <br>    
  </div>
@@ -39,12 +39,12 @@ draft: false
 
 <br>
 
-Afin de complémenter les quantités d'eau nécessaire à son jardin en période de manque plusieurs stratégies sont cumulables :
+Afin de compléter les quantités d’eau nécessaires à son jardin en période de manque, plusieurs stratégies sont cumulables :
 {.text-lg .mb-4}
 - disposer de réserves captées en période de forte pluviométrie,
-- limiter le dessèchement du sol au maximum grâce à des couverts végétaux et paillages,
+- limiter l'assèchement du sol au maximum grâce à des couverts végétaux et paillages,
 - recycler l'eau du réseau consommée au quotidien,
-- maitriser son arrosage pour éviter le gaspillage tout en préservant ses plantations,
+- maîtriser son arrosage pour éviter le gaspillage tout en préservant ses plantations,
 - optimiser certaines tâches consommatrices d'eau. 
 {.text-lg .mb-4}
 <br>
@@ -82,15 +82,16 @@ Les toilettes représentants 25% de la consommation d'eau, on peut directement �
 {.text-lg .mb-4}
 Afin de réutiliser partiellement les eaux grises de son domicile, on peut simplement rediriger les évacutions de l'évier de sa cuisine, des lavabos, du bain et les filtrer avant de les utiliser dans son jardin.
 {.text-lg .mb-4}
-Dans le cas où la maison est équipée uniquement de toilettes sèches, il est tout à fait possible de récuperer l'ensemble des eaux d'évacuations et les rediriger vers des filtres et des bassins de phyto-épurations. 
+Dans le cas où la maison est équipée uniquement de toilettes sèches, il est tout à fait possible de récupérer l'ensemble des eaux d'évacuations et les rediriger vers des filtres et des bassins de phytoépurations. 
 {.text-lg .mb-4}
-Ici c'est bien 100% de l'eau consommée que nous réutilisons.
+Ici, c’est bien 100 % de l’eau consommée que nous cherchons à réutiliser.
 {.text-lg .mb-4}
 
 <br>
 
 {{< notice "Réflexions préliminaires" >}}
 Pour recycler les eaux grises au jardin, une réflexion doit être faite sur les produits d'entretien, cosmétiques et chimiques utilisés au sein du foyer pour les remplacer au maximum par des produits qui posent pas de risque pour l'environnement surtout si vous consommez votre production. À cet égard, on peut garder une évacution séparée pour les produits posant problème afin de les collecter et de les recycler de manière optimale. 
+Selon l'Anses : Les eaux grises peuvent être utilisées pour l’arrosage à condition d’utiliser des produits biodégradables et de ne pas vaporiser l’eau.
 {.text-lg .mb-4}
 {{< /notice >}}
 

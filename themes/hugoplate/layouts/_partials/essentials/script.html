@@ -16,7 +16,6 @@
   {{ end }}
 {{ end }}
 
-
 <!-- main script -->
 {{ $scripts = $scripts | append (resources.Get "js/main.js") }}
 {{ $scripts = $scripts | resources.Concat "js/script.js" }}
@@ -45,9 +44,6 @@
 <!-- progressive web app -->
 {{/* https://github.com/gethugothemes/hugo-modules/tree/master/pwa */}}
 {{ partialCached "pwa.html" . }}
-
-<!-- Cloudflare Turnstile for contactform -->
-<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>   
 
 <!-- cookie consent -->
 {{/* https://github.com/gethugothemes/hugo-modules/tree/master/components/cookie-consent */}}

@@ -11,7 +11,7 @@ features:
     bulletpoints:
       - "Cultures verticales avec ou sans support"
       - "Serre bioclimatique et aquaponie alternative "
-      - "Multiplication des variétés"
+      - "Diversification des variétés végétales"
       - "Cycle complet des plantes et récolte des graines"
       - "Parcelles sans travail du sol"
       - "Dynamisation du milieu naturel via des moyens simples"
@@ -22,7 +22,7 @@ features:
 
   - title: "Gestion des récoltes"
     image: "/images/home_assortiment1.png"
-    content: "Disposer d'un jardin et de récoltes abondantes conduit tôt ou tard à la question de leurs usages. Voici ce que nous mettons en oeuvre à notre humble niveau :"
+    content: "Disposer d'un jardin et de récoltes abondantes conduit tôt ou tard à la question de leurs usages. Voici ce que nous mettons en œuvre à notre humble niveau :"
     bulletpoints:
       - "Consommation en produits frais"
       - "Zones de stockage"
@@ -52,12 +52,12 @@ features:
 
   - title: "L'outil domotique"
     image: "/images/home_domotique.png"
-    content: "Pourquoi envisager des solutions technologiques dans un environnement naturelle ? Dans quel but ? C'est ce que nous souhaitons vous expliquer ici par quelques exemples."
+    content: "Pourquoi envisager des solutions technologiques dans un environnement naturel ? Dans quel but ? C'est ce que nous souhaitons vous expliquer ici par quelques exemples."
     bulletpoints:
       - "Automatisations de l'arrosage et/ou d'un système d'irrigation via des vannes pilotables à distance"
       - "Contrôle et suivis des températures, humidités, luminosités, via des capteurs de nombreux fabricants" 
       - "Allumage et extinction des appareils électriques : pompes, vannes et moteurs via programmation ou via une simple interface sur une tablette"  
-      - "Surveillance à distance des animaux, des points d'eau, des mangeoires ..."
+      - "Surveillance à distance des animaux, des points d'eau, des mangeoires."
       - "Suivi de la production et consommation électrique (toutes sources possibles dont photovoltaïque)."
       - "Système logiciel Homeassistant libre et gratuit. En auto-hébergement à domicile sans abonnement"
     button:

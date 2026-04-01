@@ -2,12 +2,11 @@
   {{ partial "page-header" . }}
 
   <section class="section-sm">
-  <div class="container">
-    <div class="row">
+    <div class="container">
       <div class="md:col-10 lg:col-6 mx-auto">
         <input type="text" name="_gotcha" style="display: none !important;" autocomplete="off" />
         
-        <form action="https://formspree.io/f/xgoowbnj" method="POST" novalidate>
+        <form id="contact-form" novalidate>
           <div class="mb-6">
             <label for="name" class="form-label">
               {{ i18n "form_name" }} <span class="text-red-500" aria-hidden="true">*</span>
@@ -54,16 +53,75 @@
               required
             ></textarea>
           </div>
-          <div class="cf-turnstile" data-sitekey="0x4AAAAAACL1NThXX9maSogI"></div>  
+
+          <!-- Cloudflare Turnstile -->
+          <div class="cf-turnstile" data-sitekey="0x4AAAAAACzDarJPYUldnbCV"></div>
+          
           <button type="submit" class="btn btn-primary">{{ i18n "form_send" }}</button>
+          <div id="status"></div>
         </form>
+      
+        <script>
+          document.getElementById('contact-form').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const form = e.target;
+            const formData = new FormData(form);
+            const statusDiv = document.getElementById('status');
+            
+            // Turnstile adds 'cf-turnstile-response' automatically
+            statusDiv.textContent = 'Envoi en cours...';
+            statusDiv.style.color = 'blue';
+            
+            try {
+              const response = await fetch('/api/v1/token', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ form_id: 'contact_form' })
+              });
+              const tokenData = await response.json();
+
+              if (!response.ok) {
+                statusDiv.textContent = 'Erreur : ' + tokenData.message;
+                statusDiv.style.color = 'red';
+                return;
+              }
+
+              // Submit form with token
+              const submitRes = await fetch(tokenData.data.url, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(Object.fromEntries(formData.entries()))
+              });
+
+              if (submitRes.ok) {
+                statusDiv.textContent = 'Merci ! Votre message a été envoyé.';
+                statusDiv.style.color = 'green';
+                form.reset();
+                // Redirect after success
+                {{ if eq .Site.Language.Lang "fr" }}
+                  window.location.href = "https://lafermetteverdoyante.com/fr/merci/";
+                {{ else }}
+                  window.location.href = "https://lafermetteverdoyante.com/en/thanks/";
+                {{ end }}
+              } else {
+                statusDiv.textContent = 'Erreur : ' + await submitRes.text();
+                statusDiv.style.color = 'red';
+              }
+            } catch (error) {
+              statusDiv.textContent = 'Une erreur est survenue. Veuillez réessayer.';
+              statusDiv.style.color = 'red';
+            }
+          });
+        </script>
       </div>
     </div>
-</section>
+  </section>
+
   <div style="display: flex; justify-content: center; padding-top: 0px; padding-bottom: 30px;">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2882.937004659793!2d0.014342399999999996!3d43.7326355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a9ff0020b16af5%3A0x70805d97b3bbac0e!2sLa%20Fermette%20Verdoyante!5e0!3m2!1s{{ .Site.Language.Lang }}!2s{{ .Site.Language.Lang }}!4v1769957422062!5m2!1s{{ .Site.Language.Lang }}!2s{{ .Site.Language.Lang }}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="{{ if eq .Site.Language.Lang "fr" }}Localisation de La Fermette Verdoyante sur Google Maps{{ else }}Location of La Fermette Verdoyante on Google Maps{{ end }}"></iframe>
-  <a href="#" id="back-to-top" class="back-to-top">
-  <i class="fa-slab-press fa-regular fa-arrow-up"></i>
-  </a>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2882.937004659793!2d0.014342399999999996!3d43.7326355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a9ff0020b16af5%3A0x70805d97b3bbac0e!2sLa%20Fermette%20Verdoyante!5e0!3m2!1s{{ .Site.Language.Lang }}!2s{{ .Site.Language.Lang }}!4v1769957422062!5m2!1s{{ .Site.Language.Lang }}!2s{{ .Site.Language.Lang }}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="{{ if eq .Site.Language.Lang "fr" }}Localisation de La Fermette Verdoyante sur Google Maps{{ else }}Location of La Fermette Verdoyante on Google Maps{{ end }}"></iframe>
+    <a href="#" id="back-to-top" class="back-to-top">
+      <i class="fa-slab-press fa-regular fa-arrow-up"></i>
+    </a>
   </div>
-{{ end }}   
+{{ end }}
