@@ -13,51 +13,131 @@ draft: false
 
 <br>
 
-## The Policy
+## 🌿 Privacy Policy – ​​La Fermette Verdoyante Association
 
-**Last updated: March 2026**
+> *At La Fermette Verdoyante, we believe that a relationship of trust begins with transparency.*
+> This policy simply explains **what data is collected**, **why**, and **how we protect it**.
 
-This Privacy Policy (the "Policy") aims to formalize our commitment to respecting the privacy of users of the website "lafermetteverdoyante.com" (the "Site") operated by the association La Fermette Verdoyante.
+> It complies with the **GDPR** and reflects our commitment to a **more responsible, respectful, and humane internet**.
 
-The Policy and the Site's Terms and Conditions form a contractual agreement.
+---
 
-As part of providing our Site, we process your personal data in accordance with the General Data Protection Regulation 2016/679 of 27 April 2016 (“GDPR”) and under the conditions set out below.
+### 🏛️ Who are we?
 
-Personal data means any information relating to an identified or identifiable natural person. We collect and process personal data solely for the purpose of providing our Services or communicating about these Services, in strict compliance with the GDPR.
+The **La Fermette Verdoyante** association is responsible for processing the data collected through our website [lafermetteverdoyante.com](https://lafermetteverdoyante.com).
 
-We only collect personal data that is adequate, relevant, and limited to what is necessary for the purposes for which it is processed. Therefore, you will never be asked to provide personal data considered “sensitive,” such as your racial or ethnic origin, political opinions, or philosophical or religious beliefs.
+📧 Contact: [contact@lafermetteverdoyante.com](mailto:contact@lafermetteverdoyante.com)
+📍 Website hosting: self-hosted in France (private server)
 
-By registering on the Site, you authorize us to process your personal data in accordance with this Privacy Policy. If you do not agree to the terms of this Charter, please refrain from using the Site and the Services.
+---
 
-## When do we collect your personal data and what data is collected?
+### 🎯 What do we use your data for?
 
-We may collect and store your personal data, particularly when you:
-• browse the Site
+We never collect information without a reason.
 
-• contact us.
+Only two uses:
 
-We use your personal data to enable the implementation and management of the Site's Services and to respond to your specific requests. We also use your personal data to operate and improve our Services, our Site, and our approach. This information is used solely by us and allows us to better tailor our Services to your needs.
+1. **To respond to you** when you contact us via the website form,
 
-We may also use your personal data to send you an email newsletter about our association's communications, which you can subscribe to if you wish. In this case, we would use the personal data you provided when you registered. You can unsubscribe from these mailings at any time.
+2. **To understand the website's audience**, in order to improve it without intrusive monitoring.
 
-### Site Navigation
+---
 
-Connection Data. Each time you connect to our Site, we collect personal data such as, in particular, your IP address and your computer's MAC address, the date and time of connection, as well as information about the browser you are using.
+### 📊 What we collect (and what we don't collect)
 
-Browsing Data. We also collect information that identifies how you access the Site, which pages you visit, and for how long. In this context, we may use cookies as described in section 6 below.
+#### 🔍 Audience analysis – Umami
 
-### Subscribing to our Future Newsletter
+We use **[Umami](https://umami.is)**, a **free and self-hosted** tool, installed on our server in France.
 
-You can directly consent to receiving our newsletters by entering your email address in the designated areas on the Site.
+- ❌ No cookies
+- ❌ No full IP address, MAC address, or device identifier
+- ✅ Anonymized data at the source
+- 📊 Aggregated statistics: page views, country, browser, average visit duration
 
-In any event, you have the right to withdraw your consent to receive such newsletters at any time and free of charge, under the conditions set out in paragraph 6 of the Charter.
+👉 **No personal data is collected** → **no consent required**.
 
-### Contact Information
+📅 Retention: Maximum 6 months.
 
-In order to respond to any requests you may make to our organization and to confirm information about you, we may use your surname(s), first name(s), email address(es), and telephone number(s).
+---
 
-## How do we protect your personal data?
+#### 📨 Contact Form – Direct Processing to GMX
 
-We have implemented technical and organizational security measures to guarantee the security, integrity, and confidentiality of all your personal data, in order to prevent it from being altered, damaged, or accessed by unauthorized third parties. We ensure an appropriate level of security, taking into account the state of the art, the costs of implementation, and the nature, scope, context, and purposes of the processing, as well as the risks and their likelihood.
+When you send a message via the form, the following data is transmitted:
 
-However, it should be noted that since no security measure is infallible, we cannot guarantee absolute security for your data.
+- First or Last Name
+- Email Address
+- Message
+
+This data is **sent directly by a secure backend script** to our email address **GMX.com**.
+
+**No data is stored on the website**, nor on an intermediary server.
+
+- **Legal basis**: performance of a pre-contractual measure (GDPR art. 6.1.b)
+- **Recipients**: only authorized members of the association
+- **Retention period**: 30 days in the email inbox, then archived or deleted
+- ✉️ No transfer to third parties, no subcontractors
+
+---
+
+### 🔐 Security and confidentiality
+
+We take the protection of your data seriously:
+
+- 🔒 Website using HTTPS (TLS encryption)
+- 🔐 Protected server (restricted access, regular updates)
+- 📧 GMX mailbox protected by a strong password and two-factor authentication
+- 🧹 No unnecessary storage: data is deleted as soon as it is no longer needed
+
+---
+
+### 🌍 Data sharing
+
+- **Umami**: hosted data In France, **no sharing**, no tracking
+- **Form**: your messages are only visible to the association's team
+
+---
+
+### 🛠️ Technology used (for those curious)
+
+Our site is a **static site generated with Hugo**, lightweight, fast, and secure.
+
+It contains **no third-party scripts, no advertising, and no tracking**.
+
+We chose this approach to **preserve your privacy by design**.
+
+---
+
+### ✊ Your Rights
+
+You have the following rights regarding your personal data (form only):
+
+- ✅ Right of access
+- ✅ Right to rectification
+- ✅ Right to erasure
+- ✅ Right to object
+
+👉 To exercise these rights, write to us at: [contact@lafermetteverdoyante.com](mailto:contact@lafermetteverdoyante.com)
+
+In case of a dispute, you can contact the **CNIL**: [https://www.cnil.fr](https://www.cnil.fr)
+
+---
+
+### 📅 Updates to this policy
+
+We make sure to keep this policy up to date.
+
+Last updated: **April 6, 2026**
+
+---
+
+### 🌱 Why this matters to us
+
+Because **trust isn't imposed, it's built**.
+
+We've chosen a simple, transparent, and responsible approach:
+
+no tracking, no unnecessary data, no reliance on external tools.
+
+Thank you for your trust and for following us.
+
+🌿 *La Fermette Verdoyante*

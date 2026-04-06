@@ -3,13 +3,13 @@
 <!-- Content Security Policy -->
 <meta http-equiv="Content-Security-Policy" content="
   default-src 'self';
-  script-src 'self' https://challenges.cloudflare.com https://analytics.lafermetteverdoyante.com https://cdn.jsdelivr.net https://www.google.com https://www.gstatic.com;
+  script-src 'self' 'unsafe-inline' https://challenges.cloudflare.com https://analytics.lafermetteverdoyante.com https://cdn.jsdelivr.net https://www.google.com https://www.gstatic.com;
   style-src 'self' https://fonts.googleapis.com https://cdnjs.cloudflare.com 'unsafe-inline';
   img-src 'self' data: https:;
   font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com data:;
   frame-src https://challenges.cloudflare.com https://www.google.com https://www.gstatic.com;
-  connect-src 'self' https://analytics.lafermetteverdoyante.com https://cdn.jsdelivr.net https://maps.googleapis.com;
-">    
+  connect-src 'self' https://analytics.lafermetteverdoyante.com https://cdn.jsdelivr.net https://maps.googleapis.com https://challenges.cloudflare.com;
+">          
 
 <!-- responsive meta -->
 <meta
@@ -28,33 +28,25 @@
 <!-- umami analytics -->
 {{ partial "umami-analytics.html" . }}
 
-<!-- matomo analytics indépendant -->
-{{/* {{ partial "matomo-analytics.html" . }} */}}
-
-<!-- favicon -->
+<<!-- favicon -->
 {{/* https://github.com/gethugothemes/hugo-modules/tree/master/images */}}
 {{ partialCached "favicon" . }}
-
 
 <!-- manifest -->
 {{/* https://github.com/gethugothemes/hugo-modules/tree/master/pwa */}}
 {{ partialCached "manifest" . }}
 
-
 <!-- site verifications -->
 {{/* https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/site-verifications */}}
 {{ partialCached "site-verifications.html" . }}
-
 
 <!-- opengraph and twitter card -->
 {{/* https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo */}}
 {{ partial "basic-seo.html" . }}
 
-
 <!-- custom script -->
 {{/* https://github.com/gethugothemes/hugo-modules/tree/master/components/custom-script */}}
 {{ partialCached "custom-script.html" . }}
-
 
 <!-- google analytics -->
 {{/* https://gohugo.io/templates/embedded/#configuration-google-analytics */}}
@@ -62,28 +54,10 @@
   {{ partial "google_analytics.html" . }}
 {{ end }}
 
-
 <!-- google tag manager -->
 {{/* https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/google-tag-manager */}}
 {{ partialCached "gtm.html" . }}
 
-
 <!-- search index -->
 {{/* https://github.com/gethugothemes/hugo-modules/tree/master/search */}}
 {{ partial "search-index.html" . }}
-
-<!--  Baidu analytics -->
-{{/* https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/baidu-analytics */}}
-{{/* {{ partialCached "baidu-analytics.html" . }} */}}
-
-<!-- Plausible Analytics -->
-{{/* https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/plausible-analytics */}}
-{{/* {{ partialCached "plausible-analytics.html" . }} */}}
-
-<!-- Counter Analytics -->
-{{/* https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/counter-analytics */}}
-{{/* {{ partialCached "counter-analytics.html" . }} */}}
-
-<!-- Crisp Chat IA -->
-{{/* https://github.com/gethugothemes/hugo-modules/tree/master/components/crisp-chat */}}
-{{/* {{ partialCached "crisp-chat.html" . }} */}}

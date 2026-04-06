@@ -13,35 +13,42 @@ draft: false
 
 ## Propriété du site
 
-Le site lafermetteverdoyante.com est la propriété pleine et entière de l’asocciation de la fermette verdoyante.
-domiciliée 1012 route de Bétous - 32110 Sion Création, communication et hébergement
+Le site **lafermetteverdoyante.com** est la propriété exclusive de l’association **La Fermette Verdoyante**,  
+domiciliée 1012 route de Bétous - 32110 Sion. 
 
-Responsable de la publication/réalisation : Jean-Georges ICHTER 
+📧 Responsable de la publication et réalisation : Jean-Georges ICHTER  
+📍 Hébergement : auto-hébergé par l’association, en France
 
-Hébergement : auto-hébergée par l'association
+---
 
-## Confidentialité et respect des données relatives à la vie privée
+## Confidentialité et respect des données
 
-Cf. notre [charte sur la vie privée](https://lafermetteverdoyante.com/fr/privacy-policy)
+Pour connaître nos engagements en matière de vie privée, consultez notre [charte de confidentialité](https://lafermetteverdoyante.com/fr/privacy-policy).
+
+---
 
 ## Propriété intellectuelle
 
-La structure générale, ainsi que les textes, images animées ou fixes, sons, graphismes,
-documents téléchargeables, bases de données et tout autre élément composant le site
-[lafermetteverdoyante.com](https://lafermetteverdoyante.com) sont la propriété exclusive de l'association la fermette verdoyante.
+La structure générale, les textes, images, sons, graphismes, documents téléchargeables, bases de données et tout autre élément du site [lafermetteverdoyante.com](https://lafermetteverdoyante.com) sont la propriété exclusive de l’association La Fermette Verdoyante. 
 
-**La reproduction de tout ou partie de ce site Internet sur un support quel qu'il soit, est formellement
-interdite sauf autorisation expresse du responsable de la publication**. La reproduction des textes sur
-un support papier est autorisée dans le cadre pédagogique, sous réserve du respect des 3
-conditions suivantes :
-<ol>
-<li>Gratuité de la diffusion</li>
-<li>Respect de l'intégrité des documents reproduits</li>
-<li>Citation claire et lisible de la source sous la forme suivante : " Ce document provient du site
-Internet propriété de l'association la fermette verdoyante. Les droits de reproduction sont réservés et strictement
-limités". Dans le cas d'un site Internet, l'adresse du site https://lafermetteverdoyante.com doit impérativement figurer.</li>
-</ol>
+**Toute reproduction, représentation ou modification, totale ou partielle, est strictement interdite sans autorisation écrite préalable**, sauf dans les cas suivants :
 
-Les marques citées sur ce site Internet sont déposées par les sociétés qui en sont propriétaires.
+- Reproduction sur support papier à usage **strictement pédagogique**, sous réserve de :
+  1. La gratuité de la diffusion,
+  2. Le respect de l’intégrité des contenus,
+  3. La mention claire de la source :  
+     *« Ce document provient du site [lafermetteverdoyante.com](https://lafermetteverdoyante.com), propriété de l’association La Fermette Verdoyante. Tous droits réservés. »* 
 
-La structure du site est basé sur le thème Hugoplate dont le design & le développement ont été réalisés par [Zeon Studio](https://zeon.studio)
+Les marques citées sur ce site sont la propriété de leurs détenteurs respectifs. 
+
+---
+
+## Crédits techniques
+
+Ce site est construit avec [**Hugo**](https://gohugo.io), un générateur de sites statiques open source.   
+La structure et le design sont basés sur le thème **[Hugoplate](https://github.com/zeon-studio/hugoplate)**,  
+conçu et développé par [**Zeon Studio**](https://zeon.studio).  
+
+Merci à eux pour cette contribution libre et sobre.
+
+

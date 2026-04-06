@@ -14,79 +14,122 @@ draft: false
 
 <br>
 
-## La charte
 
-Voici la **charte de vie privée complète** mise à jour, conforme au RGPD 2026, tenant compte de l’**utilisation d’Umami** (sans collecte d’IP complète ni MAC) et de **Formspree.io** comme sous-traitant :
+## 🌿 Charte de confidentialité – Association La Fermette Verdoyante
 
----
-
-### **Charte de confidentialité – Association La Fermette Verdoyante**
-
-#### **1. Responsable du traitement**
-L’association **La Fermette Verdoyante** (loi 1901, SIRET : [à compléter]) est responsable du traitement des données collectées via son site [lafermetteverdoyante.com](https://lafermetteverdoyante.com).  
-Contact : [dpo@lafermetteverdoyante.com](mailto:dpo@lafermetteverdoyante.com)
+> *Chez La Fermette Verdoyante, nous croyons qu’une relation de confiance commence par la transparence.*  
+> Cette charte vous explique simplement **quelles données sont collectées**, **pourquoi**, et **comment nous les protégeons**.   
+> Elle est conforme au **RGPD** et reflète notre engagement pour une **internet plus sobre, plus respectueuse et plus humaine**. 
 
 ---
 
-#### **2. Finalités du traitement**
-Nous collectons des données uniquement pour :
-- Permettre le contact via formulaire,
-- Analyser l’audience du site. 
+### 🏛️ Qui sommes-nous ?
+
+L’association **La Fermette Verdoyante** est responsable du traitement des données collectées via notre site [lafermetteverdoyante.com](https://lafermetteverdoyante.com).
+
+📧 Contact : [contact@lafermetteverdoyante.com](mailto:contact@lafermetteverdoyante.com)  
+📍 Hébergement du site : auto-hébergé en France (serveur privé)
 
 ---
 
-#### **3. Données collectées**
+### 🎯 À quoi servent vos données ?
 
-**A. Analyse d’audience (Umami)**  
-Nous utilisons **Umami**, un outil open source auto-hébergé en France (OVH), qui :
-- N’utilise **aucun cookie**,
-- Ne collecte **ni l’adresse IP complète, ni l’adresse MAC, ni l’identifiant de l’appareil**,
-- Anonymise toutes les données à la source,
-- Fournit des statistiques agrégées (pages vues, sources, pays, navigateurs). 
+Nous ne collectons jamais d’informations sans raison.  
+Deux usages seulement :
 
-**Aucune donnée personnelle n’est collectée** → **pas de consentement requis**. 
-
-**Durée de conservation** : 6 mois maximum.
+1. **Vous répondre** quand vous nous contactez via le formulaire du site,  
+2. **Comprendre l’audience** du site, pour l’améliorer sans surveillance intrusive.
 
 ---
 
-**B. Formulaire de contact (Formspree.io)**  
-Lorsque vous utilisez le formulaire, vos données (nom, email, message) sont transmises à **Formspree.io**, un sous-traitant basé aux **États-Unis**.
+### 📊 Ce que nous collectons (et ce que nous ne collectons pas)
 
-- **Base légale** : Exécution d’une prestation (art. 6.1.b RGPD),
-- **Garanties** : Clauses Contractuelles Types (CCT) UE-États-Unis,
-- **Durée de conservation** : 30 jours après traitement,
-- **Droit à suppression** : automatique après 30 jours. 
+#### 🔍 Analyse d’audience – Umami
 
----
+Nous utilisons **[Umami](https://umami.is)**, un outil **libre et auto-hébergé**, installé sur notre serveur en France.
 
-#### **4. Partage des données**
-- **Umami** : données stockées en France, **aucun partage**. 
-- **Formspree.io** : seul accès nécessaire au traitement du message. Aucune réutilisation.
+- ❌ Aucun cookie  
+- ❌ Aucune IP complète, adresse MAC ou identifiant d’appareil  
+- ✅ Données anonymisées à la source  
+- 📊 Statistiques agrégées : pages vues, pays, navigateurs, durée moyenne
 
----
-
-#### **5. Vos droits**
-- **Umami** : aucune donnée personnelle → droits non applicables. 
-- **Formspree.io** : vous pouvez demander l’accès, la rectification ou la suppression de vos données via [contact@lafermetteverdoyante.com](mailto:contact@lafermetteverdoyante.com).
-
-En cas de réclamation, vous pouvez saisir la **CNIL**.
+👉 **Aucune donnée personnelle n’est collectée** → **pas de consentement requis**.   
+📅 Conservation : 6 mois maximum.
 
 ---
 
-#### **6. Sécurité**
-- Serveur Umami protégé (HTTPS, accès restreint, mises à jour),
-- Formspree.io : chiffrement des données en transit.
+#### 📨 Formulaire de contact – Traitement direct vers GMX
+
+Quand vous envoyez un message via le formulaire, les données suivantes sont transmises :
+
+- Nom ou prénom  
+- Adresse e-mail  
+- Message
+
+Elles sont **envoyées directement par un script backend sécurisé** à notre adresse e-mail **GMX.com**.  
+**Aucune donnée n’est stockée sur le site**, ni sur un serveur intermédiaire. 
+
+- **Base légale** : exécution d’une mesure précontractuelle (RGPD art.  6.1.b)  
+- **Destinataires** : uniquement les membres autorisés de l’association  
+- **Durée de conservation** : 30 jours dans la boîte e-mail, puis archivage ou suppression  
+- ✉️ Aucun transfert vers des tiers, aucun sous-traitant
 
 ---
 
-#### **7. Modification de la charte**
-Cette charte est mise à jour au besoin. Dernière version : **30 mars 2026**. 
+### 🔐 Sécurité et confidentialité
+
+Nous prenons la protection de vos données au sérieux :
+
+- 🔒 Site en HTTPS (chiffrement TLS)  
+- 🔐 Serveur protégé (accès restreint, mises à jour régulières)  
+- 📧 Boîte GMX protégée par mot de passe fort et authentification à deux facteurs  
+- 🧹 Aucun stockage inutile : les données sont effacées dès qu’elles ne sont plus nécessaires 
 
 ---
 
-✅ **Conformité RGPD 2026** :  
-- Pas de bandeau cookies (Umami exempté),  
-- Sous-traitance Formspree encadrée par CCT,  
-- Minimisation des données.
+### 🌍 Partage des données
 
+- **Umami** : données hébergées en France, **aucun partage**, aucun suivi  
+- **Formulaire** : vos messages sont uniquement visibles par l’équipe de l’association
+
+---
+
+### 🛠️ Technologie utilisée (pour les curieux)
+
+Notre site est un **site statique généré avec Hugo**, léger, rapide et sûr.   
+Il ne contient **ni script tiers, ni publicité, ni suivi**.   
+Nous choisissons cette approche pour **préserver votre vie privée par conception**.
+
+---
+
+### ✊ Vos droits
+
+Vous disposez des droits suivants sur vos données personnelles (formulaire uniquement) :
+
+- ✅ Droit d’accès  
+- ✅ Droit de rectification  
+- ✅ Droit à l’effacement  
+- ✅ Droit d’opposition
+
+👉 Pour exercer ces droits, écrivez-nous à : [contact@lafermetteverdoyante.com](mailto:contact@lafermetteverdoyante.com) 
+
+En cas de litige, vous pouvez contacter la **CNIL** : [https://www.cnil.fr](https://www.cnil.fr)
+
+---
+
+### 📅 Mise à jour de cette charte
+
+Nous veillons à garder cette charte à jour.  
+Dernière version : **6 avril 2026**
+
+---
+
+### 🌱 Pourquoi tout cela nous tient à cœur
+
+Parce que **la confiance ne s’impose pas, elle se construit**.  
+Nous avons choisi une approche sobre, transparente et responsable :  
+pas de traque, pas de données inutiles, pas de dépendance à des outils étrangers. 
+
+Merci de nous faire confiance et de nous suivre.
+
+🌿 *La Fermette Verdoyante*

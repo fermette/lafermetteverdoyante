@@ -13,31 +13,44 @@ draft: false
 
 ## Site Ownership
 
-The website lafermetteverdoyante.com is the sole and exclusive property of the Fermette Verdoyante Association.
+The website **lafermetteverdoyante.com** is the exclusive property of the association **La Fermette Verdoyante**,
+located at 1012 route de Bétous - 32110 Sion, France.
 
-Located at 1012 Route de Bétous - 32110 Sion, France. Website creation, communication, and hosting.
+📧 Publication and Development Manager: Jean-Georges ICHTER
+📍 Hosting: Self-hosted by the association, in France
 
-Publication/Production Manager: Jean-Georges ICHTER
+---
 
-Hosting: Self-hosted by the association
+## Privacy and Data Protection
 
-## Confidentiality and respect for personal data
+To learn about our privacy commitments, please consult our [privacy policy](https://lafermetteverdoyante.com/en/privacy-policy).
 
-See our [privacy policy](https://lafermetteverdoyante.com/en/privacy-policy)
+---
 
 ## Intellectual Property
 
-The overall structure, as well as the text, animated or still images, sounds, graphics, downloadable documents, databases, and all other elements comprising the website
-[lafermetteverdoyante.com](https://lafermetteverdoyante.com) are the exclusive property of the association La Fermette Verdoyante.
+The overall structure, texts, images, sounds, graphics, downloadable documents, databases, and all other elements of the website [lafermetteverdoyante.com](https://lafermetteverdoyante.com) are the exclusive property of the La Fermette Verdoyante association.
 
-**Reproduction of all or part of this website on any medium whatsoever is strictly prohibited without the express permission of the publisher.** Reproduction of texts on paper is permitted for educational purposes, subject to the following three conditions:
+**Any reproduction, representation, or modification, in whole or in part, is strictly prohibited without prior written authorization**, except in the following cases:
 
-<li>Free distribution</li>
-<li>Respect for the integrity of the reproduced documents</li>
-<li>Clear and legible citation of the source in the following format: "This document comes from the website owned by the association La Fermette Verdoyante. Reproduction rights are reserved and strictly limited." In the case of a website, the address https://lafermetteverdoyante.com must be included.</li>
+- Reproduction on paper for **strictly educational** use, subject to the following conditions:
 
-</li>
+1. Free distribution,
 
-The trademarks mentioned on this website are registered trademarks of their respective owners.
+2. Respect for the integrity of the content,
 
-The site structure is based on the Hugoplate theme, the design and development of which were carried out by [Zeon Studio](https://zeon.studio)
+3. Clear attribution of the source:
+
+*“This document comes from the website [lafermetteverdoyante.com](https://lafermetteverdoyante.com), owned by the La Fermette Verdoyante association. All rights reserved.”*
+
+The trademarks mentioned on this website are the property of their respective owners.
+
+---
+
+## Technical Credits
+
+This site is built with [**Hugo**](https://gohugo.io), an open-source static site generator.
+
+The structure and design are based on the **[Hugoplate](https://github.com/zeon-studio/hugoplate)** theme, designed and developed by [**Zeon Studio**](https://zeon.studio).
+
+Thanks to them for this free and simple contribution.
