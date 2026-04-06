@@ -1,11 +1,8 @@
 ---
-title: "Harvest Management"
-# meta title
-meta_title: "What to Do with Your Harvest"
-# meta description
-description: "Using, Processing, and Storing Your Garden's Produce"
+Title: "Harvest Management"
+Meta Title: "What to Do with Your Harvest? Processing and Storing from Your Garden"
+Description: "Learn how to make the most of your harvest: processing tips, preservation in a dry place or in jars, and ideas to avoid waste."
 layout: "single_mk"
-# save as draft
 draft: false
 ---
 

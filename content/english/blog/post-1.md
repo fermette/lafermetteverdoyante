@@ -6,6 +6,7 @@ date: 2026-03-24
 tags: ["Domotique", "Home Assistant"]
 categories: ["Domotique"]
 author: "Jean-Georges"
+draft : true
 ---   
 
 <br>

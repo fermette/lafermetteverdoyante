@@ -1,12 +1,9 @@
 ---
 title: "Mentions Légales"
-# meta title
-meta_title: "Mentions Légales"
-# meta description
-description: "Mentions Légales"
+meta_title: "Mentions légales | La Fermette Verdoyante"
+description: "Informations légales et éditeur du site La Fermette Verdoyante : association loi 1901, responsable de publication et cadre juridique."
 layout: "single_mk"
-# save as draft
-draft: false
+draft: false   
 ---
 
 <br>

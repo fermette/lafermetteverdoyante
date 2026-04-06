@@ -1,11 +1,8 @@
 ---
 title: "L'outil Domotique"
-# meta title
-meta_title: "Utilisation de la domotique dans la gestion d'un lieu de biodiversité"
-# meta description
-description: "Mise en place d'automatisation pour faciliter et améliorer la gestin de son jardin"
+meta_title: "Domotique et biodiversité : automatiser son jardin durablement"
+description: "Découvrez comment la domotique permet d’optimiser l’arrosage, la gestion de l’énergie et la préservation des ressources dans un espace de biodiversité."
 layout: "single"
-# save as draft
 draft: false
 ---
 

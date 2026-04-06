@@ -1,11 +1,12 @@
 ---
 title: "Domotique - usage avancé : la base de données"
-meta_title: ""
-description: "this is meta description"
+meta_title: "Domotique avancée : gérer la base de données Home Assistant"
+description: "Optimisez Home Assistant avec Victoriametrics, sélection ainsi que conservation des données à long terme et consultation avec Grafana."
 date: 2026-03-29
 tags: ["Domotique", "Home Assistant"]
 categories: ["Domotique"]
 author: "Jean-Georges"
+draft : true
 ---   
 
 <br>

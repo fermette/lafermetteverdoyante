@@ -1,12 +1,9 @@
 ---
 title: "Gestion des récoltes"
-# meta title
-meta_title: "Que faire de ses récoltes"
-# meta description
-description: "Utlilisation, transformation, stockage des produits de son jardin"
+meta_title: "Que faire de ses récoltes ? Transformation et stockage à partir de son jardin"
+description: "Apprenez à valoriser vos récoltes : astuces de transformation, conservation au sec ou en bocaux, et idées pour ne rien gaspiller."
 layout: "single_mk"
-# save as draft
-draft: false
+draft: false   
 ---
 
 {{< toc >}}

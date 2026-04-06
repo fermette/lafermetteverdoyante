@@ -11,6 +11,7 @@ prepTime: "30 min"
 cookTime: "45 min"
 recipeYield: "6 parts"
 equipment: ["Moule à tarte", "Épluche-légumes", "Couteau bien aiguisé"]
+draft : true
 ---
 
 ## Ingrédients

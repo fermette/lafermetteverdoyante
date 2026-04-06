@@ -1,11 +1,8 @@
 ---
 title: "Merci"
-# meta title
-meta_title: ""
-# meta description
-description: ""
+meta_title: "Merci pour votre message | La Fermette Verdoyante"
+description: "Nous avons bien reçu votre message. Un membre de l’association vous répondra sous 48h. Découvrez nos ateliers et visites en attendant."
 layout: "single_mk"
-# save as draft
 draft: false
 ---
 

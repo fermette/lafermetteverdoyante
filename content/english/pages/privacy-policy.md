@@ -1,11 +1,8 @@
 ---
 title: "Privacy Policy"
-# meta title
-meta_title: "privacy policy"
-# meta description
-description: "Privacy policy"
+meta_title: "Privacy Policy | La Fermette Verdoyante"
+description: "Discover our commitment to protecting your data: anonymous analysis, secure form, and GDPR compliance without trackers."
 layout: "single_mk"
-# save as draft
 draft: false
 ---
 

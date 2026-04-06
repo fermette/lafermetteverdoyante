@@ -1,11 +1,8 @@
 ---
 title: "Workshops"
-# meta title
-meta_title: "workshop, practice"
-# meta description
-description: "Organizing workshops around the activities of the venue"
+meta_title: "Practical Workshops at La Fermette Verdoyante – Learning Differently"
+description: "Discover our participatory workshops on gardening, biodiversity, self-sufficiency, and home automation. Exchanges, hands-on activities, and outdoor learning."
 layout: "single_mk"
-# save as draft
 draft: false
 ---
 

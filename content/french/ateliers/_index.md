@@ -1,12 +1,9 @@
 ---
 title: "Ateliers"
-# meta title
-meta_title: "atelier, pratique"
-# meta description
-description: "Organisation d'ateliers autour des activités du lieu"
+meta_title: "Ateliers pratiques à la Fermette Verdoyante – Apprendre autrement"
+description: "Découvrez nos ateliers participatifs autour du jardinage, de la biodiversité, de l’autonomie et de la domotique. Échanges, gestes concrets et apprentissage en plein air."
 layout: "single_mk"
-# save as draft
-draft: false
+draft: false   
 ---
 
 Nous proposons différents ateliers en lien direct avec les savoir-faire que nous mettons en oeuvre sur le lieu.

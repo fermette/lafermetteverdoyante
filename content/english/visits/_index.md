@@ -1,11 +1,8 @@
 ---
 title: "Visits"
-# meta title
-meta_title: "Visits to the Biodiversity Garden"
-# meta description
-description: "1.5-hour visit to the Green Farm"
+meta_title: "Biodiversity Garden Tours | La Fermette Verdoyante"
+description: "Discover our 1.5-hour guided tours of La Fermette Verdoyante. Observe the site's biodiversity and learn about its features."
 layout: "single"
-# save as draft
 draft: false
 ---
 

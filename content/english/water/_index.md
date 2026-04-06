@@ -1,11 +1,8 @@
 ---
 title: "Water Conservation"
-# meta title
-meta_title: "Water Resource Conservation"
-# meta description
-description: "Water Storage, Recycling, and Use in a Biodiversity Area"
+meta_title: "Water Resource Conservation | Sustainable Management Techniques"
+description: "Discover how to store, recycle, and use water efficiently in a biodiversity area: natural solutions, rainwater harvesting, and water conservation in the garden."
 layout: "single_mk"
-# save as draft
 draft: false
 ---
 

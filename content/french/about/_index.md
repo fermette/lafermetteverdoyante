@@ -1,7 +1,7 @@
 ---
 title: Un rêve, une histoire, un projet
-meta_title: "L'histoire de la fermette verdoyante"
-description: "L'évolution d'un site naturel sur plusieurs années ayant pour objectif l'augmentation de la biodiversité et l'usage de technologies libres et pérennes comme projet associatif et sociale" 
+meta_title: "À propos | La Fermette Verdoyante, un projet de biodiversité"
+description: "Découvrez l’histoire et la vision de La Fermette Verdoyante : un lieu dédié à la permaculture, à l’éducation et au vivre-ensemble, au cœur du Gers." 
 image: "/images/about.webp"
 layout: about
 draft: false

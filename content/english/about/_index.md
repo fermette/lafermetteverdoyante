@@ -1,10 +1,10 @@
 ---
 title: "A dream, a story, a project"
-meta_title: "About"
-description: "this is meta description"
+meta_title: "About | La Fermette Verdoyante, a biodiversity project"
+description: "Discover the history and vision of La Fermette Verdoyante: a place dedicated to permaculture, education, and community living, in the heart of the Gers region."
 image: "/images/about.webp"
 layout: "about"
-draft: false
+draft: false  
 ---
 
 <br>

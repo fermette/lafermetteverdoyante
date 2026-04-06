@@ -1,12 +1,9 @@
 ---
 title: "Préservation de l'eau"
-# meta title
-meta_title: "Préservation de la ressource en eau"
-# meta description
-description: "Stockage, recyclage et utilisation de l'eau dans un espace de biodiversité"
+meta_title: "Préservation de la ressource en eau | Techniques de gestion durable"
+description: "Découvrez comment stocker, recycler et utiliser l’eau efficacement dans un espace de biodiversité : solutions naturelles, récupération des eaux de pluie et économie d’eau au jardin."
 layout: "single_mk"
-# save as draft
-draft: false
+draft: false   
 ---
 
 {{< toc >}}

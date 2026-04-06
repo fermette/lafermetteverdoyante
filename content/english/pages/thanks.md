@@ -1,11 +1,8 @@
 ---
 title: "Thanks"
-# meta title
-meta_title: ""
-# meta description
-description: ""
+meta_title: "Thank you for your message | La Fermette Verdoyante"
+description: "We have received your message. A member of the association will reply within 48 hours. In the meantime, discover our workshops and tours."
 layout: "single_mk"
-# save as draft
 draft: false
 ---
 

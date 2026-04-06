@@ -1,11 +1,8 @@
 ---
 title: "Méthodes de culture"
-# meta title
-meta_title: "Méthodes de culture"
-# meta description
-description: "Présentation des différentes métodes de culture utilisées à la fermette verdoyante et des posssibilitées de formation"
+meta_title: "Méthodes de culture à la Fermette Verdoyante | Techniques & formations"
+description: "Découvrez nos méthodes de culture respectueuses de la biodiversité et les possibilités de formation sur site pour jardiniers débutants et confirmés."
 layout: "single"
-# save as draft
 draft: false
 ---
 

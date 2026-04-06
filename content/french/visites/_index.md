@@ -1,12 +1,9 @@
 ---
 title: "Visites"
-# meta title
-meta_title: "Visites du jardin de biodiversité"
-# meta description
-description: "visite de 1h30 sur el site de la fermette verdoyante"
+meta_title: "Visites du jardin de biodiversité | La Fermette Verdoyante"
+description: "Découvrez nos visites guidées de 1h30 sur le site de La Fermette Verdoyante. Observation de la biodiversité du lieu & échanges."
 layout: "single"
-# save as draft
-draft: false
+draft: false   
 ---
 
 {{< image src="/images/visites_tournesol1.jpg" caption="" alt="tournesol" height="" width="" position="center" command="fill" option="q100" style="height: 400px; width: auto; object-fit: cover; border-radius: 8px;" class="img-fluid" title="" webp="true" >}}

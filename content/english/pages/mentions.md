@@ -1,11 +1,8 @@
 ---
 title: "Legal Notices"
-# meta title
-meta_title: "Legal Notices"
-# meta description
-description: "Legal Notices"
+meta_title: "Legal Notices | La Fermette Verdoyante"
+description: "Legal information and publisher of the La Fermette Verdoyante website: association under the 1901 law, publication manager and legal framework."
 layout: "single_mk"
-# save as draft
 draft: false
 ---
 

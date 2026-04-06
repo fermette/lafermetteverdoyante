@@ -20,7 +20,7 @@ theme_default = "light" # available options [light/dark/system]
 # Main Sections
 mainSections = ["blog"]
 # contact form action
-contact_form_action = "#" # [https://www.staticforms.dev]
+contact_form_action = "#"
 # google tag manager, see https://developers.google.com/tag-manager/
 google_tag_manager = "" # example: G-XXXXXXXXXX
 google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
@@ -55,14 +55,14 @@ show_categories = true
 # announcement
 # announcement module: https://github.com/gethugothemes/hugo-modules/tree/master/components/announcement
 [announcement]
-enable = true
+enable = false
 expire_days = 7
 content = "<span class='text-center block'>♥️ Vous aimez ce projet <a class='underline' href='https://www.instagram.com/la_fermette_verdoyante/' target='_blank' rel='noopener'>Venez nous suivre sur Instagram ⭐️ </a></span>"
 
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["la fermette verdoyante", "jardin"]
+keywords = ["la fermette verdoyante", "Biodiversité" "Jardin", "Résilience", "Autonomie", "Domotique]
 description = "Autonomie, résilience, biodiversité, domotique, homeassistant"
 author = "lafermetteverdoyante.com"
 image = "images/og-image.png"
@@ -85,7 +85,7 @@ mastodon = "" # Your verification code
 # cookies
 # cookies module: https://github.com/gethugothemes/hugo-modules/tree/master/components/cookie-consent
 [cookies]
-enable = true
+enable = false
 expire_days = 60
 content = "Ce site internet utilise des cookies. En continuant à l'utiliser vous y consentez à leurs utilisations."
 button = "J'accepte"

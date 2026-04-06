@@ -1,11 +1,8 @@
 ---
 title: "Home Automation Tools"
-# meta title
-meta_title: "Using Home Automation in Managing a Biodiversity Site"
-# meta description
-description: "Setting up automation to facilitate and improve garden management"
+meta_title: "Home Automation and Biodiversity: Automating Your Garden Sustainably"
+description: "Discover how home automation can optimize watering, energy management, and resource conservation in a biodiversity-rich space."
 layout: "single"
-# save as draft
 draft: false
 ---
 

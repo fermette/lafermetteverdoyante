@@ -1,11 +1,12 @@
 ---
 title: "Domotique mais Késako ? Aller plus loin dans la réflexion"
-meta_title: ""
-description: "this is meta description"
+meta_title: "Domotique éducative : comprendre et agir avec Home Assistant"
+description: "Découvrez comment la domotique, notamment via Home Assistant, peut servir de levier pédagogique pour penser autrement la gestion d’un lieu de biodiversité."
 date: 2026-03-29
 tags: ["Domotique", "Home Assistant"]
 categories: ["Domotique"]
 author: "Jean-Georges"
+draft: true
 ---   
 
 <br>

@@ -1,11 +1,8 @@
 ---
 title: "Cultivation Methods"
-# meta title
-meta_title: "Cultivation Methods"
-# meta description
-description: "Presentation of the different cultivation methods used at the Green Farm and training opportunities"
+meta_title: "Cultivation Methods at La Fermette Verdoyante | Techniques & Training"
+description: "Discover our biodiversity-friendly cultivation methods and on-site training opportunities for beginner and experienced gardeners."
 layout: "single"
-# save as draft
 draft: false
 ---
 

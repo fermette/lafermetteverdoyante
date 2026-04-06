@@ -1,11 +1,8 @@
 ---
 title: "Charte sur le respect de la vie privée"
-# meta title
-meta_title: "privacy policy"
-# meta description
-description: "Privacy policy"
+meta_title: "Charte de confidentialité | La Fermette Verdoyante"
+description: "Découvrez notre engagement pour la protection de vos données : analyse anonyme, formulaire sécurisé, et conformité RGPD sans traceurs."
 layout: "single_mk"
-# save as draft
 draft: false
 ---
 
